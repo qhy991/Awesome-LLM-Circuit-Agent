@@ -13,7 +13,7 @@
 | [**RTL++: Graph-enhanced LLM for RTL Code Generation**](https://arxiv.org/abs/2505.13479) <br> | LAD '25 | 2025.05 | - | RTL, Graph-enhanced |
 | [**Abstractions-of-Thought: Intermediate Representations for LLM Reasoning in Hardware Design**](https://arxiv.org/abs/2505.15873) <br> | arXiv | 2025.05 | - | Verilog, Reasoning, IR |
 | [**VFlow: Discovering Optimal Agentic Workflows for Verilog Generation**](https://arxiv.org/abs/2504.03723) <br> | arXiv | 2025.04 | - | Verilog, Agent, Workflow |
-| ![Star](https://img.shields.io/github/stars/ReasoningV/ReasoningV.svg?style=social&label=Star) <br> [**ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model**](https://arxiv.org/abs/2504.14560) <br> | arXiv | 2025.04 | [Github](https://github.com/ReasoningV/ReasoningV) <br> [Model](https://huggingface.co/GipAI/ReasoningV-7B) | Verilog, Reasoning, Finetuning |
+| ![Star](https://img.shields.io/github/stars/BUAA-Clab/ReasoningV.svg?style=social&label=Star) <br> [**ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model**](https://arxiv.org/abs/2504.14560) <br> | arXiv | 2025.04 | [Github](https://github.com/BUAA-Clab/ReasoningV) <br> [Model](https://huggingface.co/GipAI/ReasoningV-7B) | Verilog, Reasoning, Finetuning |
 | [**Towards Optimal Circuit Generation: Multi-Agent Collaboration Meets Collective Intelligence**](https://arxiv.org/abs/2504.14625) <br> | arXiv | 2025.04 | - | Circuit, Multi-Agent |
 | [**CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization**](https://arxiv.org/abs/2407.10424) <br> | arXiv | 2024.07 | [Model](https://huggingface.co/yang-z/CodeV-DS-6.7B) | HDL, Multi-Level Summarization |
 
