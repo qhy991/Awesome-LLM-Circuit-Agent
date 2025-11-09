@@ -4,7 +4,7 @@
 |  Title  |   Venue  |   Date   |   Code   |   topic   |
 |:--------|:--------:|:--------:|:--------:|:--------:|
 | [**VeriGRAG: Enhancing LLM-Based Verilog Code Generation with Structure-Aware Soft Prompts**](https://arxiv.org/abs/2510.15914) <br> | arXiv | 2025.10 | - | Verilog, Structure-Aware, Soft Prompts |
-| ![Star](https://img.shields.io/github/stars/kiranthorat3/LLMVeriPPA.svg?style=social&label=Star) <br> [**LLM-VeriPPA: Power, Performance, and Area Optimization aware Verilog Code Generation with Large Language Models**](https://arxiv.org/abs/2510.15899) <br> | arXiv | 2025.10 | [Github](https://github.com/kiranthorat3/LLMVeriPPA) | Verilog, PPA Optimization |
+| [**LLM-VeriPPA: Power, Performance, and Area Optimization aware Verilog Code Generation with Large Language Models**](https://arxiv.org/abs/2510.15899) <br> | arXiv | 2025.10 | - | Verilog, PPA Optimization |
 | [**DeepV: A Model-Agnostic Retrieval-Augmented Framework for Verilog Code Generation with a High-Quality Knowledge Base**](https://arxiv.org/abs/2510.05327) <br> | arXiv | 2025.10 | [HuggingFace](https://huggingface.co/spaces/FICS-LLM/DeepV) | Verilog, RAG |
 | ![Star](https://img.shields.io/github/stars/omniAI-Lab/VeriRL.svg?style=social&label=Star) <br> [**VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning**](https://arxiv.org/abs/2508.18462) <br> | arXiv | 2025.08 | [Github](https://github.com/omniAI-Lab/VeriRL) | Verilog, RL |
 | [**CRADLE: Conversational RTL Design Space Exploration with LLM-based Multi-Agent Systems**](https://arxiv.org/abs/2508.08709) <br> | arXiv | 2025.08 | - | RTL, Multi-Agent, DSE |
@@ -20,6 +20,7 @@
 ## Datasets and Benchmarks
 |  Title  |   Venue  |   Date   |   Code   |   topic   |
 |:--------|:--------:|:--------:|:--------:|:--------:|
+| [**VERIBENCH: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4**](https://openreview.net/pdf/f24bd52a5b9139e4311109bdeee80b27c311d838.pdf) <br> | ICLR 2026 (Under Review) | 2025 | - | Formal Verification, Benchmark |
 | ![Star](https://img.shields.io/github/stars/NVlabs/verilog-eval.svg?style=social&label=Star) <br> [**VerilogEval: Evaluating Large Language Models for Verilog Code Generation**](https://arxiv.org/abs/2308.05345) <br> | ICCAD | 2023.10 | [Github](https://github.com/NVlabs/verilog-eval) | Verilog, Benchmark |
 | ![Star](https://img.shields.io/github/stars/hkust-zhiyao/RTLLM.svg?style=social&label=Star) <br> [**RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model**](https://arxiv.org/abs/2402.03375) <br> | ASP-DAC | 2024.01 | [Github](https://github.com/hkust-zhiyao/RTLLM) | RTL, Benchmark |
 | [**ReasoningV-5K Dataset**](https://huggingface.co/datasets/GipAI/ReaoningV) <br> | HuggingFace | 2025.04 | [Dataset](https://huggingface.co/datasets/GipAI/ReaoningV) | Verilog, Reasoning |
