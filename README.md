@@ -3,7 +3,7 @@
 ## Methods
 |  Title  |   Venue  |   Date   |   Code   |   topic   |
 |:--------|:--------:|:--------:|:--------:|:--------:|
-| ![Star](https://img.shields.io/github/stars/VeriGRAG/VeriGRAG.svg?style=social&label=Star) <br> [**VeriGRAG: Enhancing LLM-Based Verilog Code Generation with Structure-Aware Soft Prompts**](https://arxiv.org/abs/2510.15914) <br> | arXiv | 2025.10 | [Github](https://github.com/VeriGRAG/VeriGRAG) | Verilog, Structure-Aware, Soft Prompts |
+| [**VeriGRAG: Enhancing LLM-Based Verilog Code Generation with Structure-Aware Soft Prompts**](https://arxiv.org/abs/2510.15914) <br> | arXiv | 2025.10 | - | Verilog, Structure-Aware, Soft Prompts |
 | ![Star](https://img.shields.io/github/stars/kiranthorat3/LLMVeriPPA.svg?style=social&label=Star) <br> [**LLM-VeriPPA: Power, Performance, and Area Optimization aware Verilog Code Generation with Large Language Models**](https://arxiv.org/abs/2510.15899) <br> | arXiv | 2025.10 | [Github](https://github.com/kiranthorat3/LLMVeriPPA) | Verilog, PPA Optimization |
 | [**DeepV: A Model-Agnostic Retrieval-Augmented Framework for Verilog Code Generation with a High-Quality Knowledge Base**](https://arxiv.org/abs/2510.05327) <br> | arXiv | 2025.10 | [HuggingFace](https://huggingface.co/spaces/FICS-LLM/DeepV) | Verilog, RAG |
 | ![Star](https://img.shields.io/github/stars/omniAI-Lab/VeriRL.svg?style=social&label=Star) <br> [**VERIRL: Boosting the LLM-based Verilog Code Generation via Reinforcement Learning**](https://arxiv.org/abs/2508.18462) <br> | arXiv | 2025.08 | [Github](https://github.com/omniAI-Lab/VeriRL) | Verilog, RL |
