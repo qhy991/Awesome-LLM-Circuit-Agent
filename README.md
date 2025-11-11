@@ -16,6 +16,7 @@
 | ![Star](https://img.shields.io/github/stars/BUAA-Clab/ReasoningV.svg?style=social&label=Star) <br> [**ReasoningV: Efficient Verilog Code Generation with Adaptive Hybrid Reasoning Model**](https://arxiv.org/abs/2504.14560) <br> | arXiv | 2025.04 | [Github](https://github.com/BUAA-Clab/ReasoningV) <br> [🤗 Model](https://huggingface.co/GipAI/ReasoningV-7B) | Verilog, Reasoning, Finetuning |
 | [**Towards Optimal Circuit Generation: Multi-Agent Collaboration Meets Collective Intelligence**](https://arxiv.org/abs/2504.14625) <br> | arXiv | 2025.04 | - | Circuit, Multi-Agent |
 | [**CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization**](https://arxiv.org/abs/2407.10424) <br> | arXiv | 2024.07 | [🤗 Model](https://huggingface.co/yang-z/CodeV-DS-6.7B) | HDL, Multi-Level Summarization |
+| [**Large Language Model for Verilog Generation with Code-Structure-Guided Reinforcement Learning**](https://arxiv.org/html/2407.18271v4) <br> | arXiv | 2024.07 | [Code](https://anonymous.4open.science/r/veriseek-6467) | Verilog, RL, Code-Structure-Guided |
 | [**VeriGen: A Large Language Model for Verilog Code Generation**](https://arxiv.org/abs/2308.00708) <br> | arXiv | 2023.07 | [🤗 Model](https://huggingface.co/shailja/fine-tuned-codegen-2B-Verilog) | Verilog, Finetuning |
 
 ## Datasets and Benchmarks
