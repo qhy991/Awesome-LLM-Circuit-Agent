@@ -32,4 +32,7 @@
 ## Others
 |  Title  |   Date   |   topic   |
 |:--------|:--------:|:--------:|
+| [**ASIC Technology Lecture**](https://schaumont.dyn.wpi.edu/ece574f24/01asictechnology.html) <br> | - | ASIC, Course Material |
+| [**Digital System Design PDF**](https://d1.amobbs.com/bbs_upload782111/files_19/ourdev_489875.pdf) <br> | - | Digital Design, PDF |
+| [**Springer Book: Digital System Design**](https://link.springer.com/book/10.1007/978-3-031-41085-7?utm_medium=referral) <br> | - | Digital Design, Book |
 
