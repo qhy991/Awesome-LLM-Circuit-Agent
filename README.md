@@ -8,6 +8,7 @@
 | [**SPARC-RTL: Stochastic Prompt-Assisted RTL Code Synthesis**](https://openreview.net/forum?id=VdoEQJufI8) <br> | ICLR 2026 | 2025.09 | - | RTL, Prompt Engineering, Stochastic |
 | [**AnaFlow: Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing**](https://arxiv.org/pdf/2511.03697) <br> | arXiv | 2025.11 | - | AMS Circuit, Multi-Agent, Workflow |
 | [**Automating Hardware Design and Verification from Architectural Papers via a Neural-Symbolic Graph Framework**](https://arxiv.org/abs/2511.06067) <br> | arXiv | 2025.11 | - | Hardware Design, Verification, Neural-Symbolic, Graph Framework |
+| [**EARL: Entropy-Aware RL Alignment of LLMs for Reliable RTL Code Generation**](https://arxiv.org/abs/2511.12033) <br> | arXiv | 2025.11 | - | RTL, Verilog, RL, Entropy-Aware, Alignment |
 | [**Think with Self-Decoupling and Self-Verification: Automated RTL Design with Backtrack-ToT**](https://arxiv.org/abs/2511.13139) <br> | arXiv | 2025.11 | - | RTL, Verilog, Backtrack-ToT, Self-Decoupling, Self-Verification, Reasoning |
 | [**EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit**](https://arxiv.org/abs/2510.17002) <br> | arXiv | 2025.10 | [Github](https://github.com/eelab-dev/EEschematic) | AMS Circuit, Schematic Generation, MLLM |
 | [**VeriGRAG: Enhancing LLM-Based Verilog Code Generation with Structure-Aware Soft Prompts**](https://arxiv.org/abs/2510.15914) <br> | arXiv | 2025.10 | - | Verilog, Structure-Aware, Soft Prompts |
