@@ -12,6 +12,7 @@
 | [**Automating Hardware Design and Verification from Architectural Papers via a Neural-Symbolic Graph Framework**](https://arxiv.org/abs/2511.06067) <br> | arXiv | 2025.11 | - | Hardware Design, Verification, Neural-Symbolic, Graph Framework |
 | [**EARL: Entropy-Aware RL Alignment of LLMs for Reliable RTL Code Generation**](https://arxiv.org/abs/2511.12033) <br> | arXiv | 2025.11 | - | RTL, Verilog, RL, Entropy-Aware, Alignment |
 | [**Think with Self-Decoupling and Self-Verification: Automated RTL Design with Backtrack-ToT**](https://arxiv.org/abs/2511.13139) <br> | arXiv | 2025.11 | - | RTL, Verilog, Backtrack-ToT, Self-Decoupling, Self-Verification, Reasoning |
+| ![Star](https://img.shields.io/github/stars/AgenticHDL/CorrectHDL.svg?style=social&label=Star) <br> [**CorrectHDL: Agentic HDL Design with LLMs Leveraging High-Level Synthesis as Reference**](https://arxiv.org/abs/2511.16395) <br> | arXiv | 2025.11 | [Github](https://github.com/AgenticHDL/CorrectHDL) | HDL, HLS, RAG, Differential Verification |
 | [**VeriGRAG: Enhancing LLM-Based Verilog Code Generation with Structure-Aware Soft Prompts**](https://arxiv.org/abs/2510.15914) <br> | arXiv | 2025.10 | - | Verilog, Structure-Aware, Soft Prompts |
 | [**LLM-VeriPPA: Power, Performance, and Area Optimization aware Verilog Code Generation with Large Language Models**](https://arxiv.org/abs/2510.15899) <br> | arXiv | 2025.10 | - | Verilog, PPA Optimization |
 | [**DeepV: A Model-Agnostic Retrieval-Augmented Framework for Verilog Code Generation with a High-Quality Knowledge Base**](https://arxiv.org/abs/2510.05327) <br> | arXiv | 2025.10 | [🤗 HuggingFace](https://huggingface.co/spaces/FICS-LLM/DeepV) | Verilog, RAG |
@@ -32,6 +33,7 @@
 | [**Data is all you need: Finetuning LLMs for Chip Design via an Automated design-data augmentation framework**](https://arxiv.org/abs/2403.11202) <br> | DAC 2024 | 2024.03 | - | Verilog, Finetuning, Data Augmentation |
 | [**Improving Large Language Model Hardware Generating Quality through Post-LLM Search**](https://mlforsystems.org/assets/papers/neurips2023/paper12.pdf) <br> | NeurIPS 2023 | 2023.12 | - | Hardware Generation, Post-LLM Search, PPA Optimization |
 | [**VeriGen: A Large Language Model for Verilog Code Generation**](https://arxiv.org/abs/2308.00708) <br> | arXiv | 2023.07 | [🤗 Model](https://huggingface.co/shailja/fine-tuned-codegen-2B-Verilog) | Verilog, Finetuning |
+| [**RTL-LLM: Large Language Models for Hardware Design**](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-104.pdf) <br> | UC Berkeley EECS Tech Report | 2025 | - | RTL, HDL, LLM, Multi-Language |
 
 ### Analog Circuit Design
 
@@ -69,6 +71,9 @@
 | [**ReasoningV-5K Dataset**](https://huggingface.co/datasets/GipAI/ReaoningV) <br> | HuggingFace | 2025.04 | [🤗 Dataset](https://huggingface.co/datasets/GipAI/ReaoningV) | Verilog, Reasoning |
 | [**PyraNet-Verilog Dataset**](https://huggingface.co/datasets/bnadimi/PyraNet-Verilog) <br> | HuggingFace | 2024.07 | [🤗 Dataset](https://huggingface.co/datasets/bnadimi/PyraNet-Verilog) | Verilog, HDL |
 | [**Verilog_GitHub Dataset**](https://huggingface.co/datasets/shailja/Verilog_GitHub) <br> | HuggingFace | 2023.07 | [🤗 Dataset](https://huggingface.co/datasets/shailja/Verilog_GitHub) | Verilog |
+| [**VHDL GitHub Deduplicated**](https://huggingface.co/datasets/rtl-llm/vhdl_github_deduplicated) <br> | HuggingFace | 2025 | [🤗 Dataset](https://huggingface.co/datasets/rtl-llm/vhdl_github_deduplicated) | VHDL, Dataset |
+| [**Chisel-Verilog Pairs**](https://huggingface.co/datasets/rtl-llm/chisel-verilog-pairs) <br> | HuggingFace | 2025 | [🤗 Dataset](https://huggingface.co/datasets/rtl-llm/chisel-verilog-pairs) | Chisel, Verilog, Dataset |
+| [**PyMTL-Verilog Pairs**](https://huggingface.co/datasets/rtl-llm/PyMTL_Verilog_pairs) <br> | HuggingFace | 2025.05 | [🤗 Dataset](https://huggingface.co/datasets/rtl-llm/PyMTL_Verilog_pairs) | PyMTL, Verilog, Dataset |
 
 ## Others
 |  Title  |   Date   |   topic   |
