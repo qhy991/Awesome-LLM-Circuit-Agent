@@ -42,8 +42,13 @@
 |  Title  |   Venue  |   Date   |   Code   |   topic   |
 |:--------|:--------:|:--------:|:--------:|:--------:|
 | [**AnaFlow: Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing**](https://arxiv.org/pdf/2511.03697) <br> | arXiv | 2025.11 | - | AMS Circuit, Multi-Agent, Workflow |
-| ![Star](https://img.shields.io/github/stars/laiyao1/AnalogCoderPro.svg?style=social&label=Star) <br> [**AnalogCoder-Pro: Unifying Analog Circuit Generation and Optimization via Multi-modal LLMs**](https://arxiv.org/abs/2508.02518) <br> | arXiv | 2025.08 | [Github](https://github.com/laiyao1/AnalogCoderPro) | AMS Circuit, MLLM, Topology Generation, Device Sizing |
 | [**EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit**](https://arxiv.org/abs/2510.17002) <br> | arXiv | 2025.10 | [Github](https://github.com/eelab-dev/EEschematic) | AMS Circuit, Schematic Generation, MLLM |
+| ![Star](https://img.shields.io/github/stars/laiyao1/AnalogCoderPro.svg?style=social&label=Star) <br> [**AnalogCoder-Pro: Unifying Analog Circuit Generation and Optimization via Multi-modal LLMs**](https://arxiv.org/abs/2508.02518) <br> | arXiv | 2025.08 | [Github](https://github.com/laiyao1/AnalogCoderPro) | AMS Circuit, MLLM, Topology Generation, Device Sizing |
+| [**White-Box Reasoning: Synergizing LLM Strategy and gm/Id Data for Automated Analog Circuit Design**](https://arxiv.org/abs/2508.13172) <br> | arXiv | 2025.08 | - | AMS Circuit, gm/Id Methodology, White-Box Reasoning |
+| [**LLM-Based Analog Circuit Design Optimization**](https://arxiv.org/abs/2508.10409) <br> | arXiv | 2025.08 | - | AMS Circuit, Optimization, LLM |
+| [**AnalogTester: A Large Language Model-Based Framework for Automatic Testbench Generation in Analog Circuit Design**](https://arxiv.org/abs/2507.09965) <br> | arXiv | 2025.07 | - | AMS Circuit, Testbench Generation |
+| [**LIMCA: LLM for Automating Analog In-Memory Computing Architecture Design Exploration**](https://arxiv.org/abs/2503.13301) <br> | arXiv | 2025.03 | - | AMS Circuit, In-Memory Computing, IMC |
+| [**AnalogSeeker: Large Language Model for Analog Circuit Design**](https://huggingface.co/analogllm/analogseeker) <br> | HuggingFace | 2025 | [🤗 HuggingFace](https://huggingface.co/analogllm/analogseeker) | AMS Circuit, Finetuning |
 | [**DiffCkt: A Diffusion Model-Based Hybrid Neural Network Framework for Automatic Transistor-Level Generation of Analog Circuits**](https://arxiv.org/pdf/2507.00444) <br> | arXiv | 2025.07 | - | AMS Circuit, Diffusion Model, Transistor-Level |
 | [**SpiceMixer: Netlist-Level Circuit Evolution**](https://arxiv.org/pdf/2506.01497) <br> | arXiv | 2025.06 | - | AMS Circuit, Genetic Algorithm, Netlist Evolution |
 | [**A Large Language Model-based Multi-Agent Framework for Analog Circuits' Sizing Relationships Extraction**](https://arxiv.org/pdf/2506.18424) <br> | arXiv | 2025.06 | - | AMS Circuit, Multi-Agent, Sizing Relationships |
@@ -51,8 +56,10 @@
 | [**TopoSizing: An LLM-aided Framework of Topology-based Understanding and Sizing for AMS Circuits**](https://arxiv.org/pdf/2509.14169) <br> | arXiv | 2025.09 | - | AMS Circuit, Topology, Sizing |
 | [**FALCON: An ML Framework for Fully Automated Layout-Constrained Analog Circuit Design**](https://arxiv.org/pdf/2505.21923) <br> | arXiv | 2025.05 | - | AMS Circuit, Layout-Constrained, ML |
 | [**DocEDA: Automated Extraction and Design of Analog Circuits from Documents with Large Language Model**](https://arxiv.org/pdf/2412.05301) <br> | arXiv | 2024.12 | - | AMS Circuit, Document Extraction, LLM |
+| [**Analog Circuit Design with LLMs**](https://arxiv.org/abs/2412.19824) <br> | arXiv | 2024.12 | - | AMS Circuit, LLM |
 | [**Schemato -- An LLM for Netlist-to-Schematic Conversion**](https://arxiv.org/pdf/2411.13899) <br> | arXiv | 2024.11 | - | Schematic, Netlist, LLM |
 | [**LLM-Enhanced Bayesian Optimization for Efficient Analog Layout Constraint Generation**](https://arxiv.org/pdf/2406.05250) <br> | arXiv | 2024.06 | - | AMS Circuit, Bayesian Optimization, Layout Constraint |
+| [**Automated Analog Circuit Design with Large Language Models**](https://arxiv.org/abs/2405.14918) <br> | arXiv | 2024.05 | - | AMS Circuit, LLM |
 | [**DE-HNN: An effective neural model for Circuit Netlist representation**](https://arxiv.org/pdf/2404.00477) <br> | arXiv | 2024.04 | - | Circuit Netlist, Neural Model |
 | [**AICircuit: A Multi-Level Dataset and Benchmark for AI-Driven Analog Integrated Circuit Design**](https://arxiv.org/pdf/2407.18272) <br> | arXiv | 2024.07 | - | AMS Circuit, Dataset, Benchmark |
 | [**RoSE-Opt: Robust and Efficient Analog Circuit Parameter Optimization with Knowledge-infused Reinforcement Learning**](https://arxiv.org/pdf/2407.19150) <br> | arXiv | 2024.07 | - | AMS Circuit, RL, Parameter Optimization |
@@ -81,6 +88,8 @@
 |  Title  |   Date   |   topic   |
 |:--------|:--------:|:--------:|
 | [**EEschematic Presentation**](https://docs.google.com/presentation/d/e/2PACX-1vROdrVB1vpGM1tqHSvA2HpPmH6B2HpILzLM8kaqnePEtZ8UP_To8q5GsWh90YOtBjYZCUov2rnOzis7/pub?start=false&loop=false&delayms=3000&slide=id.p1) <br> | - | AMS Circuit, Presentation |
+| [**IMAC-Sim: A Circuit-level Simulator For In-Memory Analog Computing Architectures**](https://arxiv.org/abs/2304.09252) <br> | arXiv | 2023.04 | - | AMS Circuit, Simulator, In-Memory Computing |
+| [**Analog Circuit Design with LLMs**](https://ieeexplore.ieee.org/document/11012698) <br> | IEEE | 2025 | - | AMS Circuit, LLM |
 | [**ASIC Technology Lecture**](https://schaumont.dyn.wpi.edu/ece574f24/01asictechnology.html) <br> | - | ASIC, Course Material |
 | [**Digital System Design PDF**](https://d1.amobbs.com/bbs_upload782111/files_19/ourdev_489875.pdf) <br> | - | Digital Design, PDF |
 | [**Springer Book: Digital System Design**](https://link.springer.com/book/10.1007/978-3-031-41085-7?utm_medium=referral) <br> | - | Digital Design, Book |
