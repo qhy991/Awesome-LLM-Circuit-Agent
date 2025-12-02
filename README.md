@@ -53,7 +53,9 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 | [**Automating Hardware Design and Verification from Architectural Papers via a Neural-Symbolic Graph Framework**](https://arxiv.org/abs/2511.06067) | arXiv | 2025.11 | - | Neural-Symbolic |
 | [**Think with Self-Decoupling and Self-Verification: Automated RTL Design with Backtrack-ToT**](https://arxiv.org/abs/2511.13139) | arXiv | 2025.11 | - | Self-Verification |
 | ![Star](https://img.shields.io/github/stars/AgenticHDL/CorrectHDL.svg?style=social&label=Star) <br> [**CorrectHDL: Agentic HDL Design with LLMs Leveraging High-Level Synthesis as Reference**](https://arxiv.org/abs/2511.16395) | arXiv | 2025.11 | [Github](https://github.com/AgenticHDL/CorrectHDL) | HLS, RAG |
+| [**BugGen: A Self-Correcting Multi-Agent LLM Pipeline for Realistic RTL Bug Synthesis**](https://arxiv.org/abs/2506.10501) | arXiv | 2025.06 | - | Bug Synthesis, Multi-Agent |
 | [**VeriSynth: Learning-Based Framework for Formal Verification of Hardware Designs**](https://arxiv.org/pdf/2505.09172) | arXiv | 2025.05 | [Github](https://github.com/eelab-dev/VeriSynth) | Formal Verification |
+| [**RTL-Repair: Fast Symbolic Repair of Hardware Design Code**](https://kevinlaeufer.com/pdfs/rtl_repair_kevin_laeufer_asplos2024.pdf) | ASPLOS 2024 | 2024.04 | [Github](https://github.com/ekiwi/rtl-repair) | RTL Repair, Symbolic |
 
 ### 🚀 Optimization (PPA-aware)
 
@@ -111,6 +113,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**HeaRT: A Hierarchical Circuit Reasoning Tree-Based Agentic Framework for AMS Design Optimization**](https://arxiv.org/abs/2511.19669) | arXiv | 2025.11 | - | Reasoning, Optimization |
 | ![Star](https://img.shields.io/github/stars/eelab-dev/EEsizer.svg?style=social&label=Star) <br> [**EEsizer: LLM-Based AI Agent for Sizing of Analog and Mixed Signal Circuit**](https://arxiv.org/pdf/2509.25510) | arXiv | 2025.09 | [Github](https://github.com/eelab-dev/EEsizer) | Transistor Sizing |
 | [**TopoSizing: An LLM-aided Framework of Topology-based Understanding and Sizing for AMS Circuits**](https://arxiv.org/pdf/2509.14169) | arXiv | 2025.09 | - | Topology-based |
 | [**White-Box Reasoning: Synergizing LLM Strategy and gm/Id Data for Automated Analog Circuit Design**](https://arxiv.org/abs/2508.13172) | arXiv | 2025.08 | - | gm/Id, White-Box |
@@ -164,6 +167,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**BrainWave NPU Microarchitecture Analysis**](https://github.com/dzwduan/fpga-npu/tree/main/doc) | Docs | NPU Architecture |
 | [**EEschematic Presentation**](https://docs.google.com/presentation/d/e/2PACX-1vROdrVB1vpGM1tqHSvA2HpPmH6B2HpILzLM8kaqnePEtZ8UP_To8q5GsWh90YOtBjYZCUov2rnOzis7/pub?start=false&loop=false&delayms=3000&slide=id.p1) | Slides | AMS Circuit |
 | [**ASIC Technology Lecture**](https://schaumont.dyn.wpi.edu/ece574f24/01asictechnology.html) | Course | ASIC |
 | [**Digital System Design PDF**](https://d1.amobbs.com/bbs_upload782111/files_19/ourdev_489875.pdf) | PDF | Digital Design |
