@@ -50,6 +50,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
 | [**R3A: Reliable RTL Repair Framework with Multi-Agent Fault Localization and Stochastic Tree-of-Thoughts Patch Generation**](https://arxiv.org/abs/2511.20090) | arXiv | 2025.11 | - | RTL Repair, Multi-Agent |
+| [**TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation**](https://arxiv.org/abs/2511.15767) | arXiv | 2025.11 | - | Stimulus Gen, DPO |
 | [**Automating Hardware Design and Verification from Architectural Papers via a Neural-Symbolic Graph Framework**](https://arxiv.org/abs/2511.06067) | arXiv | 2025.11 | - | Neural-Symbolic |
 | [**Think with Self-Decoupling and Self-Verification: Automated RTL Design with Backtrack-ToT**](https://arxiv.org/abs/2511.13139) | arXiv | 2025.11 | - | Self-Verification |
 | ![Star](https://img.shields.io/github/stars/AgenticHDL/CorrectHDL.svg?style=social&label=Star) <br> [**CorrectHDL: Agentic HDL Design with LLMs Leveraging High-Level Synthesis as Reference**](https://arxiv.org/abs/2511.16395) | arXiv | 2025.11 | [Github](https://github.com/AgenticHDL/CorrectHDL) | HLS, RAG |
