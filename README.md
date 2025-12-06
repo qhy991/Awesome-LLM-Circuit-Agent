@@ -22,6 +22,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
   - [Sizing & Optimization](#-sizing--optimization)
   - [Workflows & Multi-Agent](#-workflows--multi-agent)
   - [Specialized Applications](#-specialized-applications)
+- [Analog Mind Series (Behzad Razavi)](#-analog-mind-series-behzad-razavi)
 - [Datasets & Benchmarks](#-datasets--benchmarks)
 - [Resources & Learning](#-resources--learning)
 - [Contributing](#-contributing)
@@ -161,6 +162,25 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 | [**VHDL GitHub Deduplicated**](https://huggingface.co/datasets/rtl-llm/vhdl_github_deduplicated) | HuggingFace | 2025 | [Dataset](https://huggingface.co/datasets/rtl-llm/vhdl_github_deduplicated) | VHDL Dataset |
 | [**Chisel-Verilog Pairs**](https://huggingface.co/datasets/rtl-llm/chisel-verilog-pairs) | HuggingFace | 2025 | [Dataset](https://huggingface.co/datasets/rtl-llm/chisel-verilog-pairs) | Chisel Dataset |
 | [**PyMTL-Verilog Pairs**](https://huggingface.co/datasets/rtl-llm/PyMTL_Verilog_pairs) | HuggingFace | 2025.05 | [Dataset](https://huggingface.co/datasets/rtl-llm/PyMTL_Verilog_pairs) | PyMTL Dataset |
+
+---
+
+## 🧠 Analog Mind Series (Behzad Razavi)
+
+A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circuits Magazine (SSCM), exploring fundamental concepts and advanced topics in analog circuit design.
+
+| Title | Venue | Date | Link | Topic |
+|:------|:-----:|:----:|:----:|:------|
+| [**Analog Mind (Part 1)**](https://ieeexplore.ieee.org/document/10410055) | IEEE SSCM | 2024.Q1 | [IEEE](https://ieeexplore.ieee.org/document/10410055) | Analog Design Fundamentals |
+| [**Analog Mind (Part 2)**](https://ieeexplore.ieee.org/document/10645490) | IEEE SSCM | 2024.Q2 | [IEEE](https://ieeexplore.ieee.org/document/10645490) | Analog Design Concepts |
+| [**Analog Mind (Part 3)**](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_3_2024.pdf) | IEEE SSCM | 2024.Q3 | [PDF](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_3_2024.pdf) | Advanced Analog Topics |
+| [**Analog Mind (Part 4)**](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_4_2025.pdf) | IEEE SSCM | 2025.Q1 | [PDF](https://www.seas.ucla.edu/brweb/papers/Journals/BR_SSCM_4_2025.pdf) | Advanced Analog Topics |
+| [**Analog Mind (Part 5)**](https://ieeexplore.ieee.org/document/10752795) | IEEE SSCM | 2024.Q4 | [IEEE](https://ieeexplore.ieee.org/document/10752795) | Analog Design Insights |
+| [**Analog Mind (Part 6)**](https://ieeexplore.ieee.org/document/10857808) | IEEE SSCM | 2025.Q1 | [IEEE](https://ieeexplore.ieee.org/document/10857808) | Analog Design Insights |
+| [**Analog Mind (Part 7)**](https://ieeexplore.ieee.org/document/11044975) | IEEE SSCM | 2025.Q2 | [IEEE](https://ieeexplore.ieee.org/document/11044975) | Analog Design Insights |
+| [**Analog Mind (Part 8)**](https://ieeexplore.ieee.org/document/11262742) | IEEE SSCM | 2025.Q3 | [IEEE](https://ieeexplore.ieee.org/document/11262742) | Analog Design Insights |
+
+*For complete list of Analog Mind articles, see [Behzad Razavi's IEEE Author Page](https://ieeexplore.ieee.org/author/37275476000)*
 
 ---
 
