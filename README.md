@@ -85,6 +85,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**David vs. Goliath: Can Small Models Win Big with Agentic AI in Hardware Design?**](https://arxiv.org/abs/2512.05073) | arXiv | 2025.12 | - | Agentic AI, Small Models |
 | [**CRADLE: Conversational RTL Design Space Exploration with LLM-based Multi-Agent Systems**](https://arxiv.org/abs/2508.08709) | arXiv | 2025.08 | - | DSE, Multi-Agent |
 | [**VFlow: Discovering Optimal Agentic Workflows for Verilog Generation**](https://arxiv.org/abs/2504.03723) | arXiv | 2025.04 | - | Agentic Workflow |
 
@@ -92,6 +93,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**ChipMind: Retrieval-Augmented Reasoning for Long-Context Circuit Design Specifications**](https://arxiv.org/abs/2512.05371) | AAAI 2026 | 2025.12 | - | RAG, Knowledge Graph, Reasoning |
 | [**RTL++: Graph-enhanced LLM for RTL Code Generation**](https://arxiv.org/abs/2505.13479) | LAD '25 | 2025.05 | - | Graph-enhanced |
 | [**Abstractions-of-Thought: Intermediate Representations for LLM Reasoning in Hardware Design**](https://arxiv.org/abs/2505.15873) | arXiv | 2025.05 | - | IR, Reasoning |
 | [**CIRCUIT: A Benchmark for Circuit Interpretation and Reasoning Capabilities of LLMs**](https://arxiv.org/pdf/2502.07980) | arXiv | 2025.02 | - | Reasoning |
