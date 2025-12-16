@@ -44,6 +44,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 | [**CodeV: Empowering LLMs with HDL Generation through Multi-Level Summarization**](https://arxiv.org/abs/2407.10424) | arXiv | 2024.07 | [Model](https://huggingface.co/yang-z/CodeV-DS-6.7B) | Summarization |
 | [**Data is all you need: Finetuning LLMs for Chip Design via an Automated design-data augmentation framework**](https://arxiv.org/abs/2403.11202) | DAC 2024 | 2024.03 | - | Finetuning |
 | [**VeriGen: A Large Language Model for Verilog Code Generation**](https://arxiv.org/abs/2308.00708) | arXiv | 2023.07 | [Model](https://huggingface.co/shailja/fine-tuned-codegen-2B-Verilog) | Finetuning |
+| [**Chip-Chat: Challenges and Opportunities in Conversational Hardware Design**](https://arxiv.org/pdf/2305.13243v2) | arXiv | 2023.05 | [Github](https://github.com/MJoergen/ChipChatData) | Conversational LLM, Tapeout |
 | [**RTL-LLM: Large Language Models for Hardware Design**](https://www2.eecs.berkeley.edu/Pubs/TechRpts/2025/EECS-2025-104.pdf) | UC Berkeley | 2025 | - | Multi-Language |
 
 ### ✅ Verification & Testing
