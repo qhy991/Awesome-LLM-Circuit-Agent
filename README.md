@@ -35,6 +35,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**When Forgetting Builds Reliability: LLM Unlearning for Reliable Hardware Code Generation**](https://arxiv.org/pdf/2512.05341) | arXiv | 2025.12 | - | LLM Unlearning, Hardware Code Generation |
+| [**Mitigating Hallucinations and Omissions in LLMs for Invertible Problems: An Application to Hardware Logic Design Automation**](https://arxiv.org/pdf/2512.03053) | arXiv | 2025.12 | - | Hallucination Mitigation, LCT, Autoencoder |
 | [**PrefixGPT: Prefix Adder Optimization by a Generative Pre-trained Transformer**](https://arxiv.org/abs/2511.19472) | AAAI 2026 | 2025.11 | [Github](https://github.com/Mightlaus/PrefixGPT-AAAI26) | Prefix Adder, Transformer |
 | [**QiMeng-CRUX: Narrowing the Gap between Natural Language and Verilog via Core Refined Understanding eXpression**](https://arxiv.org/abs/2511.20099) | arXiv | 2025.11 | - | NL2Verilog, CRUX |
 | [**LocalV: Exploiting Information Locality for IP-level Verilog Generation**](https://openreview.net/forum?id=jiFcyj5VLe) | ICLR 2026 | 2025.09 | - | Verilog, IP-level |
