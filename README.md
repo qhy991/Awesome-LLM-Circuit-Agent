@@ -158,7 +158,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
-| [**NotSoTiny: A Large, Living Benchmark for RTL Code Generation**](https://arxiv.org/abs/2512.20823) | arXiv | 2025.12 | - | RTL Benchmark, Tiny Tapeout |
+| ![Star](https://img.shields.io/github/stars/HPAI-BSC/TuRTLe.svg?style=social&label=Star) [**TuRTLe: A Unified Evaluation of LLMs for RTL Generation**](https://arxiv.org/abs/2504.01986) | MLCAD 2025 | 2025.04 | [Github](https://github.com/HPAI-BSC/TuRTLe) | RTL Evaluation, Unified Benchmark |
+| [**NotSoTiny: A Large, Living Benchmark for RTL Code Generation**](https://arxiv.org/abs/2512.20823) | arXiv | 2025.12 | [Github](https://github.com/HPAI-BSC/TuRTLe) | RTL Benchmark, Tiny Tapeout |
 | [**VERIBENCH: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4**](https://openreview.net/pdf/f24bd52a5b9139e4311109bdeee80b27c311d838.pdf) | ICLR 2026 | 2025 | - | Formal Verification |
 | [**Pluto: A Benchmark for Evaluating Efficiency of LLM-generated Hardware Code**](https://openreview.net/forum?id=2LmXLuCDsY) | ICLR 2026 | 2025.09 | - | Efficiency Benchmark |
 | [**Refining Specs For LLM-Based RTL Agile Design**](https://openreview.net/forum?id=1FADg2UNPn) | ICLR 2026 | 2025.09 | - | Spec Refining |
