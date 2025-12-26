@@ -35,6 +35,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AutoFSM: A Multi-agent Framework for FSM Code Generation with IR and SystemC-Based Testing**](https://arxiv.org/abs/2512.11398) | arXiv | 2025.12 | - | FSM, Multi-Agent, IR, SystemC |
 | [**When Forgetting Builds Reliability: LLM Unlearning for Reliable Hardware Code Generation**](https://arxiv.org/pdf/2512.05341) | arXiv | 2025.12 | - | LLM Unlearning, Hardware Code Generation |
 | [**Mitigating Hallucinations and Omissions in LLMs for Invertible Problems: An Application to Hardware Logic Design Automation**](https://arxiv.org/pdf/2512.03053) | arXiv | 2025.12 | - | Hallucination Mitigation, LCT, Autoencoder |
 | [**PrefixGPT: Prefix Adder Optimization by a Generative Pre-trained Transformer**](https://arxiv.org/abs/2511.19472) | AAAI 2026 | 2025.11 | [Github](https://github.com/Mightlaus/PrefixGPT-AAAI26) | Prefix Adder, Transformer |
@@ -53,6 +54,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Duet: Agentic Design Understanding via Experimentation and Testing**](https://arxiv.org/pdf/2512.06247) | arXiv | 2025.12 | - | Design Understanding, Experimentation, EDA Tools |
 | [**R3A: Reliable RTL Repair Framework with Multi-Agent Fault Localization and Stochastic Tree-of-Thoughts Patch Generation**](https://arxiv.org/abs/2511.20090) | arXiv | 2025.11 | - | RTL Repair, Multi-Agent |
 | [**TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation**](https://arxiv.org/abs/2511.15767) | arXiv | 2025.11 | - | Stimulus Gen, DPO |
 | [**Automating Hardware Design and Verification from Architectural Papers via a Neural-Symbolic Graph Framework**](https://arxiv.org/abs/2511.06067) | arXiv | 2025.11 | - | Neural-Symbolic |
@@ -156,6 +158,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**NotSoTiny: A Large, Living Benchmark for RTL Code Generation**](https://arxiv.org/abs/2512.20823) | arXiv | 2025.12 | - | RTL Benchmark, Tiny Tapeout |
 | [**VERIBENCH: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4**](https://openreview.net/pdf/f24bd52a5b9139e4311109bdeee80b27c311d838.pdf) | ICLR 2026 | 2025 | - | Formal Verification |
 | [**Pluto: A Benchmark for Evaluating Efficiency of LLM-generated Hardware Code**](https://openreview.net/forum?id=2LmXLuCDsY) | ICLR 2026 | 2025.09 | - | Efficiency Benchmark |
 | [**Refining Specs For LLM-Based RTL Agile Design**](https://openreview.net/forum?id=1FADg2UNPn) | ICLR 2026 | 2025.09 | - | Spec Refining |
