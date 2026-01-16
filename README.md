@@ -54,6 +54,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**GRPO with State Mutations: Improving LLM-Based Hardware Test Plan Generation**](https://arxiv.org/abs/2601.07593) | arXiv | 2026.01 | - | Test Plan Generation, GRPO, RL |
 | [**Duet: Agentic Design Understanding via Experimentation and Testing**](https://arxiv.org/pdf/2512.06247) | arXiv | 2025.12 | - | Design Understanding, Experimentation, EDA Tools |
 | [**R3A: Reliable RTL Repair Framework with Multi-Agent Fault Localization and Stochastic Tree-of-Thoughts Patch Generation**](https://arxiv.org/abs/2511.20090) | arXiv | 2025.11 | - | RTL Repair, Multi-Agent |
 | [**TB or Not TB: Coverage-Driven Direct Preference Optimization for Verilog Stimulus Generation**](https://arxiv.org/abs/2511.15767) | arXiv | 2025.11 | - | Stimulus Gen, DPO |
@@ -123,6 +124,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Bayesian Optimization |
 | [**HeaRT: A Hierarchical Circuit Reasoning Tree-Based Agentic Framework for AMS Design Optimization**](https://arxiv.org/abs/2511.19669) | arXiv | 2025.11 | - | Reasoning, Optimization |
 | ![Star](https://img.shields.io/github/stars/eelab-dev/EEsizer.svg?style=social&label=Star) <br> [**EEsizer: LLM-Based AI Agent for Sizing of Analog and Mixed Signal Circuit**](https://arxiv.org/pdf/2509.25510) | arXiv | 2025.09 | [Github](https://github.com/eelab-dev/EEsizer) | Transistor Sizing |
 | [**TopoSizing: An LLM-aided Framework of Topology-based Understanding and Sizing for AMS Circuits**](https://arxiv.org/pdf/2509.14169) | arXiv | 2025.09 | - | Topology-based |
@@ -135,6 +137,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience**](https://arxiv.org/abs/2512.22435) | arXiv | 2025.12 | - | Multi-Agent, Self-evolving, Stratified Memory |
 | [**AnaFlow: Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing**](https://arxiv.org/pdf/2511.03697) | arXiv | 2025.11 | - | Workflow |
 | ![Star](https://img.shields.io/github/stars/laiyao1/AnalogCoderPro.svg?style=social&label=Star) <br> [**AnalogCoder-Pro: Unifying Analog Circuit Generation and Optimization via Multi-modal LLMs**](https://arxiv.org/abs/2508.02518) | arXiv | 2025.08 | [Github](https://github.com/laiyao1/AnalogCoderPro) | MLLM, Unifying |
 | [**A Large Language Model-based Multi-Agent Framework for Analog Circuits' Sizing Relationships Extraction**](https://arxiv.org/pdf/2506.18424) | arXiv | 2025.06 | - | Sizing Relationships |
