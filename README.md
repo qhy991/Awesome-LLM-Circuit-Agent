@@ -69,6 +69,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Automated QoR improvement in OpenROAD with coding agents**](https://arxiv.org/abs/2601.06268) | arXiv | 2026.01 | - | OpenROAD, Coding Agents, PPA, QoR |
 | [**LLM-VeriPPA: Power, Performance, and Area Optimization aware Verilog Code Generation**](https://arxiv.org/abs/2510.15899) | arXiv | 2025.10 | - | PPA Optimization |
 | [**ChipSeek-R1: Generating Human-Surpassing RTL with LLM via Hierarchical Reward-Driven RL**](https://arxiv.org/abs/2507.04736) | arXiv | 2025.07 | - | RL, PPA |
 | ![Star](https://img.shields.io/github/stars/ABKGroup/ORFS-Agent.svg?style=social&label=Star) <br> [**ORFS-agent: Tool-Using Agents for Chip Design Optimization**](https://arxiv.org/abs/2506.08332) | arXiv | 2025.06 | [Github](https://github.com/ABKGroup/ORFS-Agent) | Physical Design |
@@ -137,6 +138,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Workflow |
 | [**AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience**](https://arxiv.org/abs/2512.22435) | arXiv | 2025.12 | - | Multi-Agent, Self-evolving, Stratified Memory |
 | [**AnaFlow: Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing**](https://arxiv.org/pdf/2511.03697) | arXiv | 2025.11 | - | Workflow |
 | ![Star](https://img.shields.io/github/stars/laiyao1/AnalogCoderPro.svg?style=social&label=Star) <br> [**AnalogCoder-Pro: Unifying Analog Circuit Generation and Optimization via Multi-modal LLMs**](https://arxiv.org/abs/2508.02518) | arXiv | 2025.08 | [Github](https://github.com/laiyao1/AnalogCoderPro) | MLLM, Unifying |
