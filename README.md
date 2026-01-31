@@ -92,6 +92,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation**](https://arxiv.org/abs/2601.19747) | arXiv | 2026.01 | - | Multi-Agent, Formal Verification, Contract-Aware |
 | [**Architect in the Loop Agentic Hardware Design and Verification**](https://arxiv.org/pdf/2512.00016) | arXiv | 2025.12 | [Github](https://github.com/mmubarek/eda) | Agentic Design, Processor Design, Verification |
 | [**David vs. Goliath: Can Small Models Win Big with Agentic AI in Hardware Design?**](https://arxiv.org/abs/2512.05073) | arXiv | 2025.12 | - | Agentic AI, Small Models |
 | [**CRADLE: Conversational RTL Design Space Exploration with LLM-based Multi-Agent Systems**](https://arxiv.org/abs/2508.08709) | arXiv | 2025.08 | - | DSE, Multi-Agent |
@@ -163,6 +164,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**ChipBench: A Next-Step Benchmark for Evaluating LLM Performance in AI-Aided Chip Design**](https://arxiv.org/abs/2601.21448) | arXiv | 2026.01 | - | Verilog Generation, Debugging, Reference Model |
+| [**Bench4HLS: End-to-End Evaluation of LLMs in High-Level Synthesis Code Generation**](https://arxiv.org/abs/2601.19941) | DATE 2026 | 2026.01 | - | HLS, Benchmark, PPA Analysis |
 | ![Star](https://img.shields.io/github/stars/HPAI-BSC/TuRTLe.svg?style=social&label=Star) [**TuRTLe: A Unified Evaluation of LLMs for RTL Generation**](https://arxiv.org/abs/2504.01986) | MLCAD 2025 | 2025.04 | [Github](https://github.com/HPAI-BSC/TuRTLe) | RTL Evaluation, Unified Benchmark |
 | [**NotSoTiny: A Large, Living Benchmark for RTL Code Generation**](https://arxiv.org/abs/2512.20823) | arXiv | 2025.12 | [Github](https://github.com/HPAI-BSC/TuRTLe) | RTL Benchmark, Tiny Tapeout |
 | [**VERIBENCH: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4**](https://openreview.net/pdf/f24bd52a5b9139e4311109bdeee80b27c311d838.pdf) | ICLR 2026 | 2025 | - | Formal Verification |
