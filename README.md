@@ -71,6 +71,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**TriGen: NPU Architecture for End-to-End Acceleration of Large Language Models based on SW-HW Co-Design**](https://arxiv.org/abs/2602.12962) | arXiv | 2026.02 | - | NPU Architecture, SW-HW Co-Design, LLM Acceleration |
 | [**Automated QoR improvement in OpenROAD with coding agents**](https://arxiv.org/abs/2601.06268) | arXiv | 2026.01 | - | OpenROAD, Coding Agents, PPA, QoR |
 | [**LLM-VeriPPA: Power, Performance, and Area Optimization aware Verilog Code Generation**](https://arxiv.org/abs/2510.15899) | arXiv | 2025.10 | - | PPA Optimization |
 | [**ChipSeek-R1: Generating Human-Surpassing RTL with LLM via Hierarchical Reward-Driven RL**](https://arxiv.org/abs/2507.04736) | arXiv | 2025.07 | - | RL, PPA |
