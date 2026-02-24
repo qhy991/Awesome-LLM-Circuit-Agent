@@ -35,6 +35,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**MING: An Automated CNN-to-Edge MLIR HLS framework**](https://arxiv.org/abs/2602.11966) | arXiv | 2026.02 | - | HLS, MLIR, CNN, Edge Computing |
+| [**ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs**](https://arxiv.org/abs/2602.10218) | arXiv | 2026.02 | - | Agentic Context Evolution, RTL-Specialized LLM |
 | [**AutoFSM: A Multi-agent Framework for FSM Code Generation with IR and SystemC-Based Testing**](https://arxiv.org/abs/2512.11398) | arXiv | 2025.12 | - | FSM, Multi-Agent, IR, SystemC |
 | [**When Forgetting Builds Reliability: LLM Unlearning for Reliable Hardware Code Generation**](https://arxiv.org/pdf/2512.05341) | arXiv | 2025.12 | - | LLM Unlearning, Hardware Code Generation |
 | [**Mitigating Hallucinations and Omissions in LLMs for Invertible Problems: An Application to Hardware Logic Design Automation**](https://arxiv.org/pdf/2512.03053) | arXiv | 2025.12 | - | Hallucination Mitigation, LCT, Autoencoder |
