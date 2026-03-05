@@ -56,6 +56,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**SpecLoop: An Agentic RTL-to-Specification Framework with Formal Verification Feedback Loop**](https://arxiv.org/abs/2603.02895) | arXiv | 2026.03 | - | RTL-to-Specification, Formal Verification, Agentic |
 | [**GRPO with State Mutations: Improving LLM-Based Hardware Test Plan Generation**](https://arxiv.org/abs/2601.07593) | arXiv | 2026.01 | - | Test Plan Generation, GRPO, RL |
 | [**Duet: Agentic Design Understanding via Experimentation and Testing**](https://arxiv.org/pdf/2512.06247) | arXiv | 2025.12 | - | Design Understanding, Experimentation, EDA Tools |
 | [**R3A: Reliable RTL Repair Framework with Multi-Agent Fault Localization and Stochastic Tree-of-Thoughts Patch Generation**](https://arxiv.org/abs/2511.20090) | arXiv | 2025.11 | - | RTL Repair, Multi-Agent |
@@ -95,6 +96,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**ArchAgent: Agentic AI-driven Computer Architecture Discovery**](https://arxiv.org/abs/2602.22425) | arXiv | 2026.02 | - | Agentic AI, Architecture Discovery, Cache Replacement |
 | [**Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation**](https://arxiv.org/abs/2601.19747) | arXiv | 2026.01 | - | Multi-Agent, Formal Verification, Contract-Aware |
 | [**Architect in the Loop Agentic Hardware Design and Verification**](https://arxiv.org/pdf/2512.00016) | arXiv | 2025.12 | [Github](https://github.com/mmubarek/eda) | Agentic Design, Processor Design, Verification |
 | [**David vs. Goliath: Can Small Models Win Big with Agentic AI in Hardware Design?**](https://arxiv.org/abs/2512.05073) | arXiv | 2025.12 | - | Agentic AI, Small Models |
