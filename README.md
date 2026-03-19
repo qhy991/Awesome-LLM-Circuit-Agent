@@ -56,7 +56,10 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**QiMeng-CodeV-SVA: Training Specialized LLMs for Hardware Assertion Generation via RTL-Grounded Bidirectional Data Synthesis**](https://arxiv.org/abs/2603.14239) | arXiv | 2026.03 | - | Assertion Generation, NL2SVA, Data Synthesis |
+| [**AutoVeriFix+: High-Correctness RTL Generation via Trace-Aware Causal Fix and Semantic Redundancy Pruning**](https://arxiv.org/abs/2603.11489) | arXiv | 2026.03 | - | RTL Fixing, Concolic Testing, Functional Correctness |
 | [**SpecLoop: An Agentic RTL-to-Specification Framework with Formal Verification Feedback Loop**](https://arxiv.org/abs/2603.02895) | arXiv | 2026.03 | - | RTL-to-Specification, Formal Verification, Agentic |
+| [**FormalRTL: Verified RTL Synthesis at Scale**](https://arxiv.org/abs/2603.08738) | arXiv | 2026.02 | - | Verified RTL Synthesis, Formal Equivalence, Multi-Agent |
 | [**GRPO with State Mutations: Improving LLM-Based Hardware Test Plan Generation**](https://arxiv.org/abs/2601.07593) | arXiv | 2026.01 | - | Test Plan Generation, GRPO, RL |
 | [**Duet: Agentic Design Understanding via Experimentation and Testing**](https://arxiv.org/pdf/2512.06247) | arXiv | 2025.12 | - | Design Understanding, Experimentation, EDA Tools |
 | [**R3A: Reliable RTL Repair Framework with Multi-Agent Fault Localization and Stochastic Tree-of-Thoughts Patch Generation**](https://arxiv.org/abs/2511.20090) | arXiv | 2025.11 | - | RTL Repair, Multi-Agent |
@@ -72,6 +75,9 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**CODMAS: A Dialectic Multi-Agent Collaborative Framework for Structured RTL Optimization**](https://arxiv.org/abs/2603.17204) | arXiv | 2026.03 | - | RTL Optimization, Multi-Agent, PPA |
+| [**Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization**](https://arxiv.org/abs/2603.13767) | arXiv | 2026.03 | [Github](https://github.com/YiKangOY/Open-LLM-ECO) | QoR Optimization, Agentic Workflow, RAG |
+| [**LUMINA: LLM-Guided GPU Architecture Exploration via Bottleneck Analysis**](https://arxiv.org/abs/2603.05904) | arXiv | 2026.03 | - | GPU DSE, Bottleneck Analysis, LLM-guided |
 | [**TriGen: NPU Architecture for End-to-End Acceleration of Large Language Models based on SW-HW Co-Design**](https://arxiv.org/abs/2602.12962) | arXiv | 2026.02 | - | NPU Architecture, SW-HW Co-Design, LLM Acceleration |
 | [**Automated QoR improvement in OpenROAD with coding agents**](https://arxiv.org/abs/2601.06268) | arXiv | 2026.01 | - | OpenROAD, Coding Agents, PPA, QoR |
 | [**LLM-VeriPPA: Power, Performance, and Area Optimization aware Verilog Code Generation**](https://arxiv.org/abs/2510.15899) | arXiv | 2025.10 | - | PPA Optimization |
@@ -96,6 +102,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation**](https://arxiv.org/abs/2603.08719) | arXiv | 2026.02 | - | Multi-Agent, Distillation, Debug-Reasoning |
 | [**ArchAgent: Agentic AI-driven Computer Architecture Discovery**](https://arxiv.org/abs/2602.22425) | arXiv | 2026.02 | - | Agentic AI, Architecture Discovery, Cache Replacement |
 | [**Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation**](https://arxiv.org/abs/2601.19747) | arXiv | 2026.01 | - | Multi-Agent, Formal Verification, Contract-Aware |
 | [**Architect in the Loop Agentic Hardware Design and Verification**](https://arxiv.org/pdf/2512.00016) | arXiv | 2025.12 | [Github](https://github.com/mmubarek/eda) | Agentic Design, Processor Design, Verification |
@@ -107,6 +114,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Wrong Code, Right Structure: Learning Netlist Representations from Imperfect LLM-Generated RTL**](https://arxiv.org/abs/2603.09161) | arXiv | 2026.03 | - | Netlist Representation Learning, Data Augmentation |
 | [**ChipMind: Retrieval-Augmented Reasoning for Long-Context Circuit Design Specifications**](https://arxiv.org/abs/2512.05371) | AAAI 2026 | 2025.12 | - | RAG, Knowledge Graph, Reasoning |
 | [**RTL++: Graph-enhanced LLM for RTL Code Generation**](https://arxiv.org/abs/2505.13479) | LAD '25 | 2025.05 | - | Graph-enhanced |
 | [**Abstractions-of-Thought: Intermediate Representations for LLM Reasoning in Hardware Design**](https://arxiv.org/abs/2505.15873) | arXiv | 2025.05 | - | IR, Reasoning |
@@ -169,6 +177,9 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation: Quality, Reliability, and Failure Modes**](https://arxiv.org/abs/2603.11287) | arXiv | 2026.03 | - | RTL Evaluation, Synthesis-in-the-Loop, HQI |
+| [**CktEvo: Repository-Level RTL Code Benchmark for Design Evolution**](https://arxiv.org/abs/2603.08718) | arXiv | 2026.02 | - | Repo-level RTL, Benchmark, PPA Evolution |
+| [**VeriInteresting: An Empirical Study of Model Prompt Interactions in Verilog Code Generation**](https://arxiv.org/abs/2603.08715) | arXiv | 2026.02 | - | Empirical Study, Prompt Engineering, Verilog Generation |
 | [**ChipBench: A Next-Step Benchmark for Evaluating LLM Performance in AI-Aided Chip Design**](https://arxiv.org/abs/2601.21448) | arXiv | 2026.01 | - | Verilog Generation, Debugging, Reference Model |
 | [**Bench4HLS: End-to-End Evaluation of LLMs in High-Level Synthesis Code Generation**](https://arxiv.org/abs/2601.19941) | DATE 2026 | 2026.01 | - | HLS, Benchmark, PPA Analysis |
 | ![Star](https://img.shields.io/github/stars/HPAI-BSC/TuRTLe.svg?style=social&label=Star) [**TuRTLe: A Unified Evaluation of LLMs for RTL Generation**](https://arxiv.org/abs/2504.01986) | MLCAD 2025 | 2025.04 | [Github](https://github.com/HPAI-BSC/TuRTLe) | RTL Evaluation, Unified Benchmark |
@@ -211,6 +222,8 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**AI+HW 2035: Shaping the Next Decade**](https://arxiv.org/abs/2603.05225) | Vision Paper | AI+HW Co-Design |
+| [**ChatNeuroSim: An LLM Agent Framework for Automated Compute-in-Memory Accelerator Deployment and Optimization**](https://arxiv.org/abs/2603.08745) | Paper | CIM Accelerator, Agentic Optimization |
 | [**BrainWave NPU Microarchitecture Analysis**](https://github.com/dzwduan/fpga-npu/tree/main/doc) | Docs | NPU Architecture |
 | [**EEschematic Presentation**](https://docs.google.com/presentation/d/e/2PACX-1vROdrVB1vpGM1tqHSvA2HpPmH6B2HpILzLM8kaqnePEtZ8UP_To8q5GsWh90YOtBjYZCUov2rnOzis7/pub?start=false&loop=false&delayms=3000&slide=id.p1) | Slides | AMS Circuit |
 | [**ASIC Technology Lecture**](https://schaumont.dyn.wpi.edu/ece574f24/01asictechnology.html) | Course | ASIC |
