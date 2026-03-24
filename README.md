@@ -75,6 +75,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**POET: Power-Oriented Evolutionary Tuning for LLM-Based RTL PPA Optimization**](https://arxiv.org/abs/2603.19333) | arXiv | 2026.03 | - | PPA Optimization, Power-Oriented, Evolutionary Tuning |
 | [**CODMAS: A Dialectic Multi-Agent Collaborative Framework for Structured RTL Optimization**](https://arxiv.org/abs/2603.17204) | arXiv | 2026.03 | - | RTL Optimization, Multi-Agent, PPA |
 | [**Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization**](https://arxiv.org/abs/2603.13767) | arXiv | 2026.03 | [Github](https://github.com/YiKangOY/Open-LLM-ECO) | QoR Optimization, Agentic Workflow, RAG |
 | [**LUMINA: LLM-Guided GPU Architecture Exploration via Bottleneck Analysis**](https://arxiv.org/abs/2603.05904) | arXiv | 2026.03 | - | GPU DSE, Bottleneck Analysis, LLM-guided |
@@ -102,6 +103,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Exploring the Agentic Frontier of Verilog Code Generation**](https://arxiv.org/abs/2603.19347) | arXiv | 2026.03 | - | Agentic Verilog Generation, Tool-Using Agents, Empirical Evaluation |
 | [**SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation**](https://arxiv.org/abs/2603.08719) | arXiv | 2026.02 | - | Multi-Agent, Distillation, Debug-Reasoning |
 | [**ArchAgent: Agentic AI-driven Computer Architecture Discovery**](https://arxiv.org/abs/2602.22425) | arXiv | 2026.02 | - | Agentic AI, Architecture Discovery, Cache Replacement |
 | [**Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation**](https://arxiv.org/abs/2601.19747) | arXiv | 2026.01 | - | Multi-Agent, Formal Verification, Contract-Aware |
@@ -177,6 +179,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**HWE-Bench: Can Language Models Perform Board-level Schematic Designs?**](https://arxiv.org/abs/2603.18102) | arXiv | 2026.03 | - | Board-level Schematic Design, Benchmark, EDA Evaluation |
 | [**Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation: Quality, Reliability, and Failure Modes**](https://arxiv.org/abs/2603.11287) | arXiv | 2026.03 | - | RTL Evaluation, Synthesis-in-the-Loop, HQI |
 | [**CktEvo: Repository-Level RTL Code Benchmark for Design Evolution**](https://arxiv.org/abs/2603.08718) | arXiv | 2026.02 | - | Repo-level RTL, Benchmark, PPA Evolution |
 | [**VeriInteresting: An Empirical Study of Model Prompt Interactions in Verilog Code Generation**](https://arxiv.org/abs/2603.08715) | arXiv | 2026.02 | - | Empirical Study, Prompt Engineering, Verilog Generation |
