@@ -35,6 +35,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?**](https://arxiv.org/abs/2603.25719) | arXiv | 2026.03 | - | HLS, Coding Agents, Multi-Agent, Hardware Optimization |
+| [**IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution**](https://arxiv.org/abs/2603.25769) | arXiv | 2026.03 | - | Incremental RTL, Requirement Evolution, Traceability, EvoRTL-Bench |
 | [**MING: An Automated CNN-to-Edge MLIR HLS framework**](https://arxiv.org/abs/2602.11966) | arXiv | 2026.02 | - | HLS, MLIR, CNN, Edge Computing |
 | [**ACE-RTL: When Agentic Context Evolution Meets RTL-Specialized LLMs**](https://arxiv.org/abs/2602.10218) | arXiv | 2026.02 | - | Agentic Context Evolution, RTL-Specialized LLM |
 | [**AutoFSM: A Multi-agent Framework for FSM Code Generation with IR and SystemC-Based Testing**](https://arxiv.org/abs/2512.11398) | arXiv | 2025.12 | - | FSM, Multi-Agent, IR, SystemC |
@@ -56,6 +58,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**UCAgent: An End-to-End Agent for Block-Level Functional Verification**](https://arxiv.org/abs/2603.25768) | arXiv | 2026.03 | - | Functional Verification, Block-Level, Multi-Stage Agent |
 | [**QiMeng-CodeV-SVA: Training Specialized LLMs for Hardware Assertion Generation via RTL-Grounded Bidirectional Data Synthesis**](https://arxiv.org/abs/2603.14239) | arXiv | 2026.03 | - | Assertion Generation, NL2SVA, Data Synthesis |
 | [**AutoVeriFix+: High-Correctness RTL Generation via Trace-Aware Causal Fix and Semantic Redundancy Pruning**](https://arxiv.org/abs/2603.11489) | arXiv | 2026.03 | - | RTL Fixing, Concolic Testing, Functional Correctness |
 | [**SpecLoop: An Agentic RTL-to-Specification Framework with Formal Verification Feedback Loop**](https://arxiv.org/abs/2603.02895) | arXiv | 2026.03 | - | RTL-to-Specification, Formal Verification, Agentic |
@@ -103,6 +106,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**FluxEDA: A Unified Execution Infrastructure for Stateful Agentic EDA**](https://arxiv.org/abs/2603.25243) | arXiv | 2026.03 | - | Agentic EDA, Stateful Execution, Tool Integration |
 | [**Exploring the Agentic Frontier of Verilog Code Generation**](https://arxiv.org/abs/2603.19347) | arXiv | 2026.03 | - | Agentic Verilog Generation, Tool-Using Agents, Empirical Evaluation |
 | [**SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation**](https://arxiv.org/abs/2603.08719) | arXiv | 2026.02 | - | Multi-Agent, Distillation, Debug-Reasoning |
 | [**ArchAgent: Agentic AI-driven Computer Architecture Discovery**](https://arxiv.org/abs/2602.22425) | arXiv | 2026.02 | - | Agentic AI, Architecture Discovery, Cache Replacement |
@@ -165,6 +169,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Causal AI For AMS Circuit Design: Interpretable Parameter Effects Analysis**](https://arxiv.org/abs/2603.24618) | arXiv | 2026.03 | - | AMS, Causal Inference, Interpretability, SPICE |
 | [**AnalogTester: A Large Language Model-Based Framework for Automatic Testbench Generation**](https://arxiv.org/abs/2507.09965) | arXiv | 2025.07 | - | Testbench Generation |
 | [**LIMCA: LLM for Automating Analog In-Memory Computing Architecture Design Exploration**](https://arxiv.org/abs/2503.13301) | arXiv | 2025.03 | - | In-Memory Computing |
 | [**FALCON: An ML Framework for Fully Automated Layout-Constrained Analog Circuit Design**](https://arxiv.org/pdf/2505.21923) | arXiv | 2025.05 | - | Layout-Constrained |
@@ -225,6 +230,8 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**Energy Efficient Software Hardware CoDesign for Machine Learning: From TinyML to Large Language Models**](https://arxiv.org/abs/2603.23668) | Survey | Energy Efficiency, SW-HW Co-Design, ML Systems |
+| [**SCALE-Sim TPU: Validating and Extending SCALE-Sim for TPUs**](https://arxiv.org/abs/2603.22535) | Paper | TPU, Cycle-Accurate Simulation, ML Compiler |
 | [**AI+HW 2035: Shaping the Next Decade**](https://arxiv.org/abs/2603.05225) | Vision Paper | AI+HW Co-Design |
 | [**ChatNeuroSim: An LLM Agent Framework for Automated Compute-in-Memory Accelerator Deployment and Optimization**](https://arxiv.org/abs/2603.08745) | Paper | CIM Accelerator, Agentic Optimization |
 | [**BrainWave NPU Microarchitecture Analysis**](https://github.com/dzwduan/fpga-npu/tree/main/doc) | Docs | NPU Architecture |
