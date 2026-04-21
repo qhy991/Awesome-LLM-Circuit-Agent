@@ -35,6 +35,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning and Testbench Automation**](https://arxiv.org/abs/2604.15388) | arXiv | 2026.04 | - | Verilog Generation, Data-Efficient Fine-Tuning, Testbench Automation |
 | [**Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?**](https://arxiv.org/abs/2603.25719) | arXiv | 2026.03 | - | HLS, Coding Agents, Multi-Agent, Hardware Optimization |
 | [**IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution**](https://arxiv.org/abs/2603.25769) | arXiv | 2026.03 | - | Incremental RTL, Requirement Evolution, Traceability, EvoRTL-Bench |
 | [**MING: An Automated CNN-to-Edge MLIR HLS framework**](https://arxiv.org/abs/2602.11966) | arXiv | 2026.02 | - | HLS, MLIR, CNN, Edge Computing |
@@ -58,6 +59,9 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**ChatSVA: Bridging SVA Generation for Hardware Verification via Task-Specific LLMs**](https://arxiv.org/abs/2604.02811) | arXiv | 2026.04 | - | SVA Generation, Hardware Verification, Task-Specific LLMs |
+| [**Automated SVA Generation with LLMs**](https://arxiv.org/abs/2604.11044) | arXiv | 2026.04 | - | SVA Generation, Hardware Verification, LLMs |
+| [**From Indiscriminate to Targeted: Efficient RTL Verification via Functionally Key Signal-Driven LLM Assertion Generation**](https://arxiv.org/abs/2604.08932) | arXiv | 2026.04 | - | RTL Verification, Assertion Generation, Key Signal-Driven |
 | [**UCAgent: An End-to-End Agent for Block-Level Functional Verification**](https://arxiv.org/abs/2603.25768) | arXiv | 2026.03 | - | Functional Verification, Block-Level, Multi-Stage Agent |
 | [**QiMeng-CodeV-SVA: Training Specialized LLMs for Hardware Assertion Generation via RTL-Grounded Bidirectional Data Synthesis**](https://arxiv.org/abs/2603.14239) | arXiv | 2026.03 | - | Assertion Generation, NL2SVA, Data Synthesis |
 | [**AutoVeriFix+: High-Correctness RTL Generation via Trace-Aware Causal Fix and Semantic Redundancy Pruning**](https://arxiv.org/abs/2603.11489) | arXiv | 2026.03 | - | RTL Fixing, Concolic Testing, Functional Correctness |
@@ -78,6 +82,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC**](https://arxiv.org/abs/2604.15082) | arXiv | 2026.04 | - | EDA Tools, Multi-Agent, Self-Evolution, ABC |
+| [**Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement**](https://arxiv.org/abs/2604.14989) | arXiv | 2026.04 | - | RTL Optimization, Agentic Workflow, Tool-Grounded Self-Improvement |
 | [**POET: Power-Oriented Evolutionary Tuning for LLM-Based RTL PPA Optimization**](https://arxiv.org/abs/2603.19333) | arXiv | 2026.03 | - | PPA Optimization, Power-Oriented, Evolutionary Tuning |
 | [**CODMAS: A Dialectic Multi-Agent Collaborative Framework for Structured RTL Optimization**](https://arxiv.org/abs/2603.17204) | arXiv | 2026.03 | - | RTL Optimization, Multi-Agent, PPA |
 | [**Retrieve, Schedule, Reflect: LLM Agents for Chip QoR Optimization**](https://arxiv.org/abs/2603.13767) | arXiv | 2026.03 | [Github](https://github.com/YiKangOY/Open-LLM-ECO) | QoR Optimization, Agentic Workflow, RAG |
@@ -106,6 +112,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs**](https://arxiv.org/abs/2604.14550) | arXiv | 2026.04 | - | Hierarchical RTL Generation, Multi-Agent, Large Hardware Designs |
 | [**FluxEDA: A Unified Execution Infrastructure for Stateful Agentic EDA**](https://arxiv.org/abs/2603.25243) | arXiv | 2026.03 | - | Agentic EDA, Stateful Execution, Tool Integration |
 | [**Exploring the Agentic Frontier of Verilog Code Generation**](https://arxiv.org/abs/2603.19347) | arXiv | 2026.03 | - | Agentic Verilog Generation, Tool-Using Agents, Empirical Evaluation |
 | [**SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation**](https://arxiv.org/abs/2603.08719) | arXiv | 2026.02 | - | Multi-Agent, Distillation, Debug-Reasoning |
@@ -145,6 +152,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design Equations**](https://arxiv.org/abs/2604.07387) | arXiv | 2026.04 | - | Analog Sizing, Self-Calibration, Interpretable Design Equations |
 | [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Bayesian Optimization |
 | [**HeaRT: A Hierarchical Circuit Reasoning Tree-Based Agentic Framework for AMS Design Optimization**](https://arxiv.org/abs/2511.19669) | arXiv | 2025.11 | - | Reasoning, Optimization |
 | ![Star](https://img.shields.io/github/stars/eelab-dev/EEsizer.svg?style=social&label=Star) <br> [**EEsizer: LLM-Based AI Agent for Sizing of Analog and Mixed Signal Circuit**](https://arxiv.org/pdf/2509.25510) | arXiv | 2025.09 | [Github](https://github.com/eelab-dev/EEsizer) | Transistor Sizing |
@@ -290,6 +298,6 @@ This work is licensed under a [Creative Commons Zero v1.0 Universal](LICENSE) li
 
 Maintained with ❤️ by the community
 
-*Last Updated: November 2025*
+*Last Updated: April 2026*
 
 </div>
