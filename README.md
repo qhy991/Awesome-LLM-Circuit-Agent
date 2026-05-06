@@ -35,6 +35,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**SafeTune: Mitigating Data Poisoning in LLM Fine-Tuning for RTL Code Generation**](https://arxiv.org/abs/2604.27238) | arXiv | 2026.04 | - | RTL Code Generation, Fine-Tuning Security, Data Poisoning, Hardware Trojan |
 | [**Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning and Testbench Automation**](https://arxiv.org/abs/2604.15388) | arXiv | 2026.04 | - | Verilog Generation, Data-Efficient Fine-Tuning, Testbench Automation |
 | [**Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?**](https://arxiv.org/abs/2603.25719) | arXiv | 2026.03 | - | HLS, Coding Agents, Multi-Agent, Hardware Optimization |
 | [**IncreRTL: Traceability-Guided Incremental RTL Generation under Requirement Evolution**](https://arxiv.org/abs/2603.25769) | arXiv | 2026.03 | - | Incremental RTL, Requirement Evolution, Traceability, EvoRTL-Bench |
@@ -59,6 +60,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**HAVEN: Hybrid Automated Verification ENgine for UVM Testbench Synthesis with LLMs**](https://arxiv.org/abs/2604.27643) | arXiv | 2026.04 | - | UVM Testbench Generation, Verification Automation, Protocol-Aware DSL |
+| [**From Language to Logic: Bridging LLMs & Formal Representations for RTL Assertion Generation**](https://arxiv.org/abs/2604.23100) | arXiv | 2026.04 | - | SVA Generation, Formal Verification, Solver-in-the-loop |
 | [**ChatSVA: Bridging SVA Generation for Hardware Verification via Task-Specific LLMs**](https://arxiv.org/abs/2604.02811) | arXiv | 2026.04 | - | SVA Generation, Hardware Verification, Task-Specific LLMs |
 | [**Automated SVA Generation with LLMs**](https://arxiv.org/abs/2604.11044) | arXiv | 2026.04 | - | SVA Generation, Hardware Verification, LLMs |
 | [**From Indiscriminate to Targeted: Efficient RTL Verification via Functionally Key Signal-Driven LLM Assertion Generation**](https://arxiv.org/abs/2604.08932) | arXiv | 2026.04 | - | RTL Verification, Assertion Generation, Key Signal-Driven |
@@ -82,6 +85,10 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**PipeRTL: Timing-Aware Pipeline Optimization at IR-Level for RTL Generation**](https://arxiv.org/abs/2605.01836) | arXiv | 2026.05 | - | RTL Optimization, Pipeline Optimization, Timing-Aware, CIRCT |
+| [**How Can Reinforcement Learning Achieve Expert-level Placement?**](https://arxiv.org/abs/2604.25191) | DAC 2026 | 2026.04 | - | Chip Placement, Reinforcement Learning, Reward Modeling, Expert Imitation |
+| [**RAG-Enhanced Kernel-Based Heuristic Synthesis (RKHS): A Structured Methodology Using Large Language Models for Hardware Design**](https://arxiv.org/abs/2604.26153) | arXiv | 2026.04 | - | HLS Scheduling, Heuristic Synthesis, RAG, LLM |
+| [**TimingLLM: A Two-Stage Retrieval-Augmented Framework for Pre-Synthesis Timing Prediction from Verilog**](https://arxiv.org/abs/2604.23602) | arXiv | 2026.04 | - | Timing Prediction, RTL Analysis, Retrieval-Augmented |
 | [**Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC**](https://arxiv.org/abs/2604.15082) | arXiv | 2026.04 | - | EDA Tools, Multi-Agent, Self-Evolution, ABC |
 | [**Dr. RTL: Autonomous Agentic RTL Optimization through Tool-Grounded Self-Improvement**](https://arxiv.org/abs/2604.14989) | arXiv | 2026.04 | - | RTL Optimization, Agentic Workflow, Tool-Grounded Self-Improvement |
 | [**POET: Power-Oriented Evolutionary Tuning for LLM-Based RTL PPA Optimization**](https://arxiv.org/abs/2603.19333) | arXiv | 2026.03 | - | PPA Optimization, Power-Oriented, Evolutionary Tuning |
@@ -112,6 +119,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Agentic Architect: An Agentic AI Framework for Architecture Design Exploration and Optimization**](https://arxiv.org/abs/2604.25083) | arXiv | 2026.04 | - | Architecture Optimization, Agentic AI, Design Space Exploration |
 | [**VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs**](https://arxiv.org/abs/2604.14550) | arXiv | 2026.04 | - | Hierarchical RTL Generation, Multi-Agent, Large Hardware Designs |
 | [**FluxEDA: A Unified Execution Infrastructure for Stateful Agentic EDA**](https://arxiv.org/abs/2603.25243) | arXiv | 2026.03 | - | Agentic EDA, Stateful Execution, Tool Integration |
 | [**Exploring the Agentic Frontier of Verilog Code Generation**](https://arxiv.org/abs/2603.19347) | arXiv | 2026.03 | - | Agentic Verilog Generation, Tool-Using Agents, Empirical Evaluation |
@@ -166,6 +174,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AnalogMaster: Large Language Model-based Automated Analog IC Design Framework from Image to Layout**](https://arxiv.org/abs/2604.20916) | arXiv | 2026.04 | - | End-to-End Analog Design, Image-to-Netlist, Layout Automation |
 | [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Workflow |
 | [**AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience**](https://arxiv.org/abs/2512.22435) | arXiv | 2025.12 | - | Multi-Agent, Self-evolving, Stratified Memory |
 | [**AnaFlow: Agentic LLM-based Workflow for Reasoning-Driven Explainable and Sample-Efficient Analog Circuit Sizing**](https://arxiv.org/pdf/2511.03697) | arXiv | 2025.11 | - | Workflow |
@@ -192,6 +201,8 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AMSnet-q: Unsupervised Circuit Identification and Performance Labeling for AMS Circuits**](https://arxiv.org/abs/2605.01404) | arXiv | 2026.05 | - | AMS Dataset Construction, Unsupervised Labeling, Performance Annotation |
+| [**RuC: HDL-Agnostic Rule Completion Benchmark Generation**](https://arxiv.org/abs/2604.27780) | arXiv | 2026.04 | - | RTL Benchmark Generation, Code Completion, Grammar-driven Evaluation |
 | [**HWE-Bench: Can Language Models Perform Board-level Schematic Designs?**](https://arxiv.org/abs/2603.18102) | arXiv | 2026.03 | - | Board-level Schematic Design, Benchmark, EDA Evaluation |
 | [**Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation: Quality, Reliability, and Failure Modes**](https://arxiv.org/abs/2603.11287) | arXiv | 2026.03 | - | RTL Evaluation, Synthesis-in-the-Loop, HQI |
 | [**CktEvo: Repository-Level RTL Code Benchmark for Design Evolution**](https://arxiv.org/abs/2603.08718) | arXiv | 2026.02 | - | Repo-level RTL, Benchmark, PPA Evolution |
@@ -298,6 +309,6 @@ This work is licensed under a [Creative Commons Zero v1.0 Universal](LICENSE) li
 
 Maintained with ❤️ by the community
 
-*Last Updated: April 2026*
+*Last Updated: May 2026*
 
 </div>
