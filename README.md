@@ -60,6 +60,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**UVmarvel: an Automated LLM-aided UVM Machine for Subsystem-level RTL Verification**](https://arxiv.org/abs/2605.04704) | arXiv | 2026.05 | - | UVM Verification, Subsystem-level RTL, Stimuli Refinement |
 | [**HAVEN: Hybrid Automated Verification ENgine for UVM Testbench Synthesis with LLMs**](https://arxiv.org/abs/2604.27643) | arXiv | 2026.04 | - | UVM Testbench Generation, Verification Automation, Protocol-Aware DSL |
 | [**From Language to Logic: Bridging LLMs & Formal Representations for RTL Assertion Generation**](https://arxiv.org/abs/2604.23100) | arXiv | 2026.04 | - | SVA Generation, Formal Verification, Solver-in-the-loop |
 | [**ChatSVA: Bridging SVA Generation for Hardware Verification via Task-Specific LLMs**](https://arxiv.org/abs/2604.02811) | arXiv | 2026.04 | - | SVA Generation, Hardware Verification, Task-Specific LLMs |
@@ -119,8 +120,10 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours**](https://arxiv.org/abs/2605.05170) | arXiv | 2026.05 | - | Agentic Hardware Design, Inference Accelerator, End-to-End Workflow |
 | [**Agentic Architect: An Agentic AI Framework for Architecture Design Exploration and Optimization**](https://arxiv.org/abs/2604.25083) | arXiv | 2026.04 | - | Architecture Optimization, Agentic AI, Design Space Exploration |
 | [**VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs**](https://arxiv.org/abs/2604.14550) | arXiv | 2026.04 | - | Hierarchical RTL Generation, Multi-Agent, Large Hardware Designs |
+| [**Design Conductor: An agent autonomously builds a 1.5 GHz Linux-capable RISC-V CPU**](https://arxiv.org/abs/2603.08716) | arXiv | 2026.03 | - | Agentic Hardware Design, Autonomous CPU Design, RTL-to-GDSII |
 | [**FluxEDA: A Unified Execution Infrastructure for Stateful Agentic EDA**](https://arxiv.org/abs/2603.25243) | arXiv | 2026.03 | - | Agentic EDA, Stateful Execution, Tool Integration |
 | [**Exploring the Agentic Frontier of Verilog Code Generation**](https://arxiv.org/abs/2603.19347) | arXiv | 2026.03 | - | Agentic Verilog Generation, Tool-Using Agents, Empirical Evaluation |
 | [**SiliconMind-V1: Multi-Agent Distillation and Debug-Reasoning Workflows for Verilog Code Generation**](https://arxiv.org/abs/2603.08719) | arXiv | 2026.02 | - | Multi-Agent, Distillation, Debug-Reasoning |
@@ -160,6 +163,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**RFAmpDesigner: A Self-Evolving Multi-Agent LLM Framework for Automated Radio Frequency Amplifier Design**](https://arxiv.org/abs/2605.10093) | arXiv | 2026.05 | - | RF Amplifier Sizing, Multi-Agent, RAG Memory, Automated Optimization |
 | [**Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design Equations**](https://arxiv.org/abs/2604.07387) | arXiv | 2026.04 | - | Analog Sizing, Self-Calibration, Interpretable Design Equations |
 | [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Bayesian Optimization |
 | [**HeaRT: A Hierarchical Circuit Reasoning Tree-Based Agentic Framework for AMS Design Optimization**](https://arxiv.org/abs/2511.19669) | arXiv | 2025.11 | - | Reasoning, Optimization |
@@ -201,6 +205,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Bridging the Last Mile of Circuit Design: PostEDA-Bench, a Hierarchical Benchmark for PPA Convergence and DRC Fixing**](https://arxiv.org/abs/2605.06936) | arXiv | 2026.05 | - | Post-EDA Benchmark, PPA Convergence, DRC Fixing, Agent Evaluation |
 | [**AMSnet-q: Unsupervised Circuit Identification and Performance Labeling for AMS Circuits**](https://arxiv.org/abs/2605.01404) | arXiv | 2026.05 | - | AMS Dataset Construction, Unsupervised Labeling, Performance Annotation |
 | [**RuC: HDL-Agnostic Rule Completion Benchmark Generation**](https://arxiv.org/abs/2604.27780) | arXiv | 2026.04 | - | RTL Benchmark Generation, Code Completion, Grammar-driven Evaluation |
 | [**HWE-Bench: Can Language Models Perform Board-level Schematic Designs?**](https://arxiv.org/abs/2603.18102) | arXiv | 2026.03 | - | Board-level Schematic Design, Benchmark, EDA Evaluation |
