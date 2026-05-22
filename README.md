@@ -35,6 +35,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**CPPL: A Circuit Prompt Programming Language**](https://arxiv.org/abs/2605.17892) | arXiv | 2026.05 | [Github](https://github.com/SawyDust1228/CPPL) | RTL Generation, Compiler-Mediated, CIRCT, Circuit IR |
 | [**SafeTune: Mitigating Data Poisoning in LLM Fine-Tuning for RTL Code Generation**](https://arxiv.org/abs/2604.27238) | arXiv | 2026.04 | - | RTL Code Generation, Fine-Tuning Security, Data Poisoning, Hardware Trojan |
 | [**Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning and Testbench Automation**](https://arxiv.org/abs/2604.15388) | arXiv | 2026.04 | - | Verilog Generation, Data-Efficient Fine-Tuning, Testbench Automation |
 | [**Agent Factories for High Level Synthesis: How Far Can General-Purpose Coding Agents Go in Hardware Optimization?**](https://arxiv.org/abs/2603.25719) | arXiv | 2026.03 | - | HLS, Coding Agents, Multi-Agent, Hardware Optimization |
@@ -120,6 +121,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**A3D: Agentic AI flow for autonomous Accelerator Design**](https://arxiv.org/abs/2605.15237) | arXiv | 2026.05 | - | Accelerator Design, HLS, Multi-Agent, End-to-End Automation |
 | [**Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours**](https://arxiv.org/abs/2605.05170) | arXiv | 2026.05 | - | Agentic Hardware Design, Inference Accelerator, End-to-End Workflow |
 | [**Agentic Architect: An Agentic AI Framework for Architecture Design Exploration and Optimization**](https://arxiv.org/abs/2604.25083) | arXiv | 2026.04 | - | Architecture Optimization, Agentic AI, Design Space Exploration |
 | [**VeriGraphi: A Multi-Agent Framework of Hierarchical RTL Generation for Large Hardware Designs**](https://arxiv.org/abs/2604.14550) | arXiv | 2026.04 | - | Hierarchical RTL Generation, Multi-Agent, Large Hardware Designs |
