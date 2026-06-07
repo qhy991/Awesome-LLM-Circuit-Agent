@@ -1,0 +1,87 @@
+# Category and layout configuration for the LLM Circuit Agent Landscape.
+# x controls horizontal position in the optional static SVG renderer.
+categories:
+  Digital-CodeGen:
+    color: "#1976D2"
+    soft_fill: "#EAF3FF"
+    x: 200
+    title_en: "Digital · RTL Code Generation"
+    title_zh: "数字 · RTL 代码生成"
+  Digital-Verification:
+    color: "#00897B"
+    soft_fill: "#E6F6F4"
+    x: 470
+    title_en: "Digital · Verification & Testing"
+    title_zh: "数字 · 验证与测试"
+  Digital-Optimization:
+    color: "#D84040"
+    soft_fill: "#FFF0F0"
+    x: 740
+    title_en: "Digital · PPA Optimization"
+    title_zh: "数字 · PPA 优化"
+  Digital-RL:
+    color: "#8E24AA"
+    soft_fill: "#F6ECFB"
+    x: 1010
+    title_en: "Digital · Reinforcement Learning"
+    title_zh: "数字 · 强化学习"
+  Digital-MultiAgent:
+    color: "#3949AB"
+    soft_fill: "#ECEEFB"
+    x: 1280
+    title_en: "Digital · Multi-Agent & Workflows"
+    title_zh: "数字 · 多智能体与工作流"
+  Digital-Reasoning:
+    color: "#5D4037"
+    soft_fill: "#F2ECE9"
+    x: 1550
+    title_en: "Digital · Reasoning & Graph"
+    title_zh: "数字 · 推理与图结构"
+  Analog-Topology:
+    color: "#F5A623"
+    soft_fill: "#FFF7E7"
+    x: 200
+    title_en: "Analog · Topology & Schematic"
+    title_zh: "模拟 · 拓扑与原理图"
+  Analog-Sizing:
+    color: "#C0CA33"
+    soft_fill: "#F7F9E6"
+    x: 470
+    title_en: "Analog · Sizing & Optimization"
+    title_zh: "模拟 · 尺寸设计与优化"
+  Analog-Workflow:
+    color: "#00ACC1"
+    soft_fill: "#E4F7FA"
+    x: 740
+    title_en: "Analog · Workflows & Multi-Agent"
+    title_zh: "模拟 · 工作流与多智能体"
+  Analog-Specialized:
+    color: "#7CB342"
+    soft_fill: "#EEF7E6"
+    x: 1010
+    title_en: "Analog · Specialized Applications"
+    title_zh: "模拟 · 专用应用"
+  Datasets:
+    color: "#6A1B9A"
+    soft_fill: "#F4ECFF"
+    x: 1280
+    title_en: "Datasets & Benchmarks"
+    title_zh: "数据集与基准"
+  Resources:
+    color: "#455A64"
+    soft_fill: "#ECEFF1"
+    x: 1550
+    title_en: "Resources & Surveys"
+    title_zh: "资源与综述"
+
+periods:
+  "2026+":
+    y: 280
+  "2025 H2":
+    y: 440
+  "2025 H1":
+    y: 600
+  "2024":
+    y: 760
+  "2023":
+    y: 920

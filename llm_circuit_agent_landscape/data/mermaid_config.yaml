@@ -1,0 +1,44 @@
+# Mermaid rendering & README sync configuration
+
+readme_files:
+  en:
+    path: ../README.md
+    locale: en
+
+markers:
+  report_timeline:
+    begin: "<!-- LANDSCAPE-TIMELINE-REPORT:BEGIN -->"
+    end: "<!-- LANDSCAPE-TIMELINE-REPORT:END -->"
+  full_timeline:
+    begin: "<!-- LANDSCAPE-TIMELINE-FULL:BEGIN -->"
+    end: "<!-- LANDSCAPE-TIMELINE-FULL:END -->"
+  category_map:
+    begin: "<!-- LANDSCAPE-CATEGORY-MAP:BEGIN -->"
+    end: "<!-- LANDSCAPE-CATEGORY-MAP:END -->"
+
+timelines:
+  report:
+    title_en: "LLM Circuit Agent Field Timeline (Curated)"
+    title_zh: "LLM Circuit Agent 方向时间线（精选）"
+    source: data/timeline.yaml
+  full:
+    title_en: "LLM Circuit Agent Full Timeline (All Curated Entries)"
+    title_zh: "LLM Circuit Agent 完整时间线（全部 curated entries）"
+    include_external: true
+
+category_map:
+  title_en: "LLM Circuit Agent Category Map"
+  title_zh: "LLM Circuit Agent 分类全景"
+  include_categories:
+    - Digital-CodeGen
+    - Digital-Verification
+    - Digital-Optimization
+    - Digital-RL
+    - Digital-MultiAgent
+    - Digital-Reasoning
+    - Analog-Topology
+    - Analog-Sizing
+    - Analog-Workflow
+    - Analog-Specialized
+    - Datasets
+    - Resources

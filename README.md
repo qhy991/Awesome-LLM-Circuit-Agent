@@ -10,6 +10,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 
 ## 📖 Table of Contents
 
+- [Landscape Map](#-landscape-map)
 - [Digital Circuit Design (RTL)](#-digital-circuit-design-rtl)
   - [Code Generation & Synthesis](#-code-generation--synthesis)
   - [Verification & Testing](#-verification--testing)
@@ -26,6 +27,415 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 - [Datasets & Benchmarks](#-datasets--benchmarks)
 - [Resources & Learning](#-resources--learning)
 - [Contributing](#-contributing)
+
+---
+
+## 🗺️ Landscape Map
+
+GitHub **natively renders Mermaid** in README files. The landscape is maintained in [`llm_circuit_agent_landscape/`](llm_circuit_agent_landscape/): **edit YAML → generate Mermaid → sync to README**.
+
+```bash
+cd llm_circuit_agent_landscape && make all   # validate + render + sync README
+```
+
+### Curated Timeline
+
+<!-- LANDSCAPE-TIMELINE-REPORT:BEGIN -->
+
+```mermaid
+timeline
+    title LLM Circuit Agent Field Timeline (Curated)
+    2023-05 : Chip-Chat (Conversational HW Design)
+    2023-07 : VeriGen
+    2023-10 : VerilogEval
+    2024-01 : RTLLM
+    2024-07 : CodeV
+             : Multi-modal Verilog Benchmark
+             : LaMAGIC (Analog Topology)
+    2025-04 : TuRTLe
+             : ReasoningV
+    2025-07 : ChipSeek-R1
+    2025-08 : VeriRL
+             : AnalogCoder-Pro
+    2025-10 : EEschematic
+             : VeriGRAG
+    2025-11 : EARL
+             : HeaRT (Analog AMS)
+    2025-12 : ChipMind
+             : AnalogSAGE
+    2026-01 : ChipBench
+             : VLM-CAD
+    2026-03 : Design Conductor
+             : FormalRTL
+    2026-04 : AnalogMaster
+             : Dr. RTL
+    2026-05 : CPPL
+             : A3D
+             : RFAmpDesigner
+```
+
+<!-- LANDSCAPE-TIMELINE-REPORT:END -->
+
+<details>
+<summary><b>Full timeline (all curated entries)</b></summary>
+
+<!-- LANDSCAPE-TIMELINE-FULL:BEGIN -->
+
+```mermaid
+timeline
+    title LLM Circuit Agent Full Timeline (All Curated Entries)
+    2023-05 : Chip-Chat
+    2023-07 : VeriGen
+             : Verilog_GitHub Dataset
+    2023-10 : VerilogEval
+    2023-12 : Improving Large Language Model Hardware Generating Quality through
+    2024-01 : RTLLM
+    2024-03 : Data is all you need
+             : Learning-driven Physically-aware Large-scale Circuit Gate Sizing
+    2024-04 : RTL-Repair
+             : DE-HNN
+    2024-06 : LLM-Enhanced Bayesian Optimization for Efficient Analog Layout Constraint
+    2024-07 : CodeV
+             : Large Language Model for Verilog Generation with Code-Structure-Guided
+             : LaMAGIC
+             : RoSE-Opt
+             : AICircuit
+             : Natural language is not enough
+             : PyraNet-Verilog Dataset
+    2024-11 : Schemato -- An LLM for Netlist-to-Schematic Conversion
+    2024-12 : DocEDA
+    2025-01 : MetRex
+    2025-02 : CIRCUIT
+             : Towards Understanding Fine-Tuning Mechanisms of LLMs via Circuit
+    2025-03 : RTL-LLM
+             : Improving LLM-Based Verilog Code Generation with Data Augmentation
+             : LIMCA
+             : VHDL GitHub Deduplicated
+             : Chisel-Verilog Pairs
+    2025-04 : SymRTLO
+             : VFlow
+             : ReasoningV
+             : Towards Optimal Circuit Generation
+             : TuRTLe
+             : ReasoningV-5K Dataset
+    2025-05 : VeriSynth
+             : RTL++
+             : Abstractions-of-Thought
+             : FALCON
+             : PyMTL-Verilog Pairs
+    2025-06 : BugGen
+             : ORFS-agent
+             : SpiceMixer
+             : A Large Language Model-based Multi-Agent Framework for Analog
+    2025-07 : ChipSeek-R1
+             : DiffCkt
+             : AnalogTester
+    2025-08 : VERIRL
+             : CRADLE
+             : White-Box Reasoning
+             : AnalogCoder-Pro
+    2025-09 : LocalV
+             : SPARC-RTL
+             : RTLSeek
+             : VeriReason
+             : EEsizer
+             : TopoSizing
+             : Pluto
+             : Refining Specs For LLM-Based RTL Agile Design
+    2025-10 : VeriGRAG
+             : DeepV
+             : LLM-VeriPPA
+             : REvolution
+             : EEschematic
+    2025-11 : PrefixGPT
+             : QiMeng-CRUX
+             : R3A
+             : TB or Not TB
+             : Automating Hardware Design and Verification from Architectural Papers
+             : Think with Self-Decoupling and Self-Verification
+             : CorrectHDL
+             : EARL
+             : HeaRT
+             : AnaFlow
+    2025-12 : AutoFSM
+             : When Forgetting Builds Reliability
+             : Mitigating Hallucinations and Omissions in LLMs for Invertible
+             : Duet
+             : Architect in the Loop Agentic Hardware Design and
+             : David vs. Goliath
+             : ChipMind
+             : AnalogSAGE
+             : NotSoTiny
+             : Large Language Model for Verilog Code Generation
+    2026-01 : GRPO with State Mutations
+             : Automated QoR improvement in OpenROAD with coding agents
+             : Veri-Sure
+             : VLM-CAD
+             : ChipBench
+             : Bench4HLS
+    2026-02 : MING
+             : ACE-RTL
+             : FormalRTL
+             : TriGen
+             : SiliconMind-V1
+             : ArchAgent
+             : CktEvo
+             : VeriInteresting
+    2026-03 : Agent Factories for High Level Synthesis
+             : IncreRTL
+             : UCAgent
+             : QiMeng-CodeV-SVA
+             : AutoVeriFix+
+             : SpecLoop
+             : POET
+             : CODMAS
+             : Retrieve, Schedule, Reflect
+             : LUMINA
+             : Design Conductor
+             : FluxEDA
+             : Exploring the Agentic Frontier of Verilog Code Generation
+             : Wrong Code, Right Structure
+             : Causal AI For AMS Circuit Design
+             : HWE-Bench
+             : Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation · Quality,
+             : VERIBENCH
+             : Energy Efficient Software Hardware CoDesign for Machine Learning ·
+             : SCALE-Sim TPU
+             : AI+HW 2035
+             : ChatNeuroSim
+             : BrainWave NPU Microarchitecture Analysis
+             : EEschematic Presentation
+             : ASIC Technology Lecture
+             : Digital System Design PDF
+             : Springer Book
+    2026-04 : SafeTune
+             : Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning
+             : HAVEN
+             : From Language to Logic
+             : ChatSVA
+             : Automated SVA Generation with LLMs
+             : From Indiscriminate to Targeted
+             : How Can Reinforcement Learning Achieve Expert-level Placement?
+             : RAG-Enhanced Kernel-Based Heuristic Synthesis (RKHS) · A Structured Methodology
+             : TimingLLM
+             : Autonomous Evolution of EDA Tools
+             : Dr. RTL
+             : Agentic Architect
+             : VeriGraphi
+             : Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design
+             : AnalogMaster
+             : RuC
+    2026-05 : CPPL
+             : UVmarvel
+             : PipeRTL
+             : A3D
+             : Design Conductor 2.0
+             : RFAmpDesigner
+             : Bridging the Last Mile of Circuit Design
+             : AMSnet-q
+```
+
+<!-- LANDSCAPE-TIMELINE-FULL:END -->
+
+</details>
+
+<details>
+<summary><b>Category map</b></summary>
+
+<!-- LANDSCAPE-CATEGORY-MAP:BEGIN -->
+
+```mermaid
+flowchart TB
+    subgraph digital_codegen["Digital · RTL Code Generation"]
+        direction TB
+        chip_chat["Chip-Chat<br/><i>Conversational LLM, Tapeout</i>"]
+        verigen["VeriGen<br/><i>Finetuning</i>"]
+        codev["CodeV<br/><i>Summarization</i>"]
+        data_is_all_you_need["Data is all you need<br/><i>Finetuning</i>"]
+        autofsm["AutoFSM<br/><i>FSM, Multi-Agent, IR</i>"]
+        deepv["DeepV<br/><i>RAG</i>"]
+        localv["LocalV<br/><i>Verilog, IP-level</i>"]
+        mitigating_hallucinations_and_omissions["Mitigating Hallucinations and Omissions in LLMs for Invertible<br/><i>Hallucination Mitigation, LCT, Autoencoder</i>"]
+        prefixgpt["PrefixGPT<br/><i>Prefix Adder, Transformer</i>"]
+        qimeng_crux["QiMeng-CRUX<br/><i>NL2Verilog, CRUX</i>"]
+        rtl_llm["RTL-LLM<br/><i>Multi-Language</i>"]
+        sparc_rtl["SPARC-RTL<br/><i>Prompt Engineering</i>"]
+        verigrag["VeriGRAG<br/><i>Structure-Aware</i>"]
+        when_forgetting_builds_reliability["When Forgetting Builds Reliability<br/><i>LLM Unlearning, Hardware Code Generation</i>"]
+        ace_rtl["ACE-RTL<br/><i>Agentic Context Evolution</i>"]
+        agent_factories_for_high_level_synthesis["Agent Factories for High Level Synthesis<br/><i>HLS, Coding Agents, Multi-Agent</i>"]
+        cppl["CPPL<br/><i>RTL Generation, Compiler-Mediated, CIRCT</i>"]
+        exploring_llm_based_verilog_code_generat["Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning<br/><i>Verilog Generation</i>"]
+        incrertl["IncreRTL<br/><i>Incremental RTL, Requirement Evolution</i>"]
+        ming["MING<br/><i>HLS, MLIR, CNN</i>"]
+        safetune["SafeTune<br/><i>RTL Code Generation, Fine-Tuning Security</i>"]
+    end
+    subgraph digital_verification["Digital · Verification & Testing"]
+        direction TB
+        rtl_repair["RTL-Repair<br/><i>RTL Repair, Symbolic</i>"]
+        automating_hardware_design_and_verificat["Automating Hardware Design and Verification from Architectural Papers<br/><i>Neural-Symbolic</i>"]
+        buggen["BugGen<br/><i>Bug Synthesis, Multi-Agent</i>"]
+        correcthdl["CorrectHDL<br/><i>HLS, RAG</i>"]
+        duet["Duet<br/><i>Design Understanding, Experimentation</i>"]
+        r3a["R3A<br/><i>RTL Repair, Multi-Agent</i>"]
+        tb_or_not_tb["TB or Not TB<br/><i>Stimulus Gen, DPO</i>"]
+        think_with_self_decoupling_and_self_veri["Think with Self-Decoupling and Self-Verification<br/><i>Self-Verification</i>"]
+        verisynth["VeriSynth<br/><i>Formal Verification</i>"]
+        autoverifix["AutoVeriFix+<br/><i>RTL Fixing, Concolic Testing</i>"]
+        automated_sva_generation_with_llms["Automated SVA Generation with LLMs<br/><i>SVA Generation, Hardware Verification</i>"]
+        chatsva["ChatSVA<br/><i>SVA Generation, Hardware Verification</i>"]
+        formalrtl["FormalRTL<br/><i>Verified RTL Synthesis, Formal Equivalence</i>"]
+        from_indiscriminate_to_targeted["From Indiscriminate to Targeted<br/><i>RTL Verification, Assertion Generation</i>"]
+        from_language_to_logic["From Language to Logic<br/><i>SVA Generation, Formal Verification</i>"]
+        grpo_with_state_mutations["GRPO with State Mutations<br/><i>Test Plan Generation, GRPO, RL</i>"]
+        haven["HAVEN<br/><i>UVM Testbench Generation</i>"]
+        qimeng_codev_sva["QiMeng-CodeV-SVA<br/><i>Assertion Generation, NL2SVA</i>"]
+        specloop["SpecLoop<br/><i>RTL-to-Specification, Formal Verification</i>"]
+        ucagent["UCAgent<br/><i>Functional Verification, Block-Level</i>"]
+        uvmarvel["UVmarvel<br/><i>UVM Verification, Subsystem-level RTL</i>"]
+    end
+    subgraph digital_optimization["Digital · PPA Optimization"]
+        direction TB
+        improving_large_language_model_hardware["Improving Large Language Model Hardware Generating Quality through<br/><i>Post-LLM Search</i>"]
+        chipseek_r1["ChipSeek-R1<br/><i>RL, PPA</i>"]
+        llm_verippa["LLM-VeriPPA<br/><i>PPA Optimization</i>"]
+        orfs_agent["ORFS-agent<br/><i>Physical Design</i>"]
+        symrtlo["SymRTLO<br/><i>Symbolic Reasoning</i>"]
+        automated_qor_improvement_in_openroad_wi["Automated QoR improvement in OpenROAD with coding agents<br/><i>OpenROAD, Coding Agents, PPA</i>"]
+        autonomous_evolution_of_eda_tools["Autonomous Evolution of EDA Tools<br/><i>EDA Tools, Multi-Agent, Self-Evolution</i>"]
+        codmas["CODMAS<br/><i>RTL Optimization, Multi-Agent, PPA</i>"]
+        dr_rtl["Dr. RTL<br/><i>RTL Optimization, Agentic Workflow</i>"]
+        how_can_reinforcement_learning_achieve_e["How Can Reinforcement Learning Achieve Expert-level Placement?<br/><i>Chip Placement, Reinforcement Learning</i>"]
+        lumina["LUMINA<br/><i>GPU DSE, Bottleneck Analysis, LLM-guided</i>"]
+        poet["POET<br/><i>PPA Optimization, Power-Oriented</i>"]
+        pipertl["PipeRTL<br/><i>RTL Optimization, Pipeline Optimization</i>"]
+        rag_enhanced_kernel_based_heuristic_synt["RAG-Enhanced Kernel-Based Heuristic Synthesis (RKHS) · A Structured Methodology<br/><i>HLS Scheduling, Heuristic Synthesis, RAG</i>"]
+        retrieve_schedule_reflect["Retrieve, Schedule, Reflect<br/><i>QoR Optimization, Agentic Workflow, RAG</i>"]
+        timingllm["TimingLLM<br/><i>Timing Prediction, RTL Analysis</i>"]
+        trigen["TriGen<br/><i>NPU Architecture, SW-HW Co-Design</i>"]
+    end
+    subgraph digital_rl["Digital · Reinforcement Learning"]
+        direction TB
+        large_language_model_for_verilog_generat["Large Language Model for Verilog Generation with Code-Structure-Guided<br/><i>Structure-Guided</i>"]
+        earl["EARL<br/><i>Entropy-Aware</i>"]
+        improving_llm_based_verilog_code_generat["Improving LLM-Based Verilog Code Generation with Data Augmentation<br/><i>Data Augmentation</i>"]
+        revolution["REvolution<br/><i>Evolutionary Algo</i>"]
+        rtlseek["RTLSeek<br/><i>Diversity-Oriented</i>"]
+        verirl["VERIRL<br/><i>RL</i>"]
+        verireason["VeriReason<br/><i>RL, Reasoning</i>"]
+    end
+    subgraph digital_multiagent["Digital · Multi-Agent & Workflows"]
+        direction TB
+        architect_in_the_loop_agentic_hardware_d["Architect in the Loop Agentic Hardware Design and<br/><i>Agentic Design, Processor Design</i>"]
+        cradle["CRADLE<br/><i>DSE, Multi-Agent</i>"]
+        david_vs_goliath["David vs. Goliath<br/><i>Agentic AI, Small Models</i>"]
+        vflow["VFlow<br/><i>Agentic Workflow</i>"]
+        a3d["A3D<br/><i>Accelerator Design, HLS, Multi-Agent</i>"]
+        agentic_architect["Agentic Architect<br/><i>Architecture Optimization, Agentic AI</i>"]
+        archagent["ArchAgent<br/><i>Agentic AI, Architecture Discovery</i>"]
+        design_conductor["Design Conductor<br/><i>Agentic Hardware Design</i>"]
+        design_conductor_2_0["Design Conductor 2.0<br/><i>Agentic Hardware Design</i>"]
+        exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
+        fluxeda["FluxEDA<br/><i>Agentic EDA, Stateful Execution</i>"]
+        siliconmind_v1["SiliconMind-V1<br/><i>Multi-Agent, Distillation, Debug-Reasoning</i>"]
+        veri_sure["Veri-Sure<br/><i>Multi-Agent, Formal Verification</i>"]
+        verigraphi["VeriGraphi<br/><i>Hierarchical RTL Generation, Multi-Agent</i>"]
+    end
+    subgraph digital_reasoning["Digital · Reasoning & Graph"]
+        direction TB
+        abstractions_of_thought["Abstractions-of-Thought<br/><i>IR, Reasoning</i>"]
+        circuit["CIRCUIT<br/><i>Reasoning</i>"]
+        chipmind["ChipMind<br/><i>RAG, Knowledge Graph, Reasoning</i>"]
+        rtl["RTL++<br/><i>Graph-enhanced</i>"]
+        reasoningv["ReasoningV<br/><i>Hybrid Reasoning</i>"]
+        wrong_code_right_structure["Wrong Code, Right Structure<br/><i>Netlist Representation Learning</i>"]
+    end
+    subgraph analog_topology["Analog · Topology & Schematic"]
+        direction TB
+        lamagic["LaMAGIC<br/><i>Topology Generation</i>"]
+        schemato_an_llm_for_netlist_to_schematic["Schemato -- An LLM for Netlist-to-Schematic Conversion<br/><i>Netlist-to-Schematic</i>"]
+        diffckt["DiffCkt<br/><i>Diffusion Model</i>"]
+        eeschematic["EEschematic<br/><i>MLLM, Schematic</i>"]
+        spicemixer["SpiceMixer<br/><i>Netlist Evolution</i>"]
+    end
+    subgraph analog_sizing["Analog · Sizing & Optimization"]
+        direction TB
+        llm_enhanced_bayesian_optimization_for_e["LLM-Enhanced Bayesian Optimization for Efficient Analog Layout Constraint<br/><i>Bayesian Opt</i>"]
+        learning_driven_physically_aware_large_s["Learning-driven Physically-aware Large-scale Circuit Gate Sizing<br/><i>Gate Sizing</i>"]
+        rose_opt["RoSE-Opt<br/><i>RL, Optimization</i>"]
+        eesizer["EEsizer<br/><i>Transistor Sizing</i>"]
+        heart["HeaRT<br/><i>Reasoning, Optimization</i>"]
+        toposizing["TopoSizing<br/><i>Topology-based</i>"]
+        white_box_reasoning["White-Box Reasoning<br/><i>gm/Id, White-Box</i>"]
+        rfampdesigner["RFAmpDesigner<br/><i>RF Amplifier Sizing, Multi-Agent</i>"]
+        self_calibrating_llm_based_analog_circui["Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design<br/><i>Analog Sizing, Self-Calibration</i>"]
+        vlm_cad["VLM-CAD<br/><i>VLM, Collaborative Agent</i>"]
+    end
+    subgraph analog_workflow["Analog · Workflows & Multi-Agent"]
+        direction TB
+        a_large_language_model_based_multi_agent["A Large Language Model-based Multi-Agent Framework for Analog<br/><i>Sizing Relationships</i>"]
+        anaflow["AnaFlow<br/><i>Workflow</i>"]
+        analogcoder_pro["AnalogCoder-Pro<br/><i>MLLM, Unifying</i>"]
+        analogsage["AnalogSAGE<br/><i>Multi-Agent, Self-evolving</i>"]
+        towards_optimal_circuit_generation["Towards Optimal Circuit Generation<br/><i>Multi-Agent</i>"]
+        analogmaster["AnalogMaster<br/><i>End-to-End Analog Design, Image-to-Netlist</i>"]
+    end
+    subgraph analog_specialized["Analog · Specialized Applications"]
+        direction TB
+        aicircuit["AICircuit<br/><i>Dataset, Benchmark</i>"]
+        de_hnn["DE-HNN<br/><i>Netlist Representation</i>"]
+        doceda["DocEDA<br/><i>Document Extraction</i>"]
+        analogtester["AnalogTester<br/><i>Testbench Generation</i>"]
+        falcon["FALCON<br/><i>Layout-Constrained</i>"]
+        limca["LIMCA<br/><i>In-Memory Computing</i>"]
+        towards_understanding_fine_tuning_mechan["Towards Understanding Fine-Tuning Mechanisms of LLMs via Circuit<br/><i>Circuit Analysis</i>"]
+        causal_ai_for_ams_circuit_design["Causal AI For AMS Circuit Design<br/><i>AMS, Causal Inference, Interpretability</i>"]
+    end
+    subgraph datasets["Datasets & Benchmarks"]
+        direction TB
+        verilogeval["VerilogEval<br/><i>Verilog Benchmark</i>"]
+        verilog_github_dataset["Verilog_GitHub Dataset<br/><i>Verilog Dataset</i>"]
+        natural_language_is_not_enough["Natural language is not enough<br/><i>Multi-modal, Verilog Benchmark</i>"]
+        pyranet_verilog_dataset["PyraNet-Verilog Dataset<br/><i>Verilog Dataset</i>"]
+        rtllm["RTLLM<br/><i>RTL Benchmark</i>"]
+        chisel_verilog_pairs["Chisel-Verilog Pairs<br/><i>Chisel Dataset</i>"]
+        metrex["MetRex<br/><i>Metric Reasoning</i>"]
+        notsotiny["NotSoTiny<br/><i>RTL Benchmark, Tiny Tapeout</i>"]
+        pluto["Pluto<br/><i>Efficiency Benchmark</i>"]
+        pymtl_verilog_pairs["PyMTL-Verilog Pairs<br/><i>PyMTL Dataset</i>"]
+        reasoningv_5k_dataset["ReasoningV-5K Dataset<br/><i>Reasoning Dataset</i>"]
+        refining_specs_for_llm_based_rtl_agile_d["Refining Specs For LLM-Based RTL Agile Design<br/><i>Spec Refining</i>"]
+        turtle["TuRTLe<br/><i>RTL Evaluation, Unified Benchmark</i>"]
+        vhdl_github_deduplicated["VHDL GitHub Deduplicated<br/><i>VHDL Dataset</i>"]
+        amsnet_q["AMSnet-q<br/><i>AMS Dataset Construction</i>"]
+        bench4hls["Bench4HLS<br/><i>HLS, Benchmark, PPA Analysis</i>"]
+        bridging_the_last_mile_of_circuit_design["Bridging the Last Mile of Circuit Design<br/><i>Post-EDA Benchmark, PPA Convergence</i>"]
+        chipbench["ChipBench<br/><i>Verilog Generation, Debugging</i>"]
+        cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
+        hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
+        ruc["RuC<br/><i>RTL Benchmark Generation, Code Completion</i>"]
+        synthesis_in_the_loop_evaluation_of_llms["Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation · Quality,<br/><i>RTL Evaluation, Synthesis-in-the-Loop, HQI</i>"]
+        veribench["VERIBENCH<br/><i>Formal Verification</i>"]
+        veriinteresting["VeriInteresting<br/><i>Empirical Study, Prompt Engineering</i>"]
+    end
+    subgraph resources["Resources & Surveys"]
+        direction TB
+        large_language_model_for_verilog_code_ge["Large Language Model for Verilog Code Generation<br/><i>Verilog Code Generation, LLM</i>"]
+        ai_hw_2035["AI+HW 2035<br/><i>AI+HW Co-Design</i>"]
+        asic_technology_lecture["ASIC Technology Lecture<br/><i>ASIC</i>"]
+        brainwave_npu_microarchitecture_analysis["BrainWave NPU Microarchitecture Analysis<br/><i>NPU Architecture</i>"]
+        chatneurosim["ChatNeuroSim<br/><i>CIM Accelerator, Agentic Optimization</i>"]
+        digital_system_design_pdf["Digital System Design PDF<br/><i>Digital Design</i>"]
+        eeschematic_presentation["EEschematic Presentation<br/><i>AMS Circuit</i>"]
+        energy_efficient_software_hardware_codes["Energy Efficient Software Hardware CoDesign for Machine Learning ·<br/><i>Energy Efficiency, SW-HW Co-Design</i>"]
+        scale_sim_tpu["SCALE-Sim TPU<br/><i>TPU, Cycle-Accurate Simulation</i>"]
+        springer_book["Springer Book<br/><i>Digital Design</i>"]
+    end
+```
+
+<!-- LANDSCAPE-CATEGORY-MAP:END -->
+
+</details>
 
 ---
 
@@ -222,6 +632,7 @@ A curated list of papers, datasets, and resources related to **Large Language Mo
 | [**Pluto: A Benchmark for Evaluating Efficiency of LLM-generated Hardware Code**](https://openreview.net/forum?id=2LmXLuCDsY) | ICLR 2026 | 2025.09 | - | Efficiency Benchmark |
 | [**Refining Specs For LLM-Based RTL Agile Design**](https://openreview.net/forum?id=1FADg2UNPn) | ICLR 2026 | 2025.09 | - | Spec Refining |
 | ![Star](https://img.shields.io/github/stars/scale-lab/MetRex.svg?style=social&label=Star) <br> [**MetRex: A Benchmark for Verilog Code Metric Reasoning Using LLMs**](https://arxiv.org/abs/2411.03471) | ASP-DAC 2025 | 2025.01 | [Github](https://github.com/scale-lab/MetRex) | Metric Reasoning |
+| [**Natural language is not enough: Benchmarking multi-modal generative AI for Verilog generation**](https://arxiv.org/pdf/2407.08473) | ICCAD 2024 | 2024.07 | [Github](https://github.com/aichipdesign/chipgptv) | Multi-modal, Verilog Benchmark |
 | ![Star](https://img.shields.io/github/stars/hkust-zhiyao/RTLLM.svg?style=social&label=Star) <br> [**RTLLM: An Open-Source Benchmark for Design RTL Generation with Large Language Model**](https://arxiv.org/abs/2402.03375) | ASP-DAC 2024 | 2024.01 | [Github](https://github.com/hkust-zhiyao/RTLLM) | RTL Benchmark |
 | ![Star](https://img.shields.io/github/stars/NVlabs/verilog-eval.svg?style=social&label=Star) <br> [**VerilogEval: Evaluating Large Language Models for Verilog Code Generation**](https://arxiv.org/abs/2308.05345) | ICCAD 2023 | 2023.10 | [Github](https://github.com/NVlabs/verilog-eval) | Verilog Benchmark |
 | [**ReasoningV-5K Dataset**](https://huggingface.co/datasets/GipAI/ReaoningV) | HuggingFace | 2025.04 | [Dataset](https://huggingface.co/datasets/GipAI/ReaoningV) | Reasoning Dataset |
@@ -256,6 +667,7 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead**](https://arxiv.org/html/2512.00020v1) | Survey | Verilog Code Generation, LLM, Systematic Literature Review |
 | [**Energy Efficient Software Hardware CoDesign for Machine Learning: From TinyML to Large Language Models**](https://arxiv.org/abs/2603.23668) | Survey | Energy Efficiency, SW-HW Co-Design, ML Systems |
 | [**SCALE-Sim TPU: Validating and Extending SCALE-Sim for TPUs**](https://arxiv.org/abs/2603.22535) | Paper | TPU, Cycle-Accurate Simulation, ML Compiler |
 | [**AI+HW 2035: Shaping the Next Decade**](https://arxiv.org/abs/2603.05225) | Vision Paper | AI+HW Co-Design |

@@ -1,0 +1,16 @@
+# Optional YYYY-MM overrides for full-timeline grouping (entries.yaml ids).
+# Most entries carry their own timeline_date (set by the README importer), so
+# overrides are usually unnecessary. Entries without either fall back to the
+# period defaults below.
+
+period_defaults:
+  "2023": "06"
+  "2024": "06"
+  "2025 H1": "03"
+  "2025 H2": "10"
+  "2026+": "03"
+
+overrides: {}
+
+# Free-form labels shown on the full timeline but not backed by entries.yaml.
+external: []

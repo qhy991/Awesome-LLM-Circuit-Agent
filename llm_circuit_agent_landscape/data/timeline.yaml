@@ -1,0 +1,64 @@
+# Curated report timeline — the compact README view.
+# Items can reference entries.yaml via `id`, or use free-form `label` for
+# representative highlights. After editing:  make sync-readme
+
+title: "LLM Circuit Agent Field Timeline"
+
+buckets:
+  - date: "2023-05"
+    items:
+      - label: "Chip-Chat (Conversational HW Design)"
+  - date: "2023-07"
+    items:
+      - label: "VeriGen"
+  - date: "2023-10"
+    items:
+      - label: "VerilogEval"
+  - date: "2024-01"
+    items:
+      - label: "RTLLM"
+  - date: "2024-07"
+    items:
+      - label: "CodeV"
+      - label: "Multi-modal Verilog Benchmark"
+      - label: "LaMAGIC (Analog Topology)"
+  - date: "2025-04"
+    items:
+      - label: "TuRTLe"
+      - label: "ReasoningV"
+  - date: "2025-07"
+    items:
+      - label: "ChipSeek-R1"
+  - date: "2025-08"
+    items:
+      - label: "VeriRL"
+      - label: "AnalogCoder-Pro"
+  - date: "2025-10"
+    items:
+      - label: "EEschematic"
+      - label: "VeriGRAG"
+  - date: "2025-11"
+    items:
+      - label: "EARL"
+      - label: "HeaRT (Analog AMS)"
+  - date: "2025-12"
+    items:
+      - label: "ChipMind"
+      - label: "AnalogSAGE"
+  - date: "2026-01"
+    items:
+      - label: "ChipBench"
+      - label: "VLM-CAD"
+  - date: "2026-03"
+    items:
+      - label: "Design Conductor"
+      - label: "FormalRTL"
+  - date: "2026-04"
+    items:
+      - label: "AnalogMaster"
+      - label: "Dr. RTL"
+  - date: "2026-05"
+    items:
+      - label: "CPPL"
+      - label: "A3D"
+      - label: "RFAmpDesigner"

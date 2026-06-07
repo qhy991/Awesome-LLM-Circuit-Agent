@@ -1,0 +1,6 @@
+# Upstream sources used when curating entries.yaml.
+sources:
+  - id: awesome_llm_circuit_agent
+    name: qhy991/Awesome-LLM-Circuit-Agent
+    url: https://github.com/qhy991/Awesome-LLM-Circuit-Agent
+    notes: "Curated awesome list for LLM-driven circuit design (digital RTL + analog)."
