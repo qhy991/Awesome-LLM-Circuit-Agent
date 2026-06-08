@@ -7,6 +7,20 @@
 #   timeline_date, timeline_label, highlight.
 # Curated report timeline: data/timeline.yaml
 
+- id: "cass_rtl"
+  name: "CASS-RTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "RTL Generation, Inference-time Steering"
+  venue: "arXiv"
+  method_tags: ["rtl_generation", "inference_time_steering", "correctness"]
+  url: "https://arxiv.org/abs/2606.05680"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "cppl"
   name: "CPPL"
   year: 2026
@@ -594,6 +608,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-04"
+- id: "rtlscout"
+  name: "RTLScout"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Optimization"
+  subcategory: "RTL Optimization, Agentic Workflow, PPA"
+  venue: "arXiv"
+  method_tags: ["rtl_optimization", "agentic_workflow", "ppa", "synthesis"]
+  url: "https://arxiv.org/abs/2606.06530"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "pipertl"
   name: "PipeRTL"
   year: 2026
@@ -832,6 +860,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2023-12"
+- id: "stepprm_rtl"
+  name: "StepPRM-RTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-RL"
+  subcategory: "RTL Generation, Process Reward Model, RAFT"
+  venue: "DAC 2026"
+  method_tags: ["rtl_generation", "process_reward_model", "raft", "mcts"]
+  url: "https://arxiv.org/abs/2606.04246"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "rtlseek"
   name: "RTLSeek"
   year: 2025
@@ -1616,6 +1658,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "assertllm2"
+  name: "AssertLLM2"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "SVA Generation, Assertion Benchmark"
+  venue: "arXiv"
+  method_tags: ["sva_generation", "assertion_benchmark", "formal_verification"]
+  url: "https://arxiv.org/abs/2605.27472"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-05"
 - id: "bridging_the_last_mile_of_circuit_design"
   name: "Bridging the Last Mile of Circuit Design"
   year: 2026
