@@ -1798,6 +1798,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2026-01"
+- id: "a_new_benchmark_for_the_appropriate_eval"
+  name: "A New Benchmark for the Appropriate Evaluation of"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "RTL-OPT, PPA Optimization, RTL Benchmark"
+  venue: "arXiv"
+  method_tags: ["rtl_opt", "ppa_optimization", "rtl_benchmark"]
+  url: "https://arxiv.org/abs/2601.01765"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-01"
 - id: "turtle"
   name: "TuRTLe"
   year: 2025

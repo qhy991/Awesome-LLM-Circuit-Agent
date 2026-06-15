@@ -173,6 +173,7 @@ timeline
              : VLM-CAD
              : ChipBench
              : Bench4HLS
+             : A New Benchmark for the Appropriate Evaluation of
     2026-02 : MING
              : ACE-RTL
              : FormalRTL
@@ -414,6 +415,7 @@ flowchart TB
         refining_specs_for_llm_based_rtl_agile_d["Refining Specs For LLM-Based RTL Agile Design<br/><i>Spec Refining</i>"]
         turtle["TuRTLe<br/><i>RTL Evaluation, Unified Benchmark</i>"]
         vhdl_github_deduplicated["VHDL GitHub Deduplicated<br/><i>VHDL Dataset</i>"]
+        a_new_benchmark_for_the_appropriate_eval["A New Benchmark for the Appropriate Evaluation of<br/><i>RTL-OPT, PPA Optimization, RTL Benchmark</i>"]
         amsnet_q["AMSnet-q<br/><i>AMS Dataset Construction</i>"]
         assertllm2["AssertLLM2<br/><i>SVA Generation, Assertion Benchmark</i>"]
         bench4hls["Bench4HLS<br/><i>HLS, Benchmark, PPA Analysis</i>"]
@@ -638,6 +640,7 @@ flowchart TB
 | [**VeriInteresting: An Empirical Study of Model Prompt Interactions in Verilog Code Generation**](https://arxiv.org/abs/2603.08715) | arXiv | 2026.02 | - | Empirical Study, Prompt Engineering, Verilog Generation |
 | [**ChipBench: A Next-Step Benchmark for Evaluating LLM Performance in AI-Aided Chip Design**](https://arxiv.org/abs/2601.21448) | arXiv | 2026.01 | - | Verilog Generation, Debugging, Reference Model |
 | [**Bench4HLS: End-to-End Evaluation of LLMs in High-Level Synthesis Code Generation**](https://arxiv.org/abs/2601.19941) | DATE 2026 | 2026.01 | - | HLS, Benchmark, PPA Analysis |
+| [**A New Benchmark for the Appropriate Evaluation of RTL Code Optimization**](https://arxiv.org/abs/2601.01765) | arXiv | 2026.01 | - | RTL-OPT, PPA Optimization, RTL Benchmark |
 | ![Star](https://img.shields.io/github/stars/HPAI-BSC/TuRTLe.svg?style=social&label=Star) [**TuRTLe: A Unified Evaluation of LLMs for RTL Generation**](https://arxiv.org/abs/2504.01986) | MLCAD 2025 | 2025.04 | [Github](https://github.com/HPAI-BSC/TuRTLe) | RTL Evaluation, Unified Benchmark |
 | [**NotSoTiny: A Large, Living Benchmark for RTL Code Generation**](https://arxiv.org/abs/2512.20823) | arXiv | 2025.12 | [Github](https://github.com/HPAI-BSC/TuRTLe) | RTL Benchmark, Tiny Tapeout |
 | [**VERIBENCH: End-to-End Formal Verification Benchmark for AI Code Generation in Lean 4**](https://openreview.net/pdf/f24bd52a5b9139e4311109bdeee80b27c311d838.pdf) | ICLR 2026 | 2025 | - | Formal Verification |
