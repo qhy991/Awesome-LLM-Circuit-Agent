@@ -1140,6 +1140,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-12"
+- id: "asic_agent"
+  name: "ASIC-Agent"
+  year: 2025
+  period: "2025 H2"
+  category: "Digital-MultiAgent"
+  subcategory: "ASIC Design, Multi-Agent, OpenLane"
+  venue: "ICLAD 2025"
+  method_tags: ["asic_design", "multi_agent", "openlane", "caravel"]
+  url: "https://arxiv.org/abs/2508.15940"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2025-08"
 - id: "cradle"
   name: "CRADLE"
   year: 2025
@@ -1252,6 +1266,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-04"
+- id: "circuitformer"
+  name: "CircuitFormer"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Topology"
+  subcategory: "Analog Topology, Circuit Tokenizer"
+  venue: "arXiv"
+  method_tags: ["analog_topology", "circuit_tokenizer", "nl2netlist"]
+  url: "https://arxiv.org/abs/2605.05773"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-05"
 - id: "eeschematic"
   name: "EEschematic"
   year: 2025
@@ -1280,6 +1308,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-07"
+- id: "autocircuit_rl"
+  name: "AutoCircuit-RL"
+  year: 2025
+  period: "2025 H1"
+  category: "Analog-Topology"
+  subcategory: "Analog Topology, RL, Instruction Tuning"
+  venue: "ICML 2025"
+  method_tags: ["analog_topology", "rl", "instruction_tuning"]
+  url: "https://arxiv.org/html/2506.03122v1"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2025-06"
+- id: "circuitsynth_rl"
+  name: "CIRCUITSYNTH-RL"
+  year: 2025
+  period: "2025 H1"
+  category: "Analog-Topology"
+  subcategory: "Analog Topology, RL, Topology Synthesis"
+  venue: "DAC 2025"
+  method_tags: ["analog_topology", "rl", "topology_synthesis"]
+  url: "https://research.ibm.com/publications/circuitsynth-rl-llm-based-circuit-topology-synthesis-with-rl-refinement"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2025-06"
 - id: "spicemixer"
   name: "SpiceMixer"
   year: 2025

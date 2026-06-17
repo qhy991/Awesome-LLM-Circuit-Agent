@@ -125,12 +125,15 @@ timeline
              : PyMTL-Verilog Pairs
     2025-06 : BugGen
              : ORFS-agent
+             : AutoCircuit-RL
+             : CIRCUITSYNTH-RL
              : SpiceMixer
              : A Large Language Model-based Multi-Agent Framework for Analog
     2025-07 : ChipSeek-R1
              : DiffCkt
              : AnalogTester
     2025-08 : VERIRL
+             : ASIC-Agent
              : CRADLE
              : White-Box Reasoning
              : AnalogCoder-Pro
@@ -231,6 +234,7 @@ timeline
              : PipeRTL
              : A3D
              : Design Conductor 2.0
+             : CircuitFormer
              : RFAmpDesigner
              : AssertLLM2
              : Bridging the Last Mile of Circuit Design
@@ -334,6 +338,7 @@ flowchart TB
     end
     subgraph digital_multiagent["Digital · Multi-Agent & Workflows"]
         direction TB
+        asic_agent["ASIC-Agent<br/><i>ASIC Design, Multi-Agent, OpenLane</i>"]
         architect_in_the_loop_agentic_hardware_d["Architect in the Loop Agentic Hardware Design and<br/><i>Agentic Design, Processor Design</i>"]
         cradle["CRADLE<br/><i>DSE, Multi-Agent</i>"]
         david_vs_goliath["David vs. Goliath<br/><i>Agentic AI, Small Models</i>"]
@@ -362,9 +367,12 @@ flowchart TB
         direction TB
         lamagic["LaMAGIC<br/><i>Topology Generation</i>"]
         schemato_an_llm_for_netlist_to_schematic["Schemato -- An LLM for Netlist-to-Schematic Conversion<br/><i>Netlist-to-Schematic</i>"]
+        autocircuit_rl["AutoCircuit-RL<br/><i>Analog Topology, RL, Instruction Tuning</i>"]
+        circuitsynth_rl["CIRCUITSYNTH-RL<br/><i>Analog Topology, RL, Topology Synthesis</i>"]
         diffckt["DiffCkt<br/><i>Diffusion Model</i>"]
         eeschematic["EEschematic<br/><i>MLLM, Schematic</i>"]
         spicemixer["SpiceMixer<br/><i>Netlist Evolution</i>"]
+        circuitformer["CircuitFormer<br/><i>Analog Topology, Circuit Tokenizer</i>"]
     end
     subgraph analog_sizing["Analog · Sizing & Optimization"]
         direction TB
@@ -556,6 +564,7 @@ flowchart TB
 | [**Veri-Sure: A Contract-Aware Multi-Agent Framework with Temporal Tracing and Formal Verification for Correct RTL Code Generation**](https://arxiv.org/abs/2601.19747) | arXiv | 2026.01 | - | Multi-Agent, Formal Verification, Contract-Aware |
 | [**Architect in the Loop Agentic Hardware Design and Verification**](https://arxiv.org/pdf/2512.00016) | arXiv | 2025.12 | [Github](https://github.com/mmubarek/eda) | Agentic Design, Processor Design, Verification |
 | [**David vs. Goliath: Can Small Models Win Big with Agentic AI in Hardware Design?**](https://arxiv.org/abs/2512.05073) | arXiv | 2025.12 | - | Agentic AI, Small Models |
+| [**ASIC-Agent: An Autonomous Multi-Agent System for ASIC Design with Benchmark Evaluation**](https://arxiv.org/abs/2508.15940) | ICLAD 2025 | 2025.08 | - | ASIC Design, Multi-Agent, OpenLane, Caravel |
 | [**CRADLE: Conversational RTL Design Space Exploration with LLM-based Multi-Agent Systems**](https://arxiv.org/abs/2508.08709) | arXiv | 2025.08 | - | DSE, Multi-Agent |
 | [**VFlow: Discovering Optimal Agentic Workflows for Verilog Generation**](https://arxiv.org/abs/2504.03723) | arXiv | 2025.04 | - | Agentic Workflow |
 
@@ -578,8 +587,11 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**CircuitFormer: A Circuit Language Model for Analog Topology Design from Natural Language Prompt**](https://arxiv.org/abs/2605.05773) | arXiv | 2026.05 | - | Analog Topology, Circuit Tokenizer, NL2Netlist |
 | [**EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit**](https://arxiv.org/abs/2510.17002) | arXiv | 2025.10 | [Github](https://github.com/eelab-dev/EEschematic) | MLLM, Schematic |
 | [**DiffCkt: A Diffusion Model-Based Hybrid Neural Network Framework for Automatic Transistor-Level Generation**](https://arxiv.org/pdf/2507.00444) | arXiv | 2025.07 | - | Diffusion Model |
+| [**AutoCircuit-RL: Reinforcement Learning-Driven LLM for Automated Circuit Topology Generation**](https://arxiv.org/html/2506.03122v1) | ICML 2025 | 2025.06 | - | Analog Topology, RL, Instruction Tuning |
+| [**CIRCUITSYNTH-RL: LLM-Based Circuit Topology Synthesis with RL Refinement**](https://research.ibm.com/publications/circuitsynth-rl-llm-based-circuit-topology-synthesis-with-rl-refinement) | DAC 2025 | 2025.06 | - | Analog Topology, RL, Topology Synthesis |
 | [**SpiceMixer: Netlist-Level Circuit Evolution**](https://arxiv.org/pdf/2506.01497) | arXiv | 2025.06 | - | Netlist Evolution |
 | [**Schemato -- An LLM for Netlist-to-Schematic Conversion**](https://arxiv.org/pdf/2411.13899) | arXiv | 2024.11 | - | Netlist-to-Schematic |
 | [**LaMAGIC: Language-Model-based Topology Generation for Analog Integrated Circuits**](https://arxiv.org/pdf/2407.18269) | arXiv | 2024.07 | - | Topology Generation |

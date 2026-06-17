@@ -82,6 +82,7 @@ flowchart TB
     end
     subgraph digital_multiagent["Digital · Multi-Agent & Workflows"]
         direction TB
+        asic_agent["ASIC-Agent<br/><i>ASIC Design, Multi-Agent, OpenLane</i>"]
         architect_in_the_loop_agentic_hardware_d["Architect in the Loop Agentic Hardware Design and<br/><i>Agentic Design, Processor Design</i>"]
         cradle["CRADLE<br/><i>DSE, Multi-Agent</i>"]
         david_vs_goliath["David vs. Goliath<br/><i>Agentic AI, Small Models</i>"]
@@ -110,9 +111,12 @@ flowchart TB
         direction TB
         lamagic["LaMAGIC<br/><i>Topology Generation</i>"]
         schemato_an_llm_for_netlist_to_schematic["Schemato -- An LLM for Netlist-to-Schematic Conversion<br/><i>Netlist-to-Schematic</i>"]
+        autocircuit_rl["AutoCircuit-RL<br/><i>Analog Topology, RL, Instruction Tuning</i>"]
+        circuitsynth_rl["CIRCUITSYNTH-RL<br/><i>Analog Topology, RL, Topology Synthesis</i>"]
         diffckt["DiffCkt<br/><i>Diffusion Model</i>"]
         eeschematic["EEschematic<br/><i>MLLM, Schematic</i>"]
         spicemixer["SpiceMixer<br/><i>Netlist Evolution</i>"]
+        circuitformer["CircuitFormer<br/><i>Analog Topology, Circuit Tokenizer</i>"]
     end
     subgraph analog_sizing["Analog · Sizing & Optimization"]
         direction TB
