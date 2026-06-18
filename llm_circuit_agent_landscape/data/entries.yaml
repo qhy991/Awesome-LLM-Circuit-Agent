@@ -7,6 +7,48 @@
 #   timeline_date, timeline_label, highlight.
 # Curated report timeline: data/timeline.yaml
 
+- id: "llm4rtl"
+  name: "LLM4RTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "RTL Generation, Tool-Augmented LLM"
+  venue: "arXiv"
+  method_tags: ["rtl_generation", "tool_augmented_llm", "jrcrc_pipeline"]
+  url: "https://arxiv.org/abs/2606.15500"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
+- id: "estrtl"
+  name: "EstRTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "RTL Generation, Functional Estimation"
+  venue: "arXiv"
+  method_tags: ["rtl_generation", "functional_estimation", "multi_agent"]
+  url: "https://arxiv.org/abs/2606.09867"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
+- id: "programming_domain_specific_fpga_hardblo"
+  name: "Programming Domain-Specific FPGA Hardblocks from HLS: An RTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "HLS, FPGA Hardblocks, RTL Blackbox"
+  venue: "arXiv"
+  method_tags: ["hls", "fpga_hardblocks", "rtl_blackbox"]
+  url: "https://arxiv.org/abs/2606.08380"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "cass_rtl"
   name: "CASS-RTL"
   year: 2026
@@ -314,6 +356,20 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "shift_left_high_level_synthesis_verifica"
+  name: "Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "HLS Verification, Shift-Left"
+  venue: "arXiv"
+  method_tags: ["hls_verification", "shift_left", "knowledge_graph"]
+  url: "https://arxiv.org/abs/2606.17128"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "uvmarvel"
   name: "UVmarvel"
   year: 2026
@@ -608,6 +664,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-04"
+- id: "autogate"
+  name: "AUTOGATE"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Optimization"
+  subcategory: "RTL Optimization, Clock Gating, Power"
+  venue: "arXiv"
+  method_tags: ["rtl_optimization", "clock_gating", "power", "multi_agent"]
+  url: "https://arxiv.org/abs/2606.17461"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
+- id: "longrtl"
+  name: "LongRTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Optimization"
+  subcategory: "RTL Optimization, Long Context, Graph-RAG"
+  venue: "arXiv"
+  method_tags: ["rtl_optimization", "long_context", "graph_rag", "multi_agent"]
+  url: "https://arxiv.org/abs/2606.08944"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "rtlscout"
   name: "RTLScout"
   year: 2026
@@ -1518,6 +1602,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-03"
+- id: "panda"
+  name: "PANDA"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Workflow"
+  subcategory: "End-to-End Analog Design, Topology, Sizing"
+  venue: "DAC 2025"
+  method_tags: ["end_to_end_analog_design", "topology", "sizing", "layout"]
+  url: "https://arxiv.org/abs/2606.15052"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "analogmaster"
   name: "AnalogMaster"
   year: 2026
@@ -1714,6 +1812,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "pdagent_bench"
+  name: "PDAgent-Bench"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Physical Design, Agent Benchmark, VLSI"
+  venue: "arXiv"
+  method_tags: ["physical_design", "agent_benchmark", "vlsi"]
+  url: "https://arxiv.org/abs/2606.17253"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
+- id: "vhdlsuite"
+  name: "VHDLSuite"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "VHDL Benchmark, Data Synthesis"
+  venue: "arXiv"
+  method_tags: ["vhdl_benchmark", "data_synthesis", "multi_language_hdl"]
+  url: "https://arxiv.org/abs/2606.13735"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "assertllm2"
   name: "AssertLLM2"
   year: 2026

@@ -239,9 +239,18 @@ timeline
              : AssertLLM2
              : Bridging the Last Mile of Circuit Design
              : AMSnet-q
-    2026-06 : CASS-RTL
+    2026-06 : LLM4RTL
+             : EstRTL
+             : Programming Domain-Specific FPGA Hardblocks from HLS · An RTL
+             : CASS-RTL
+             : Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent
+             : AUTOGATE
+             : LongRTL
              : RTLScout
              : StepPRM-RTL
+             : PANDA
+             : PDAgent-Bench
+             : VHDLSuite
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -275,9 +284,12 @@ flowchart TB
         agent_factories_for_high_level_synthesis["Agent Factories for High Level Synthesis<br/><i>HLS, Coding Agents, Multi-Agent</i>"]
         cass_rtl["CASS-RTL<br/><i>RTL Generation, Inference-time Steering</i>"]
         cppl["CPPL<br/><i>RTL Generation, Compiler-Mediated, CIRCT</i>"]
+        estrtl["EstRTL<br/><i>RTL Generation, Functional Estimation</i>"]
         exploring_llm_based_verilog_code_generat["Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning<br/><i>Verilog Generation</i>"]
         incrertl["IncreRTL<br/><i>Incremental RTL, Requirement Evolution</i>"]
+        llm4rtl["LLM4RTL<br/><i>RTL Generation, Tool-Augmented LLM</i>"]
         ming["MING<br/><i>HLS, MLIR, CNN</i>"]
+        programming_domain_specific_fpga_hardblo["Programming Domain-Specific FPGA Hardblocks from HLS · An RTL<br/><i>HLS, FPGA Hardblocks, RTL Blackbox</i>"]
         safetune["SafeTune<br/><i>RTL Code Generation, Fine-Tuning Security</i>"]
     end
     subgraph digital_verification["Digital · Verification & Testing"]
@@ -300,6 +312,7 @@ flowchart TB
         grpo_with_state_mutations["GRPO with State Mutations<br/><i>Test Plan Generation, GRPO, RL</i>"]
         haven["HAVEN<br/><i>UVM Testbench Generation</i>"]
         qimeng_codev_sva["QiMeng-CodeV-SVA<br/><i>Assertion Generation, NL2SVA</i>"]
+        shift_left_high_level_synthesis_verifica["Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent<br/><i>HLS Verification, Shift-Left</i>"]
         specloop["SpecLoop<br/><i>RTL-to-Specification, Formal Verification</i>"]
         ucagent["UCAgent<br/><i>Functional Verification, Block-Level</i>"]
         uvmarvel["UVmarvel<br/><i>UVM Verification, Subsystem-level RTL</i>"]
@@ -311,12 +324,14 @@ flowchart TB
         llm_verippa["LLM-VeriPPA<br/><i>PPA Optimization</i>"]
         orfs_agent["ORFS-agent<br/><i>Physical Design</i>"]
         symrtlo["SymRTLO<br/><i>Symbolic Reasoning</i>"]
+        autogate["AUTOGATE<br/><i>RTL Optimization, Clock Gating, Power</i>"]
         automated_qor_improvement_in_openroad_wi["Automated QoR improvement in OpenROAD with coding agents<br/><i>OpenROAD, Coding Agents, PPA</i>"]
         autonomous_evolution_of_eda_tools["Autonomous Evolution of EDA Tools<br/><i>EDA Tools, Multi-Agent, Self-Evolution</i>"]
         codmas["CODMAS<br/><i>RTL Optimization, Multi-Agent, PPA</i>"]
         dr_rtl["Dr. RTL<br/><i>RTL Optimization, Agentic Workflow</i>"]
         how_can_reinforcement_learning_achieve_e["How Can Reinforcement Learning Achieve Expert-level Placement?<br/><i>Chip Placement, Reinforcement Learning</i>"]
         lumina["LUMINA<br/><i>GPU DSE, Bottleneck Analysis, LLM-guided</i>"]
+        longrtl["LongRTL<br/><i>RTL Optimization, Long Context, Graph-RAG</i>"]
         poet["POET<br/><i>PPA Optimization, Power-Oriented</i>"]
         pipertl["PipeRTL<br/><i>RTL Optimization, Pipeline Optimization</i>"]
         rag_enhanced_kernel_based_heuristic_synt["RAG-Enhanced Kernel-Based Heuristic Synthesis (RKHS) · A Structured Methodology<br/><i>HLS Scheduling, Heuristic Synthesis, RAG</i>"]
@@ -395,6 +410,7 @@ flowchart TB
         analogsage["AnalogSAGE<br/><i>Multi-Agent, Self-evolving</i>"]
         towards_optimal_circuit_generation["Towards Optimal Circuit Generation<br/><i>Multi-Agent</i>"]
         analogmaster["AnalogMaster<br/><i>End-to-End Analog Design, Image-to-Netlist</i>"]
+        panda["PANDA<br/><i>End-to-End Analog Design, Topology, Sizing</i>"]
     end
     subgraph analog_specialized["Analog · Specialized Applications"]
         direction TB
@@ -431,9 +447,11 @@ flowchart TB
         chipbench["ChipBench<br/><i>Verilog Generation, Debugging</i>"]
         cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
         hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
+        pdagent_bench["PDAgent-Bench<br/><i>Physical Design, Agent Benchmark, VLSI</i>"]
         ruc["RuC<br/><i>RTL Benchmark Generation, Code Completion</i>"]
         synthesis_in_the_loop_evaluation_of_llms["Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation · Quality,<br/><i>RTL Evaluation, Synthesis-in-the-Loop, HQI</i>"]
         veribench["VERIBENCH<br/><i>Formal Verification</i>"]
+        vhdlsuite["VHDLSuite<br/><i>VHDL Benchmark, Data Synthesis</i>"]
         veriinteresting["VeriInteresting<br/><i>Empirical Study, Prompt Engineering</i>"]
     end
     subgraph resources["Resources & Surveys"]
@@ -463,6 +481,9 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**LLM4RTL: Tool-Assisted LLM for RTL Generation**](https://arxiv.org/abs/2606.15500) | arXiv | 2026.06 | - | RTL Generation, Tool-Augmented LLM, JRCRC Pipeline |
+| [**EstRTL: Functional Estimation Guided RTL Code Generation**](https://arxiv.org/abs/2606.09867) | arXiv | 2026.06 | - | RTL Generation, Functional Estimation, Multi-Agent |
+| [**Programming Domain-Specific FPGA Hardblocks from HLS: An RTL Blackbox Approach**](https://arxiv.org/abs/2606.08380) | arXiv | 2026.06 | - | HLS, FPGA Hardblocks, RTL Blackbox |
 | [**CASS-RTL: Correctness-Aware Subspace Steering for RTL Generation with LLMs**](https://arxiv.org/abs/2606.05680) | arXiv | 2026.06 | [Github](https://github.com/mhakyash/CASS-RTL) | RTL Generation, Inference-time Steering, Correctness |
 | [**CPPL: A Circuit Prompt Programming Language**](https://arxiv.org/abs/2605.17892) | arXiv | 2026.05 | [Github](https://github.com/SawyDust1228/CPPL) | RTL Generation, Compiler-Mediated, CIRCT, Circuit IR |
 | [**SafeTune: Mitigating Data Poisoning in LLM Fine-Tuning for RTL Code Generation**](https://arxiv.org/abs/2604.27238) | arXiv | 2026.04 | - | RTL Code Generation, Fine-Tuning Security, Data Poisoning, Hardware Trojan |
@@ -490,6 +511,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent**](https://arxiv.org/abs/2606.17128) | arXiv | 2026.06 | [Github](https://github.com/cz-5f/HLS-LeVeri) | HLS Verification, Shift-Left, Knowledge Graph |
 | [**UVmarvel: an Automated LLM-aided UVM Machine for Subsystem-level RTL Verification**](https://arxiv.org/abs/2605.04704) | arXiv | 2026.05 | - | UVM Verification, Subsystem-level RTL, Stimuli Refinement |
 | [**HAVEN: Hybrid Automated Verification ENgine for UVM Testbench Synthesis with LLMs**](https://arxiv.org/abs/2604.27643) | arXiv | 2026.04 | - | UVM Testbench Generation, Verification Automation, Protocol-Aware DSL |
 | [**From Language to Logic: Bridging LLMs & Formal Representations for RTL Assertion Generation**](https://arxiv.org/abs/2604.23100) | arXiv | 2026.04 | - | SVA Generation, Formal Verification, Solver-in-the-loop |
@@ -516,6 +538,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AUTOGATE: Automated Clock Gating via Toggling-Aware LLM-based RTL Rewriting**](https://arxiv.org/abs/2606.17461) | arXiv | 2026.06 | - | RTL Optimization, Clock Gating, Power, Multi-Agent |
+| [**LongRTL: Graph-Similarity-Guided LLM-driven Long Context RTL Optimization**](https://arxiv.org/abs/2606.08944) | arXiv | 2026.06 | - | RTL Optimization, Long Context, Graph-RAG, Multi-Agent |
 | [**RTLScout: Joint Agentic Code and Synthesis Optimization for Efficient Digital Circuits**](https://arxiv.org/abs/2606.06530) | arXiv | 2026.06 | - | RTL Optimization, Agentic Workflow, PPA, Synthesis |
 | [**PipeRTL: Timing-Aware Pipeline Optimization at IR-Level for RTL Generation**](https://arxiv.org/abs/2605.01836) | arXiv | 2026.05 | - | RTL Optimization, Pipeline Optimization, Timing-Aware, CIRCT |
 | [**How Can Reinforcement Learning Achieve Expert-level Placement?**](https://arxiv.org/abs/2604.25191) | DAC 2026 | 2026.04 | - | Chip Placement, Reinforcement Learning, Reward Modeling, Expert Imitation |
@@ -615,6 +639,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**PANDA: An LLM-Enhanced Performance-Driven Analog Design Framework Bridging Design Intent and Layout Generation**](https://arxiv.org/abs/2606.15052) | DAC 2025 | 2026.06 | [Github](https://github.com/PKU-IDEA/PANDA) | End-to-End Analog Design, Topology, Sizing, Layout |
 | [**AnalogMaster: Large Language Model-based Automated Analog IC Design Framework from Image to Layout**](https://arxiv.org/abs/2604.20916) | arXiv | 2026.04 | - | End-to-End Analog Design, Image-to-Netlist, Layout Automation |
 | [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Workflow |
 | [**AnalogSAGE: Self-evolving Analog Design Multi-Agents with Stratified Memory and Grounded Experience**](https://arxiv.org/abs/2512.22435) | arXiv | 2025.12 | - | Multi-Agent, Self-evolving, Stratified Memory |
@@ -642,6 +667,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**PDAgent-Bench: Characterizing, Grounding, and Architecting LLM Agents for VLSI Physical Design**](https://arxiv.org/abs/2606.17253) | arXiv | 2026.06 | - | Physical Design, Agent Benchmark, VLSI |
+| [**VHDLSuite: Unified Pipeline for LLM VHDL Generation with Data Synthesis and Evaluation**](https://arxiv.org/abs/2606.13735) | arXiv | 2026.06 | - | VHDL Benchmark, Data Synthesis, Multi-Language HDL |
 | [**AssertLLM2: A Comprehensive LLM Benchmark for Assertion Generation from Design Specifications**](https://arxiv.org/abs/2605.27472) | arXiv | 2026.05 | - | SVA Generation, Assertion Benchmark, Formal Verification |
 | [**Bridging the Last Mile of Circuit Design: PostEDA-Bench, a Hierarchical Benchmark for PPA Convergence and DRC Fixing**](https://arxiv.org/abs/2605.06936) | arXiv | 2026.05 | - | Post-EDA Benchmark, PPA Convergence, DRC Fixing, Agent Evaluation |
 | [**AMSnet-q: Unsupervised Circuit Identification and Performance Labeling for AMS Circuits**](https://arxiv.org/abs/2605.01404) | arXiv | 2026.05 | - | AMS Dataset Construction, Unsupervised Labeling, Performance Annotation |
