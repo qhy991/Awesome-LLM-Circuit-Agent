@@ -356,6 +356,20 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "veripilot"
+  name: "VeriPilot"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "RTL Debugging, Golden Model, CDFG"
+  venue: "arXiv"
+  method_tags: ["rtl_debugging", "golden_model", "cdfg"]
+  url: "https://arxiv.org/abs/2606.23759"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "shift_left_high_level_synthesis_verifica"
   name: "Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent"
   year: 2026
@@ -1056,6 +1070,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "horizon"
+  name: "HORIZON"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Agentic Hardware Design, Repository-Level"
+  venue: "arXiv"
+  method_tags: ["agentic_hardware_design", "repository_level", "self_evolution"]
+  url: "https://arxiv.org/abs/2606.28279"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
+- id: "chia"
+  name: "CHIA"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "HW/SW Co-Design, Agentic Framework"
+  venue: "arXiv"
+  method_tags: ["hw_sw_co_design", "agentic_framework", "chipyard", "gem5"]
+  url: "https://arxiv.org/abs/2606.27350"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "a3d"
   name: "A3D"
   year: 2026
@@ -2201,6 +2243,19 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-05"
+- id: "croc"
+  name: "Croc"
+  year: 2026
+  period: "2026+"
+  category: "Resources"
+  subcategory: "Open-Source SoC, VLSI Education, RISC-V"
+  method_tags: ["open_source_soc", "vlsi_education", "risc_v", "tapeout"]
+  url: "https://arxiv.org/abs/2606.25673"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "large_language_model_for_verilog_code_ge"
   name: "Large Language Model for Verilog Code Generation"
   year: 2025

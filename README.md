@@ -243,14 +243,18 @@ timeline
              : EstRTL
              : Programming Domain-Specific FPGA Hardblocks from HLS · An RTL
              : CASS-RTL
+             : VeriPilot
              : Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent
              : AUTOGATE
              : LongRTL
              : RTLScout
              : StepPRM-RTL
+             : HORIZON
+             : CHIA
              : PANDA
              : PDAgent-Bench
              : VHDLSuite
+             : Croc
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -316,6 +320,7 @@ flowchart TB
         specloop["SpecLoop<br/><i>RTL-to-Specification, Formal Verification</i>"]
         ucagent["UCAgent<br/><i>Functional Verification, Block-Level</i>"]
         uvmarvel["UVmarvel<br/><i>UVM Verification, Subsystem-level RTL</i>"]
+        veripilot["VeriPilot<br/><i>RTL Debugging, Golden Model, CDFG</i>"]
     end
     subgraph digital_optimization["Digital · PPA Optimization"]
         direction TB
@@ -361,10 +366,12 @@ flowchart TB
         a3d["A3D<br/><i>Accelerator Design, HLS, Multi-Agent</i>"]
         agentic_architect["Agentic Architect<br/><i>Architecture Optimization, Agentic AI</i>"]
         archagent["ArchAgent<br/><i>Agentic AI, Architecture Discovery</i>"]
+        chia["CHIA<br/><i>HW/SW Co-Design, Agentic Framework</i>"]
         design_conductor["Design Conductor<br/><i>Agentic Hardware Design</i>"]
         design_conductor_2_0["Design Conductor 2.0<br/><i>Agentic Hardware Design</i>"]
         exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
         fluxeda["FluxEDA<br/><i>Agentic EDA, Stateful Execution</i>"]
+        horizon["HORIZON<br/><i>Agentic Hardware Design, Repository-Level</i>"]
         siliconmind_v1["SiliconMind-V1<br/><i>Multi-Agent, Distillation, Debug-Reasoning</i>"]
         veri_sure["Veri-Sure<br/><i>Multi-Agent, Formal Verification</i>"]
         verigraphi["VeriGraphi<br/><i>Hierarchical RTL Generation, Multi-Agent</i>"]
@@ -461,6 +468,7 @@ flowchart TB
         asic_technology_lecture["ASIC Technology Lecture<br/><i>ASIC</i>"]
         brainwave_npu_microarchitecture_analysis["BrainWave NPU Microarchitecture Analysis<br/><i>NPU Architecture</i>"]
         chatneurosim["ChatNeuroSim<br/><i>CIM Accelerator, Agentic Optimization</i>"]
+        croc["Croc<br/><i>Open-Source SoC, VLSI Education, RISC-V</i>"]
         digital_system_design_pdf["Digital System Design PDF<br/><i>Digital Design</i>"]
         eeschematic_presentation["EEschematic Presentation<br/><i>AMS Circuit</i>"]
         energy_efficient_software_hardware_codes["Energy Efficient Software Hardware CoDesign for Machine Learning ·<br/><i>Energy Efficiency, SW-HW Co-Design</i>"]
@@ -511,6 +519,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**VeriPilot: An LLM-Powered Verilog Debugging Framework**](https://arxiv.org/abs/2606.23759) | arXiv | 2026.06 | [Github](https://github.com/YihanWn/VeriPilot) | RTL Debugging, Golden Model, CDFG |
 | [**Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent**](https://arxiv.org/abs/2606.17128) | arXiv | 2026.06 | [Github](https://github.com/cz-5f/HLS-LeVeri) | HLS Verification, Shift-Left, Knowledge Graph |
 | [**UVmarvel: an Automated LLM-aided UVM Machine for Subsystem-level RTL Verification**](https://arxiv.org/abs/2605.04704) | arXiv | 2026.05 | - | UVM Verification, Subsystem-level RTL, Stimuli Refinement |
 | [**HAVEN: Hybrid Automated Verification ENgine for UVM Testbench Synthesis with LLMs**](https://arxiv.org/abs/2604.27643) | arXiv | 2026.04 | - | UVM Testbench Generation, Verification Automation, Protocol-Aware DSL |
@@ -576,6 +585,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**HORIZON: Agentic Hardware Design as Repository-Level Code Evolution**](https://arxiv.org/abs/2606.28279) | arXiv | 2026.06 | - | Agentic Hardware Design, Repository-Level, Self-Evolution |
+| [**CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-Design Research**](https://arxiv.org/abs/2606.27350) | arXiv | 2026.06 | - | HW/SW Co-Design, Agentic Framework, Chipyard, gem5 |
 | [**A3D: Agentic AI flow for autonomous Accelerator Design**](https://arxiv.org/abs/2605.15237) | arXiv | 2026.05 | - | Accelerator Design, HLS, Multi-Agent, End-to-End Automation |
 | [**Design Conductor 2.0: An agent builds a TurboQuant inference accelerator in 80 hours**](https://arxiv.org/abs/2605.05170) | arXiv | 2026.05 | - | Agentic Hardware Design, Inference Accelerator, End-to-End Workflow |
 | [**Agentic Architect: An Agentic AI Framework for Architecture Design Exploration and Optimization**](https://arxiv.org/abs/2604.25083) | arXiv | 2026.04 | - | Architecture Optimization, Agentic AI, Design Space Exploration |
@@ -721,6 +732,7 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**Croc: Training the Next Generation Chip Designers on Domain-Specific End-to-End Open Source Silicon**](https://arxiv.org/abs/2606.25673) | Platform | Open-Source SoC, VLSI Education, RISC-V, Tapeout |
 | [**Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead**](https://arxiv.org/html/2512.00020v1) | Survey | Verilog Code Generation, LLM, Systematic Literature Review |
 | [**Energy Efficient Software Hardware CoDesign for Machine Learning: From TinyML to Large Language Models**](https://arxiv.org/abs/2603.23668) | Survey | Energy Efficiency, SW-HW Co-Design, ML Systems |
 | [**SCALE-Sim TPU: Validating and Extending SCALE-Sim for TPUs**](https://arxiv.org/abs/2603.22535) | Paper | TPU, Cycle-Accurate Simulation, ML Compiler |
