@@ -252,6 +252,7 @@ timeline
              : HORIZON
              : CHIA
              : PANDA
+             : MultModLM
              : PDAgent-Bench
              : VHDLSuite
              : Croc
@@ -454,6 +455,7 @@ flowchart TB
         chipbench["ChipBench<br/><i>Verilog Generation, Debugging</i>"]
         cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
         hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
+        multmodlm["MultModLM<br/><i>Multi-modal, Schematic Generation</i>"]
         pdagent_bench["PDAgent-Bench<br/><i>Physical Design, Agent Benchmark, VLSI</i>"]
         ruc["RuC<br/><i>RTL Benchmark Generation, Code Completion</i>"]
         synthesis_in_the_loop_evaluation_of_llms["Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation · Quality,<br/><i>RTL Evaluation, Synthesis-in-the-Loop, HQI</i>"]
@@ -678,6 +680,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**MultModLM: A Multi-Modal Benchmark for Large-Language Model Based Hardware Schematic Generation**](https://arxiv.org/abs/2606.27666) | arXiv | 2026.06 | - | Multi-modal, Schematic Generation, RTL-to-Schematic, Benchmark |
 | [**PDAgent-Bench: Characterizing, Grounding, and Architecting LLM Agents for VLSI Physical Design**](https://arxiv.org/abs/2606.17253) | arXiv | 2026.06 | - | Physical Design, Agent Benchmark, VLSI |
 | [**VHDLSuite: Unified Pipeline for LLM VHDL Generation with Data Synthesis and Evaluation**](https://arxiv.org/abs/2606.13735) | arXiv | 2026.06 | - | VHDL Benchmark, Data Synthesis, Multi-Language HDL |
 | [**AssertLLM2: A Comprehensive LLM Benchmark for Assertion Generation from Design Specifications**](https://arxiv.org/abs/2605.27472) | arXiv | 2026.05 | - | SVA Generation, Assertion Benchmark, Formal Verification |

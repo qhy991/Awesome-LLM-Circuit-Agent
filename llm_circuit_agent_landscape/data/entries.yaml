@@ -1854,6 +1854,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "multmodlm"
+  name: "MultModLM"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Multi-modal, Schematic Generation"
+  venue: "arXiv"
+  method_tags: ["multi_modal", "schematic_generation", "rtl_to_schematic", "benchmark"]
+  url: "https://arxiv.org/abs/2606.27666"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-06"
 - id: "pdagent_bench"
   name: "PDAgent-Bench"
   year: 2026
