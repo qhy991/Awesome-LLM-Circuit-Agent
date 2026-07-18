@@ -1644,6 +1644,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-03"
+- id: "sable"
+  name: "SABLE"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Workflow"
+  subcategory: "Analog Optimization, Closed-Loop Agent"
+  venue: "ACM TODAES"
+  method_tags: ["analog_optimization", "closed_loop_agent", "nda_safe_eda"]
+  url: "https://arxiv.org/abs/2607.03701"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "panda"
   name: "PANDA"
   year: 2026
@@ -2257,6 +2271,19 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-05"
+- id: "llm_for_eda_in_front_end_design"
+  name: "LLM for EDA in Front-End Design"
+  year: 2026
+  period: "2026+"
+  category: "Resources"
+  subcategory: "Front-End EDA, Agentic AI"
+  method_tags: ["front_end_eda", "agentic_ai", "challenges_and_opportunities"]
+  url: "https://arxiv.org/abs/2607.09616"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "croc"
   name: "Croc"
   year: 2026

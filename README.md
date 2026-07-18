@@ -256,6 +256,8 @@ timeline
              : PDAgent-Bench
              : VHDLSuite
              : Croc
+    2026-07 : SABLE
+             : LLM for EDA in Front-End Design
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -419,6 +421,7 @@ flowchart TB
         towards_optimal_circuit_generation["Towards Optimal Circuit Generation<br/><i>Multi-Agent</i>"]
         analogmaster["AnalogMaster<br/><i>End-to-End Analog Design, Image-to-Netlist</i>"]
         panda["PANDA<br/><i>End-to-End Analog Design, Topology, Sizing</i>"]
+        sable["SABLE<br/><i>Analog Optimization, Closed-Loop Agent</i>"]
     end
     subgraph analog_specialized["Analog · Specialized Applications"]
         direction TB
@@ -474,6 +477,7 @@ flowchart TB
         digital_system_design_pdf["Digital System Design PDF<br/><i>Digital Design</i>"]
         eeschematic_presentation["EEschematic Presentation<br/><i>AMS Circuit</i>"]
         energy_efficient_software_hardware_codes["Energy Efficient Software Hardware CoDesign for Machine Learning ·<br/><i>Energy Efficiency, SW-HW Co-Design</i>"]
+        llm_for_eda_in_front_end_design["LLM for EDA in Front-End Design<br/><i>Front-End EDA, Agentic AI</i>"]
         scale_sim_tpu["SCALE-Sim TPU<br/><i>TPU, Cycle-Accurate Simulation</i>"]
         springer_book["Springer Book<br/><i>Digital Design</i>"]
     end
@@ -652,6 +656,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows**](https://arxiv.org/abs/2607.03701) | ACM TODAES | 2026.07 | - | Analog Optimization, Closed-Loop Agent, NDA-Safe EDA |
 | [**PANDA: An LLM-Enhanced Performance-Driven Analog Design Framework Bridging Design Intent and Layout Generation**](https://arxiv.org/abs/2606.15052) | DAC 2025 | 2026.06 | [Github](https://github.com/PKU-IDEA/PANDA) | End-to-End Analog Design, Topology, Sizing, Layout |
 | [**AnalogMaster: Large Language Model-based Automated Analog IC Design Framework from Image to Layout**](https://arxiv.org/abs/2604.20916) | arXiv | 2026.04 | - | End-to-End Analog Design, Image-to-Netlist, Layout Automation |
 | [**VLM-CAD: VLM-Optimized Collaborative Agent Design Workflow for Analog Circuit Sizing**](https://arxiv.org/abs/2601.07315) | arXiv | 2026.01 | - | VLM, Collaborative Agent, Workflow |
@@ -735,6 +740,7 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**LLM for EDA in Front-End Design: Challenges and Opportunities**](https://arxiv.org/abs/2607.09616) | DAC 2026 Survey | Front-End EDA, Agentic AI, Challenges and Opportunities |
 | [**Croc: Training the Next Generation Chip Designers on Domain-Specific End-to-End Open Source Silicon**](https://arxiv.org/abs/2606.25673) | Platform | Open-Source SoC, VLSI Education, RISC-V, Tapeout |
 | [**Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead**](https://arxiv.org/html/2512.00020v1) | Survey | Verilog Code Generation, LLM, Systematic Literature Review |
 | [**Energy Efficient Software Hardware CoDesign for Machine Learning: From TinyML to Large Language Models**](https://arxiv.org/abs/2603.23668) | Survey | Energy Efficiency, SW-HW Co-Design, ML Systems |
