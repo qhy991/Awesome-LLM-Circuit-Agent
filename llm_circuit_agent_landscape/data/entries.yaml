@@ -7,6 +7,20 @@
 #   timeline_date, timeline_label, highlight.
 # Curated report timeline: data/timeline.yaml
 
+- id: "verirefine"
+  name: "VeriRefine"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "RTL Generation, Spec Refinement, ASTF"
+  venue: "arXiv"
+  method_tags: ["rtl_generation", "spec_refinement", "astf", "agentic_repair"]
+  url: "https://arxiv.org/abs/2607.18519"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "llm4rtl"
   name: "LLM4RTL"
   year: 2026
@@ -356,6 +370,34 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "mechmem_rtl"
+  name: "MechMem-RTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "RTL Repair, Mechanism Memory"
+  venue: "arXiv"
+  method_tags: ["rtl_repair", "mechanism_memory", "verification_feedback"]
+  url: "https://arxiv.org/abs/2607.17053"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
+- id: "rtl2lean"
+  name: "Rtl2lean"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Formal Verification, RTL-to-Lean"
+  venue: "arXiv"
+  method_tags: ["formal_verification", "rtl_to_lean", "theorem_proving"]
+  url: "https://arxiv.org/abs/2607.16855"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "veripilot"
   name: "VeriPilot"
   year: 2026
@@ -1070,6 +1112,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "can_ai_agents_really_complete_rtl_to_gds"
+  name: "Can AI Agents Really Complete RTL-to-GDS? Lessons from"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Agentic EDA, RTL-to-GDS"
+  venue: "arXiv"
+  method_tags: ["agentic_eda", "rtl_to_gds", "tool_interactive_workflows"]
+  url: "https://arxiv.org/abs/2607.17528"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "horizon"
   name: "HORIZON"
   year: 2026
@@ -1644,6 +1700,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-03"
+- id: "towards_reliable_ai_assisted_analog_desi"
+  name: "Towards Reliable AI-Assisted Analog Design"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Workflow"
+  subcategory: "SAR ADC, Template-Constrained Agents"
+  venue: "arXiv"
+  method_tags: ["sar_adc", "template_constrained_agents", "analog_generation"]
+  url: "https://arxiv.org/abs/2607.14165"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "sable"
   name: "SABLE"
   year: 2026
@@ -1868,6 +1938,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "waveformqa"
+  name: "WaveformQA"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Waveform Reasoning, Temporal QA"
+  venue: "arXiv"
+  method_tags: ["waveform_reasoning", "temporal_qa", "verification_benchmark"]
+  url: "https://arxiv.org/abs/2607.20638"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
+- id: "chipverilog"
+  name: "ChipVerilog"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Verilog Benchmark, OpenCores"
+  venue: "arXiv"
+  method_tags: ["verilog_benchmark", "opencores", "hierarchical_rtl"]
+  url: "https://arxiv.org/abs/2607.13079"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "multmodlm"
   name: "MultModLM"
   year: 2026

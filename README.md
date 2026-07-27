@@ -256,7 +256,14 @@ timeline
              : PDAgent-Bench
              : VHDLSuite
              : Croc
-    2026-07 : SABLE
+    2026-07 : VeriRefine
+             : MechMem-RTL
+             : Rtl2lean
+             : Can AI Agents Really Complete RTL-to-GDS? Lessons from
+             : Towards Reliable AI-Assisted Analog Design
+             : SABLE
+             : WaveformQA
+             : ChipVerilog
              : LLM for EDA in Front-End Design
 ```
 
@@ -298,6 +305,7 @@ flowchart TB
         ming["MING<br/><i>HLS, MLIR, CNN</i>"]
         programming_domain_specific_fpga_hardblo["Programming Domain-Specific FPGA Hardblocks from HLS · An RTL<br/><i>HLS, FPGA Hardblocks, RTL Blackbox</i>"]
         safetune["SafeTune<br/><i>RTL Code Generation, Fine-Tuning Security</i>"]
+        verirefine["VeriRefine<br/><i>RTL Generation, Spec Refinement, ASTF</i>"]
     end
     subgraph digital_verification["Digital · Verification & Testing"]
         direction TB
@@ -318,7 +326,9 @@ flowchart TB
         from_language_to_logic["From Language to Logic<br/><i>SVA Generation, Formal Verification</i>"]
         grpo_with_state_mutations["GRPO with State Mutations<br/><i>Test Plan Generation, GRPO, RL</i>"]
         haven["HAVEN<br/><i>UVM Testbench Generation</i>"]
+        mechmem_rtl["MechMem-RTL<br/><i>RTL Repair, Mechanism Memory</i>"]
         qimeng_codev_sva["QiMeng-CodeV-SVA<br/><i>Assertion Generation, NL2SVA</i>"]
+        rtl2lean["Rtl2lean<br/><i>Formal Verification, RTL-to-Lean</i>"]
         shift_left_high_level_synthesis_verifica["Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent<br/><i>HLS Verification, Shift-Left</i>"]
         specloop["SpecLoop<br/><i>RTL-to-Specification, Formal Verification</i>"]
         ucagent["UCAgent<br/><i>Functional Verification, Block-Level</i>"]
@@ -370,6 +380,7 @@ flowchart TB
         agentic_architect["Agentic Architect<br/><i>Architecture Optimization, Agentic AI</i>"]
         archagent["ArchAgent<br/><i>Agentic AI, Architecture Discovery</i>"]
         chia["CHIA<br/><i>HW/SW Co-Design, Agentic Framework</i>"]
+        can_ai_agents_really_complete_rtl_to_gds["Can AI Agents Really Complete RTL-to-GDS? Lessons from<br/><i>Agentic EDA, RTL-to-GDS</i>"]
         design_conductor["Design Conductor<br/><i>Agentic Hardware Design</i>"]
         design_conductor_2_0["Design Conductor 2.0<br/><i>Agentic Hardware Design</i>"]
         exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
@@ -422,6 +433,7 @@ flowchart TB
         analogmaster["AnalogMaster<br/><i>End-to-End Analog Design, Image-to-Netlist</i>"]
         panda["PANDA<br/><i>End-to-End Analog Design, Topology, Sizing</i>"]
         sable["SABLE<br/><i>Analog Optimization, Closed-Loop Agent</i>"]
+        towards_reliable_ai_assisted_analog_desi["Towards Reliable AI-Assisted Analog Design<br/><i>SAR ADC, Template-Constrained Agents</i>"]
     end
     subgraph analog_specialized["Analog · Specialized Applications"]
         direction TB
@@ -456,6 +468,7 @@ flowchart TB
         bench4hls["Bench4HLS<br/><i>HLS, Benchmark, PPA Analysis</i>"]
         bridging_the_last_mile_of_circuit_design["Bridging the Last Mile of Circuit Design<br/><i>Post-EDA Benchmark, PPA Convergence</i>"]
         chipbench["ChipBench<br/><i>Verilog Generation, Debugging</i>"]
+        chipverilog["ChipVerilog<br/><i>Verilog Benchmark, OpenCores</i>"]
         cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
         hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
         multmodlm["MultModLM<br/><i>Multi-modal, Schematic Generation</i>"]
@@ -465,6 +478,7 @@ flowchart TB
         veribench["VERIBENCH<br/><i>Formal Verification</i>"]
         vhdlsuite["VHDLSuite<br/><i>VHDL Benchmark, Data Synthesis</i>"]
         veriinteresting["VeriInteresting<br/><i>Empirical Study, Prompt Engineering</i>"]
+        waveformqa["WaveformQA<br/><i>Waveform Reasoning, Temporal QA</i>"]
     end
     subgraph resources["Resources & Surveys"]
         direction TB
@@ -495,6 +509,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**VeriRefine: A Progressive Approach to Synthesizable RTL Design Generation Using LLMs**](https://arxiv.org/abs/2607.18519) | arXiv | 2026.07 | - | RTL Generation, Spec Refinement, ASTF, Agentic Repair |
 | [**LLM4RTL: Tool-Assisted LLM for RTL Generation**](https://arxiv.org/abs/2606.15500) | arXiv | 2026.06 | - | RTL Generation, Tool-Augmented LLM, JRCRC Pipeline |
 | [**EstRTL: Functional Estimation Guided RTL Code Generation**](https://arxiv.org/abs/2606.09867) | arXiv | 2026.06 | - | RTL Generation, Functional Estimation, Multi-Agent |
 | [**Programming Domain-Specific FPGA Hardblocks from HLS: An RTL Blackbox Approach**](https://arxiv.org/abs/2606.08380) | arXiv | 2026.06 | - | HLS, FPGA Hardblocks, RTL Blackbox |
@@ -525,6 +540,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**MechMem-RTL: Reusing Verified Mechanism Memories for LLM-Based RTL Repair**](https://arxiv.org/abs/2607.17053) | arXiv | 2026.07 | - | RTL Repair, Mechanism Memory, Verification Feedback |
+| [**Rtl2lean: Automated RTL-to-Lean Translation with Hierarchical Theorem Generation and Lemma Reuse**](https://arxiv.org/abs/2607.16855) | arXiv | 2026.07 | - | Formal Verification, RTL-to-Lean, Theorem Proving |
 | [**VeriPilot: An LLM-Powered Verilog Debugging Framework**](https://arxiv.org/abs/2606.23759) | arXiv | 2026.06 | [Github](https://github.com/YihanWn/VeriPilot) | RTL Debugging, Golden Model, CDFG |
 | [**Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent**](https://arxiv.org/abs/2606.17128) | arXiv | 2026.06 | [Github](https://github.com/cz-5f/HLS-LeVeri) | HLS Verification, Shift-Left, Knowledge Graph |
 | [**UVmarvel: an Automated LLM-aided UVM Machine for Subsystem-level RTL Verification**](https://arxiv.org/abs/2605.04704) | arXiv | 2026.05 | - | UVM Verification, Subsystem-level RTL, Stimuli Refinement |
@@ -591,6 +608,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Can AI Agents Really Complete RTL-to-GDS? Lessons from Benchmarking Tool-Interactive EDA Workflows**](https://arxiv.org/abs/2607.17528) | arXiv | 2026.07 | - | Agentic EDA, RTL-to-GDS, Tool-Interactive Workflows |
 | [**HORIZON: Agentic Hardware Design as Repository-Level Code Evolution**](https://arxiv.org/abs/2606.28279) | arXiv | 2026.06 | - | Agentic Hardware Design, Repository-Level, Self-Evolution |
 | [**CHIA: An Open-Source Framework for Principled, Agentic AI-Driven Hardware/Software Co-Design Research**](https://arxiv.org/abs/2606.27350) | arXiv | 2026.06 | - | HW/SW Co-Design, Agentic Framework, Chipyard, gem5 |
 | [**A3D: Agentic AI flow for autonomous Accelerator Design**](https://arxiv.org/abs/2605.15237) | arXiv | 2026.05 | - | Accelerator Design, HLS, Multi-Agent, End-to-End Automation |
@@ -656,6 +674,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation**](https://arxiv.org/abs/2607.14165) | arXiv | 2026.07 | - | SAR ADC, Template-Constrained Agents, Analog Generation |
 | [**SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows**](https://arxiv.org/abs/2607.03701) | ACM TODAES | 2026.07 | - | Analog Optimization, Closed-Loop Agent, NDA-Safe EDA |
 | [**PANDA: An LLM-Enhanced Performance-Driven Analog Design Framework Bridging Design Intent and Layout Generation**](https://arxiv.org/abs/2606.15052) | DAC 2025 | 2026.06 | [Github](https://github.com/PKU-IDEA/PANDA) | End-to-End Analog Design, Topology, Sizing, Layout |
 | [**AnalogMaster: Large Language Model-based Automated Analog IC Design Framework from Image to Layout**](https://arxiv.org/abs/2604.20916) | arXiv | 2026.04 | - | End-to-End Analog Design, Image-to-Netlist, Layout Automation |
@@ -685,6 +704,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**WaveformQA: Benchmarking LLM Temporal Reasoning on Digital Waveforms**](https://arxiv.org/abs/2607.20638) | arXiv | 2026.07 | - | Waveform Reasoning, Temporal QA, Verification Benchmark |
+| [**ChipVerilog: A Large-Scale OpenCores-Derived Benchmark for LLM-Based Verilog RTL Generation**](https://arxiv.org/abs/2607.13079) | arXiv | 2026.07 | - | Verilog Benchmark, OpenCores, Hierarchical RTL |
 | [**MultModLM: A Multi-Modal Benchmark for Large-Language Model Based Hardware Schematic Generation**](https://arxiv.org/abs/2606.27666) | arXiv | 2026.06 | - | Multi-modal, Schematic Generation, RTL-to-Schematic, Benchmark |
 | [**PDAgent-Bench: Characterizing, Grounding, and Architecting LLM Agents for VLSI Physical Design**](https://arxiv.org/abs/2606.17253) | arXiv | 2026.06 | - | Physical Design, Agent Benchmark, VLSI |
 | [**VHDLSuite: Unified Pipeline for LLM VHDL Generation with Data Synthesis and Evaluation**](https://arxiv.org/abs/2606.13735) | arXiv | 2026.06 | - | VHDL Benchmark, Data Synthesis, Multi-Language HDL |
