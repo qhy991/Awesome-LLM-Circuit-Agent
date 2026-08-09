@@ -7,6 +7,48 @@
 #   timeline_date, timeline_label, highlight.
 # Curated report timeline: data/timeline.yaml
 
+- id: "rtlcurator"
+  name: "RTLCurator"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "RTL Generation, Data Curation"
+  venue: "arXiv"
+  method_tags: ["rtl_generation", "data_curation", "label_efficiency", "behavior_aware_filtering"]
+  url: "https://arxiv.org/abs/2607.29283"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
+- id: "circuitweave"
+  name: "CircuitWeave"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "Multimodal RTL Generation"
+  venue: "arXiv"
+  method_tags: ["multimodal_rtl_generation", "topology_behavior_alignment", "circuit_contracts"]
+  url: "https://arxiv.org/abs/2607.23523"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
+- id: "vclare"
+  name: "VClare"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "Verilog Generation, Specification Repair"
+  venue: "arXiv"
+  method_tags: ["verilog_generation", "specification_repair", "imperfect_specifications"]
+  url: "https://arxiv.org/abs/2607.24854"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "verirefine"
   name: "VeriRefine"
   year: 2026
@@ -370,6 +412,48 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "llm_assisted_detection_and_repair_of_har"
+  name: "LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Hardware Security, CWE Detection"
+  venue: "arXiv"
+  method_tags: ["hardware_security", "cwe_detection", "verilog_repair", "llm_assisted_verification"]
+  url: "https://arxiv.org/abs/2608.04907"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
+- id: "open_source_llm_driven_formal_verificati"
+  name: "Open-Source LLM-Driven Formal Verification"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Formal Verification, RTL Repair"
+  venue: "arXiv"
+  method_tags: ["formal_verification", "rtl_repair", "multi_agent", "counterexample_guided_iteration"]
+  url: "https://arxiv.org/abs/2607.28877"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
+- id: "circuitprover"
+  name: "CircuitProver"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Formal Verification, Lean 4"
+  venue: "arXiv"
+  method_tags: ["formal_verification", "lean_4", "theorem_proving", "proof_reuse"]
+  url: "https://arxiv.org/abs/2607.27259"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "mechmem_rtl"
   name: "MechMem-RTL"
   year: 2026
@@ -720,6 +804,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-04"
+- id: "ares"
+  name: "ARES"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Optimization"
+  subcategory: "RTL Optimization, PPA, Cost-Aware Agents"
+  venue: "arXiv"
+  method_tags: ["rtl_optimization", "ppa", "cost_aware_agents", "adaptive_reasoning_effort"]
+  url: "https://arxiv.org/abs/2607.27879"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "autogate"
   name: "AUTOGATE"
   year: 2026
@@ -1112,6 +1210,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "lace"
+  name: "LACE"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "RISC-V Instruction Extension, Multi-Agent"
+  venue: "arXiv"
+  method_tags: ["risc_v_instruction_extension", "multi_agent", "rtl_editing", "formal_verification"]
+  url: "https://arxiv.org/abs/2608.02915"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
+- id: "rethinking_agentic_kernel_generation_for"
+  name: "Rethinking Agentic Kernel Generation for Emerging Accelerators"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Agentic Kernel Generation"
+  venue: "arXiv"
+  method_tags: ["agentic_kernel_generation", "emerging_accelerators", "compiler_mediated", "verified_dse"]
+  url: "https://arxiv.org/abs/2608.00894"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
 - id: "can_ai_agents_really_complete_rtl_to_gds"
   name: "Can AI Agents Really Complete RTL-to-GDS? Lessons from"
   year: 2026
@@ -1938,6 +2064,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "benchmarking_llms_for_verilog_design_flo"
+  name: "Benchmarking LLMs for Verilog Design Flows"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Verilog Benchmark, End-to-End Validation"
+  venue: "arXiv"
+  method_tags: ["verilog_benchmark", "end_to_end_validation", "semantic_aware_refinement"]
+  url: "https://arxiv.org/abs/2607.22759"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-07"
 - id: "waveformqa"
   name: "WaveformQA"
   year: 2026
