@@ -273,7 +273,8 @@ timeline
              : WaveformQA
              : ChipVerilog
              : LLM for EDA in Front-End Design
-    2026-08 : HINT
+    2026-08 : SeqFeed
+             : HINT
              : Spec-Driven Hardware Evolution
              : LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities
              : SynAct
@@ -325,6 +326,7 @@ flowchart TB
         programming_domain_specific_fpga_hardblo["Programming Domain-Specific FPGA Hardblocks from HLS · An RTL<br/><i>HLS, FPGA Hardblocks, RTL Blackbox</i>"]
         rtlcurator["RTLCurator<br/><i>RTL Generation, Data Curation</i>"]
         safetune["SafeTune<br/><i>RTL Code Generation, Fine-Tuning Security</i>"]
+        seqfeed["SeqFeed<br/><i>Sequential Behavior Feedback</i>"]
         vclare["VClare<br/><i>Verilog Generation, Specification Repair</i>"]
         verirefine["VeriRefine<br/><i>RTL Generation, Spec Refinement, ASTF</i>"]
     end
@@ -543,6 +545,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**SeqFeed: Improving Agentic RTL Code Generation with Sequential Behavior Feedback**](https://arxiv.org/abs/2608.16934) | arXiv | 2026.08 | - | Agentic RTL Generation, Sequential Feedback, Waveform Querying, Dependency Tracing |
 | [**HINT: Toward an Executable Hardware-Intent Representation Layer for LLM-Driven RTL Generation**](https://arxiv.org/abs/2608.07625) | arXiv | 2026.08 | - | Hardware-Intent IR, Pre-RTL Checking, RTL Lowering, Staged Workflow |
 | [**RTLCurator: Label-Efficient Data Curation for RTL Generation**](https://arxiv.org/abs/2607.29283) | arXiv | 2026.07 | - | RTL Generation, Data Curation, Label Efficiency, Behavior-Aware Filtering |
 | [**CircuitWeave: Topology-Behavior Alignment for Executable Multimodal RTL Generation**](https://arxiv.org/abs/2607.23523) | arXiv | 2026.07 | [Dataset](https://huggingface.co/datasets/fengjiahao0421/CircuitWeave) | Multimodal RTL Generation, Topology-Behavior Alignment, Circuit Contracts |
