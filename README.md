@@ -277,6 +277,7 @@ timeline
              : HINT
              : Spec-Driven Hardware Evolution
              : LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities
+             : GoalEvolve
              : SynAct
              : Why Do Prefetchers Fail? Let Agents Answer
              : ArchAgent v2
@@ -375,6 +376,7 @@ flowchart TB
         autonomous_evolution_of_eda_tools["Autonomous Evolution of EDA Tools<br/><i>EDA Tools, Multi-Agent, Self-Evolution</i>"]
         codmas["CODMAS<br/><i>RTL Optimization, Multi-Agent, PPA</i>"]
         dr_rtl["Dr. RTL<br/><i>RTL Optimization, Agentic Workflow</i>"]
+        goalevolve["GoalEvolve<br/><i>Goal-Driven Physical Design Evolution</i>"]
         how_can_reinforcement_learning_achieve_e["How Can Reinforcement Learning Achieve Expert-level Placement?<br/><i>Chip Placement, Reinforcement Learning</i>"]
         lumina["LUMINA<br/><i>GPU DSE, Bottleneck Analysis, LLM-guided</i>"]
         longrtl["LongRTL<br/><i>RTL Optimization, Long Context, Graph-RAG</i>"]
@@ -615,6 +617,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**GoalEvolve: From Handcrafted Algorithm Priors to Goal-Driven Evolution of Physical Design Algorithms**](https://arxiv.org/abs/2608.16733) | arXiv | 2026.08 | - | Physical Design, Goal-Driven Evolution, Multi-Agent, Full-Flow QoR, OpenROAD |
 | [**SynAct: A Reasoning-Acting Large Language Model Agent for Adaptive Synthesis Optimization**](https://arxiv.org/abs/2608.12751) | arXiv | 2026.08 | - | Logic Synthesis, Closed-Loop Agent, WNS Optimization, Tool-Grounded Reasoning |
 | [**ARES: Adaptive Reasoning-Effort Steering for PPA- and Cost-Aware RTL Optimization with LLM Agents**](https://arxiv.org/abs/2607.27879) | arXiv | 2026.07 | - | RTL Optimization, PPA, Cost-Aware Agents, Adaptive Reasoning Effort |
 | [**AUTOGATE: Automated Clock Gating via Toggling-Aware LLM-based RTL Rewriting**](https://arxiv.org/abs/2606.17461) | arXiv | 2026.06 | - | RTL Optimization, Clock Gating, Power, Multi-Agent |

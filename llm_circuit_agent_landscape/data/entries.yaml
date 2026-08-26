@@ -846,6 +846,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-04"
+- id: "goalevolve"
+  name: "GoalEvolve"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Optimization"
+  subcategory: "Goal-Driven Physical Design Evolution"
+  venue: "arXiv"
+  method_tags: ["physical_design", "goal_driven_evolution", "multi_agent", "full_flow_qor", "openroad"]
+  url: "https://arxiv.org/abs/2608.16733"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
 - id: "synact"
   name: "SynAct"
   year: 2026
