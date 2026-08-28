@@ -273,7 +273,9 @@ timeline
              : WaveformQA
              : ChipVerilog
              : LLM for EDA in Front-End Design
-    2026-08 : SeqFeed
+    2026-08 : RTLGuard
+             : EAHC
+             : SeqFeed
              : HINT
              : Spec-Driven Hardware Evolution
              : LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities
@@ -283,7 +285,9 @@ timeline
              : ArchAgent v2
              : LACE
              : Rethinking Agentic Kernel Generation for Emerging Accelerators
+             : LLM-SPICEMixer
              : GateTruth
+             : LLMs in Digital EDA
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -318,6 +322,7 @@ flowchart TB
         cass_rtl["CASS-RTL<br/><i>RTL Generation, Inference-time Steering</i>"]
         cppl["CPPL<br/><i>RTL Generation, Compiler-Mediated, CIRCT</i>"]
         circuitweave["CircuitWeave<br/><i>Multimodal RTL Generation</i>"]
+        eahc["EAHC<br/><i>Execution-Anchored Candidate Reranking</i>"]
         estrtl["EstRTL<br/><i>RTL Generation, Functional Estimation</i>"]
         exploring_llm_based_verilog_code_generat["Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning<br/><i>Verilog Generation</i>"]
         hint["HINT<br/><i>Hardware-Intent IR, Pre-RTL Checking</i>"]
@@ -326,6 +331,7 @@ flowchart TB
         ming["MING<br/><i>HLS, MLIR, CNN</i>"]
         programming_domain_specific_fpga_hardblo["Programming Domain-Specific FPGA Hardblocks from HLS · An RTL<br/><i>HLS, FPGA Hardblocks, RTL Blackbox</i>"]
         rtlcurator["RTLCurator<br/><i>RTL Generation, Data Curation</i>"]
+        rtlguard["RTLGuard<br/><i>Backdoor Defense for RTL Generation</i>"]
         safetune["SafeTune<br/><i>RTL Code Generation, Fine-Tuning Security</i>"]
         seqfeed["SeqFeed<br/><i>Sequential Behavior Feedback</i>"]
         vclare["VClare<br/><i>Verilog Generation, Specification Repair</i>"]
@@ -444,6 +450,7 @@ flowchart TB
         eeschematic["EEschematic<br/><i>MLLM, Schematic</i>"]
         spicemixer["SpiceMixer<br/><i>Netlist Evolution</i>"]
         circuitformer["CircuitFormer<br/><i>Analog Topology, Circuit Tokenizer</i>"]
+        llm_spicemixer["LLM-SPICEMixer<br/><i>LLM-Guided Genetic Netlist Evolution</i>"]
     end
     subgraph analog_sizing["Analog · Sizing & Optimization"]
         direction TB
@@ -530,6 +537,7 @@ flowchart TB
         eeschematic_presentation["EEschematic Presentation<br/><i>AMS Circuit</i>"]
         energy_efficient_software_hardware_codes["Energy Efficient Software Hardware CoDesign for Machine Learning ·<br/><i>Energy Efficiency, SW-HW Co-Design</i>"]
         llm_for_eda_in_front_end_design["LLM for EDA in Front-End Design<br/><i>Front-End EDA, Agentic AI</i>"]
+        llms_in_digital_eda["LLMs in Digital EDA<br/><i>Generator-Agent-Orchestrator Perspective</i>"]
         scale_sim_tpu["SCALE-Sim TPU<br/><i>TPU, Cycle-Accurate Simulation</i>"]
         springer_book["Springer Book<br/><i>Digital Design</i>"]
     end
@@ -547,6 +555,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models**](https://arxiv.org/abs/2608.26049) | ICCAD 2026 | 2026.08 | - | RTL Code Generation, Backdoor Defense, Teacher-Student Learning, Knowledge Distillation |
+| [**Execution-Anchored Hallucination Calibration Reranking for Verilog Code Generation**](https://arxiv.org/abs/2608.22938) | arXiv | 2026.08 | - | Verilog Generation, Candidate Reranking, Execution Verification, Hallucination Calibration |
 | [**SeqFeed: Improving Agentic RTL Code Generation with Sequential Behavior Feedback**](https://arxiv.org/abs/2608.16934) | arXiv | 2026.08 | - | Agentic RTL Generation, Sequential Feedback, Waveform Querying, Dependency Tracing |
 | [**HINT: Toward an Executable Hardware-Intent Representation Layer for LLM-Driven RTL Generation**](https://arxiv.org/abs/2608.07625) | arXiv | 2026.08 | - | Hardware-Intent IR, Pre-RTL Checking, RTL Lowering, Staged Workflow |
 | [**RTLCurator: Label-Efficient Data Curation for RTL Generation**](https://arxiv.org/abs/2607.29283) | arXiv | 2026.07 | - | RTL Generation, Data Curation, Label Efficiency, Behavior-Aware Filtering |
@@ -700,6 +710,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Spicing up Genetic Netlist Generation with LLMs**](https://arxiv.org/abs/2608.23317) | MLCAD 2026 | 2026.08 | - | LLM-SPICEMixer, Analog Topology, Genetic Evolution, SPICE-Grounded Evaluation |
 | [**CircuitFormer: A Circuit Language Model for Analog Topology Design from Natural Language Prompt**](https://arxiv.org/abs/2605.05773) | arXiv | 2026.05 | - | Analog Topology, Circuit Tokenizer, NL2Netlist |
 | [**EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit**](https://arxiv.org/abs/2510.17002) | arXiv | 2025.10 | [Github](https://github.com/eelab-dev/EEschematic) | MLLM, Schematic |
 | [**DiffCkt: A Diffusion Model-Based Hybrid Neural Network Framework for Automatic Transistor-Level Generation**](https://arxiv.org/pdf/2507.00444) | arXiv | 2025.07 | - | Diffusion Model |
@@ -818,6 +829,7 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**LLMs in Digital EDA: A Perspective on Shifting Roles from Generation to Orchestration**](https://arxiv.org/abs/2608.27184) | Perspective | Digital EDA, Generator-Agent-Orchestrator Hierarchy, Physics-Aware Orchestration |
 | [**LLM for EDA in Front-End Design: Challenges and Opportunities**](https://arxiv.org/abs/2607.09616) | DAC 2026 Survey | Front-End EDA, Agentic AI, Challenges and Opportunities |
 | [**Croc: Training the Next Generation Chip Designers on Domain-Specific End-to-End Open Source Silicon**](https://arxiv.org/abs/2606.25673) | Platform | Open-Source SoC, VLSI Education, RISC-V, Tapeout |
 | [**Large Language Model for Verilog Code Generation: Literature Review and the Road Ahead**](https://arxiv.org/html/2512.00020v1) | Survey | Verilog Code Generation, LLM, Systematic Literature Review |
