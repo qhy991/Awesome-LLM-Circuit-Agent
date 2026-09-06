@@ -468,6 +468,20 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "notb"
+  name: "NoTB"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Cross-Model Formal Consensus"
+  venue: "MLCAD 2026"
+  method_tags: ["oracle_free_triage", "sequential_equivalence_checking", "cross_model_consensus"]
+  url: "https://arxiv.org/abs/2608.21962"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
 - id: "spec_driven_hardware_evolution"
   name: "Spec-Driven Hardware Evolution"
   year: 2026
@@ -1308,6 +1322,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "hierarchical_ir_hardware_workflow"
+  name: "Hierarchical IR Hardware Workflow"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Hierarchical IRs, End-to-End Multi-Agent"
+  venue: "arXiv"
+  method_tags: ["hierarchical_ir", "multi_agent", "rtl_generation", "verification"]
+  url: "https://arxiv.org/abs/2608.30659"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
+- id: "beacon"
+  name: "Beacon"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Report-Driven Multi-Chiplet HW-DSE"
+  venue: "arXiv"
+  method_tags: ["multi_chiplet", "hardware_dse", "multi_agent", "rag_memory"]
+  url: "https://arxiv.org/abs/2608.30932"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
 - id: "why_do_prefetchers_fail"
   name: "Why Do Prefetchers Fail? Let Agents Answer"
   year: 2026
@@ -2677,6 +2719,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-05"
+- id: "ane_llm_measurements"
+  name: "What Actually Runs on the Apple Neural Engine"
+  year: 2026
+  period: "2026+"
+  category: "Resources"
+  subcategory: "ANE Placement and Decode Measurement"
+  venue: "arXiv"
+  method_tags: ["apple_neural_engine", "coreml", "decode_performance", "quantization"]
+  url: "https://arxiv.org/abs/2608.22110"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-08"
 - id: "llms_in_digital_eda"
   name: "LLMs in Digital EDA"
   year: 2026

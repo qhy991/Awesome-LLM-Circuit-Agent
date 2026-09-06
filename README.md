@@ -277,16 +277,20 @@ timeline
              : EAHC
              : SeqFeed
              : HINT
+             : NoTB
              : Spec-Driven Hardware Evolution
              : LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities
              : GoalEvolve
              : SynAct
+             : Hierarchical IR Hardware Workflow
+             : Beacon
              : Why Do Prefetchers Fail? Let Agents Answer
              : ArchAgent v2
              : LACE
              : Rethinking Agentic Kernel Generation for Emerging Accelerators
              : LLM-SPICEMixer
              : GateTruth
+             : What Actually Runs on the Apple Neural Engine
              : LLMs in Digital EDA
 ```
 
@@ -359,6 +363,7 @@ flowchart TB
         haven["HAVEN<br/><i>UVM Testbench Generation</i>"]
         llm_assisted_detection_and_repair_of_har["LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities<br/><i>Hardware Security, CWE Detection</i>"]
         mechmem_rtl["MechMem-RTL<br/><i>RTL Repair, Mechanism Memory</i>"]
+        notb["NoTB<br/><i>Cross-Model Formal Consensus</i>"]
         open_source_llm_driven_formal_verificati["Open-Source LLM-Driven Formal Verification<br/><i>Formal Verification, RTL Repair</i>"]
         qimeng_codev_sva["QiMeng-CodeV-SVA<br/><i>Assertion Generation, NL2SVA</i>"]
         rtl2lean["Rtl2lean<br/><i>Formal Verification, RTL-to-Lean</i>"]
@@ -417,6 +422,7 @@ flowchart TB
         agentic_architect["Agentic Architect<br/><i>Architecture Optimization, Agentic AI</i>"]
         archagent["ArchAgent<br/><i>Agentic AI, Architecture Discovery</i>"]
         archagent_v2["ArchAgent v2<br/><i>Cascaded Evolution, Prefetching</i>"]
+        beacon["Beacon<br/><i>Report-Driven Multi-Chiplet HW-DSE</i>"]
         chia["CHIA<br/><i>HW/SW Co-Design, Agentic Framework</i>"]
         can_ai_agents_really_complete_rtl_to_gds["Can AI Agents Really Complete RTL-to-GDS? Lessons from<br/><i>Agentic EDA, RTL-to-GDS</i>"]
         design_conductor["Design Conductor<br/><i>Agentic Hardware Design</i>"]
@@ -424,6 +430,7 @@ flowchart TB
         exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
         fluxeda["FluxEDA<br/><i>Agentic EDA, Stateful Execution</i>"]
         horizon["HORIZON<br/><i>Agentic Hardware Design, Repository-Level</i>"]
+        hierarchical_ir_hardware_workflow["Hierarchical IR Hardware Workflow<br/><i>Hierarchical IRs, End-to-End Multi-Agent</i>"]
         lace["LACE<br/><i>RISC-V Instruction Extension, Multi-Agent</i>"]
         rethinking_agentic_kernel_generation_for["Rethinking Agentic Kernel Generation for Emerging Accelerators<br/><i>Agentic Kernel Generation</i>"]
         siliconmind_v1["SiliconMind-V1<br/><i>Multi-Agent, Distillation, Debug-Reasoning</i>"]
@@ -540,6 +547,7 @@ flowchart TB
         llms_in_digital_eda["LLMs in Digital EDA<br/><i>Generator-Agent-Orchestrator Perspective</i>"]
         scale_sim_tpu["SCALE-Sim TPU<br/><i>TPU, Cycle-Accurate Simulation</i>"]
         springer_book["Springer Book<br/><i>Digital Design</i>"]
+        ane_llm_measurements["What Actually Runs on the Apple Neural Engine<br/><i>ANE Placement and Decode Measurement</i>"]
     end
 ```
 
@@ -593,6 +601,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**NoTB: Oracle-Free Triage of LLM-Generated RTL via Cross-Model Formal Consensus**](https://arxiv.org/abs/2608.21962) | MLCAD 2026 | 2026.08 | - | Oracle-Free Triage, Sequential Equivalence Checking, Cross-Model Consensus |
 | [**Spec-Driven Hardware Evolution via Executable Contract Refinement and Proof-Guided RTL Update**](https://arxiv.org/abs/2608.12684) | arXiv | 2026.08 | [Artifact](https://anonymous.4open.science/r/SDHE-3A6C) | RTL Evolution, Executable Contracts, Mutation Probing, Proof-Guided Repair |
 | [**LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities in Verilog Designs**](https://arxiv.org/abs/2608.04907) | arXiv | 2026.08 | [Github](https://github.com/JazzCat4/LLM-CWE-Detection) | Hardware Security, CWE Detection, Verilog Repair, LLM-Assisted Verification |
 | [**Open-Source LLM-Driven Formal Verification: A Multi-Agent Pipeline for RTL Repair**](https://arxiv.org/abs/2607.28877) | arXiv | 2026.07 | [Github](https://github.com/trunghafromvietnam/rtl-repair-framework) | Formal Verification, RTL Repair, Multi-Agent, Counterexample-Guided Iteration |
@@ -668,6 +677,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow**](https://arxiv.org/abs/2608.30659) | arXiv | 2026.08 | - | Hierarchical IRs, End-to-End Hardware Development, Multi-Agent Debugging, RTL Verification |
+| [**Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators**](https://arxiv.org/abs/2608.30932) | arXiv | 2026.08 | - | Multi-Chiplet Accelerator, Hardware DSE, Report-Driven Multi-Agent, RAG Memory |
 | [**Why Do Prefetchers Fail? Let Agents Answer**](https://arxiv.org/abs/2608.13027) | arXiv | 2026.08 | - | Autoresearch, Performance Anomalies, Simulator-in-the-Loop, Prefetcher Design |
 | [**ArchAgent v2: A Case Study with the Data Prefetching Championship**](https://arxiv.org/abs/2608.09874) | arXiv | 2026.08 | - | Architecture Discovery, Cascaded Evolution, Realizability Feedback, Prefetching |
 | [**LACE: Large Language Model Aided Multi-Agent Framework for Agile RISC-V Instruction Extension**](https://arxiv.org/abs/2608.02915) | arXiv | 2026.08 | [Github](https://github.com/UMN-ZhaoLab/LACE) | RISC-V Instruction Extension, Multi-Agent, RTL Editing, Formal Verification |
@@ -829,6 +840,7 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**What Actually Runs: A Measurement Study of Language Model Placement and Decode Speed on the Apple Neural Engine**](https://arxiv.org/abs/2608.22110) | Measurement Study | [Code](https://github.com/shershah1024/ane-llm-measurements) · Apple Neural Engine, Core ML Placement, Decode Performance, Quantization |
 | [**LLMs in Digital EDA: A Perspective on Shifting Roles from Generation to Orchestration**](https://arxiv.org/abs/2608.27184) | Perspective | Digital EDA, Generator-Agent-Orchestrator Hierarchy, Physics-Aware Orchestration |
 | [**LLM for EDA in Front-End Design: Challenges and Opportunities**](https://arxiv.org/abs/2607.09616) | DAC 2026 Survey | Front-End EDA, Agentic AI, Challenges and Opportunities |
 | [**Croc: Training the Next Generation Chip Designers on Domain-Specific End-to-End Open Source Silicon**](https://arxiv.org/abs/2606.25673) | Platform | Open-Source SoC, VLSI Education, RISC-V, Tapeout |
