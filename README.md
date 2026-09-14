@@ -292,6 +292,8 @@ timeline
              : GateTruth
              : What Actually Runs on the Apple Neural Engine
              : LLMs in Digital EDA
+    2026-09 : HLSFactory-Agent
+             : HLS-Eval Agentic
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -429,6 +431,7 @@ flowchart TB
         design_conductor_2_0["Design Conductor 2.0<br/><i>Agentic Hardware Design</i>"]
         exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
         fluxeda["FluxEDA<br/><i>Agentic EDA, Stateful Execution</i>"]
+        hlsfactory_agent["HLSFactory-Agent<br/><i>Agentic HLS Dataset Curation</i>"]
         horizon["HORIZON<br/><i>Agentic Hardware Design, Repository-Level</i>"]
         hierarchical_ir_hardware_workflow["Hierarchical IR Hardware Workflow<br/><i>Hierarchical IRs, End-to-End Multi-Agent</i>"]
         lace["LACE<br/><i>RISC-V Instruction Extension, Multi-Agent</i>"]
@@ -522,6 +525,7 @@ flowchart TB
         chipverilog["ChipVerilog<br/><i>Verilog Benchmark, OpenCores</i>"]
         cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
         gatetruth["GateTruth<br/><i>RTL Benchmark Audit, Mutation Testing</i>"]
+        hls_eval_agentic["HLS-Eval Agentic<br/><i>Agentic HLS Evaluation</i>"]
         hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
         multmodlm["MultModLM<br/><i>Multi-modal, Schematic Generation</i>"]
         pdagent_bench["PDAgent-Bench<br/><i>Physical Design, Agent Benchmark, VLSI</i>"]
@@ -677,6 +681,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects**](https://arxiv.org/abs/2609.09519) | OSCAR @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/hlsfactory-agent) | Agentic HLS Dataset Curation, Repository Extraction, Docker Evaluation |
 | [**LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow**](https://arxiv.org/abs/2608.30659) | arXiv | 2026.08 | - | Hierarchical IRs, End-to-End Hardware Development, Multi-Agent Debugging, RTL Verification |
 | [**Beacon: LLM Multi-Agent Driven Hardware Design Space Exploration for Heterogeneous Multi-Chiplet Deep Learning Accelerators**](https://arxiv.org/abs/2608.30932) | arXiv | 2026.08 | - | Multi-Chiplet Accelerator, Hardware DSE, Report-Driven Multi-Agent, RAG Memory |
 | [**Why Do Prefetchers Fail? Let Agents Answer**](https://arxiv.org/abs/2608.13027) | arXiv | 2026.08 | - | Autoresearch, Performance Anomalies, Simulator-in-the-Loop, Prefetcher Design |
@@ -781,6 +786,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Benchmarking Agentic HLS Design Tasks With HLS-Eval**](https://arxiv.org/abs/2609.09526) | Architecture 2.0 @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/HLS-Eval) | Agentic HLS Evaluation, Compiler Self-Verification, Trajectory Analysis |
 | [**GateTruth: Auditing the Rigor of RTL Design Benchmarks via Mutation Testing**](https://arxiv.org/abs/2608.12635) | arXiv | 2026.08 | - | RTL Benchmark Audit, Mutation Testing, Testbench Rigor, Correctness Gates |
 | [**Benchmarking LLMs for Verilog Design Flows**](https://arxiv.org/abs/2607.22759) | arXiv | 2026.07 | [Github](https://github.com/Ganglet/Benchmarking-Generative-AI-in-EDA-Workflows) | Verilog Benchmark, End-to-End Validation, Semantic-Aware Refinement |
 | [**WaveformQA: Benchmarking LLM Temporal Reasoning on Digital Waveforms**](https://arxiv.org/abs/2607.20638) | arXiv | 2026.07 | [Github](https://github.com/tenstorrent/waveformqa) | Waveform Reasoning, Temporal QA, Verification Benchmark |

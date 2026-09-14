@@ -1322,6 +1322,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "hlsfactory_agent"
+  name: "HLSFactory-Agent"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Agentic HLS Dataset Curation"
+  venue: "OSCAR @ ISCA 2026"
+  method_tags: ["hls", "dataset_curation", "agent", "repository_extraction"]
+  url: "https://arxiv.org/abs/2609.09519"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-09"
 - id: "hierarchical_ir_hardware_workflow"
   name: "Hierarchical IR Hardware Workflow"
   year: 2026
@@ -2260,6 +2274,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "hls_eval_agentic"
+  name: "HLS-Eval Agentic"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Agentic HLS Evaluation"
+  venue: "Architecture 2.0 @ ISCA 2026"
+  method_tags: ["hls", "agentic_evaluation", "compiler_verification", "trajectory_analysis"]
+  url: "https://arxiv.org/abs/2609.09526"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-09"
 - id: "gatetruth"
   name: "GateTruth"
   year: 2026
