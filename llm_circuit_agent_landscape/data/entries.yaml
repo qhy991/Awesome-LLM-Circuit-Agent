@@ -7,6 +7,20 @@
 #   timeline_date, timeline_label, highlight.
 # Curated report timeline: data/timeline.yaml
 
+- id: "speclens"
+  name: "SpecLens"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "Specification-Derived Verilog Generation"
+  venue: "ASP-DAC 2027"
+  method_tags: ["verilog_generation", "specification_derived_constraints", "behavioral_divergence", "spec_to_rtl"]
+  url: "https://arxiv.org/abs/2609.16729"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-09"
 - id: "rtlguard"
   name: "RTLGuard"
   year: 2026

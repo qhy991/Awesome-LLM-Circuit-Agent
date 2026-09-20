@@ -292,7 +292,8 @@ timeline
              : GateTruth
              : What Actually Runs on the Apple Neural Engine
              : LLMs in Digital EDA
-    2026-09 : HLSFactory-Agent
+    2026-09 : SpecLens
+             : HLSFactory-Agent
              : VeriBugBench
              : HLS-Eval Agentic
 ```
@@ -341,6 +342,7 @@ flowchart TB
         rtlguard["RTLGuard<br/><i>Backdoor Defense for RTL Generation</i>"]
         safetune["SafeTune<br/><i>RTL Code Generation, Fine-Tuning Security</i>"]
         seqfeed["SeqFeed<br/><i>Sequential Behavior Feedback</i>"]
+        speclens["SpecLens<br/><i>Specification-Derived Verilog Generation</i>"]
         vclare["VClare<br/><i>Verilog Generation, Specification Repair</i>"]
         verirefine["VeriRefine<br/><i>RTL Generation, Spec Refinement, ASTF</i>"]
     end
@@ -569,6 +571,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**SpecLens: LLM-Based Verilog Generation with Specification-Derived Constraints via Behavioral Divergence**](https://arxiv.org/abs/2609.16729) | ASP-DAC 2027 | 2026.09 | [Code](https://anonymous.4open.science/r/SpecLens-4632/) | Verilog Generation, Specification-Derived Constraints, Behavioral Divergence, Spec-to-RTL |
 | [**RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models**](https://arxiv.org/abs/2608.26049) | ICCAD 2026 | 2026.08 | - | RTL Code Generation, Backdoor Defense, Teacher-Student Learning, Knowledge Distillation |
 | [**Execution-Anchored Hallucination Calibration Reranking for Verilog Code Generation**](https://arxiv.org/abs/2608.22938) | arXiv | 2026.08 | - | Verilog Generation, Candidate Reranking, Execution Verification, Hallucination Calibration |
 | [**SeqFeed: Improving Agentic RTL Code Generation with Sequential Behavior Feedback**](https://arxiv.org/abs/2608.16934) | arXiv | 2026.08 | - | Agentic RTL Generation, Sequential Feedback, Waveform Querying, Dependency Tracing |
