@@ -2274,6 +2274,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-02"
+- id: "veribugbench"
+  name: "VeriBugBench"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Verilog RTL Debugging Benchmark"
+  venue: "arXiv"
+  method_tags: ["rtl_debugging", "empirical_mutation", "llm_testbench_enhancement", "execution_based_filtering"]
+  url: "https://arxiv.org/abs/2609.18022"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-09"
 - id: "hls_eval_agentic"
   name: "HLS-Eval Agentic"
   year: 2026

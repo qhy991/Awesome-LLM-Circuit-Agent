@@ -293,6 +293,7 @@ timeline
              : What Actually Runs on the Apple Neural Engine
              : LLMs in Digital EDA
     2026-09 : HLSFactory-Agent
+             : VeriBugBench
              : HLS-Eval Agentic
 ```
 
@@ -533,6 +534,7 @@ flowchart TB
         synthesis_in_the_loop_evaluation_of_llms["Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation · Quality,<br/><i>RTL Evaluation, Synthesis-in-the-Loop, HQI</i>"]
         veribench["VERIBENCH<br/><i>Formal Verification</i>"]
         vhdlsuite["VHDLSuite<br/><i>VHDL Benchmark, Data Synthesis</i>"]
+        veribugbench["VeriBugBench<br/><i>Verilog RTL Debugging Benchmark</i>"]
         veriinteresting["VeriInteresting<br/><i>Empirical Study, Prompt Engineering</i>"]
         waveformqa["WaveformQA<br/><i>Waveform Reasoning, Temporal QA</i>"]
     end
@@ -786,6 +788,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**VeriBugBench: An Empirically Grounded Framework for Constructing Verilog RTL Debugging Benchmarks**](https://arxiv.org/abs/2609.18022) | arXiv | 2026.09 | [GitHub](https://github.com/wndif/VeriBugBench) | RTL Debugging Benchmark, Empirical Mutations, LLM Testbench Enhancement, Execution-Based Filtering |
 | [**Benchmarking Agentic HLS Design Tasks With HLS-Eval**](https://arxiv.org/abs/2609.09526) | Architecture 2.0 @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/HLS-Eval) | Agentic HLS Evaluation, Compiler Self-Verification, Trajectory Analysis |
 | [**GateTruth: Auditing the Rigor of RTL Design Benchmarks via Mutation Testing**](https://arxiv.org/abs/2608.12635) | arXiv | 2026.08 | - | RTL Benchmark Audit, Mutation Testing, Testbench Rigor, Correctness Gates |
 | [**Benchmarking LLMs for Verilog Design Flows**](https://arxiv.org/abs/2607.22759) | arXiv | 2026.07 | [Github](https://github.com/Ganglet/Benchmarking-Generative-AI-in-EDA-Workflows) | Verilog Benchmark, End-to-End Validation, Semantic-Aware Refinement |
