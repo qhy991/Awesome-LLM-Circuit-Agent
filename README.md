@@ -696,6 +696,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**CACHEFORGE: LLM-Guided End-to-End Generative Cache Replacement Policy for Performance and Hardware Efficiency**](https://arxiv.org/abs/2610.07668) | arXiv | 2026.10 | - | LLM-Guided Policy Generation, CPU Cache Replacement, Hardware-Aware Search, Simulator-in-the-Loop |
 | [**Can Agents Design Better Chips with a Higher Level Abstraction?**](https://arxiv.org/abs/2609.21157) | ICCAD 2026 | 2026.09 | [GitHub](https://github.com/ZijD/AHRR) | Agentic HLS, RTL Refinement, FPGA Evaluation, Higher-Level Abstraction |
 | [**HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects**](https://arxiv.org/abs/2609.09519) | OSCAR @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/hlsfactory-agent) | Agentic HLS Dataset Curation, Repository Extraction, Docker Evaluation |
 | [**LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow**](https://arxiv.org/abs/2608.30659) | arXiv | 2026.08 | - | Hierarchical IRs, End-to-End Hardware Development, Multi-Agent Debugging, RTL Verification |
