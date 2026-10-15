@@ -696,6 +696,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**CacheFit: The Rising Cost of Cache Replacement and Constraint-Driven Redesign of Last-Level Cache Replacement Policies**](https://arxiv.org/abs/2610.10579) | arXiv | 2026.10 | - | LLM-Guided Policy Redesign, CPU Cache Replacement, Analytical Hardware-Cost Modeling, ChampSim/HARCOM |
 | [**CACHEFORGE: LLM-Guided End-to-End Generative Cache Replacement Policy for Performance and Hardware Efficiency**](https://arxiv.org/abs/2610.07668) | arXiv | 2026.10 | - | LLM-Guided Policy Generation, CPU Cache Replacement, Hardware-Aware Search, Simulator-in-the-Loop |
 | [**Can Agents Design Better Chips with a Higher Level Abstraction?**](https://arxiv.org/abs/2609.21157) | ICCAD 2026 | 2026.09 | [GitHub](https://github.com/ZijD/AHRR) | Agentic HLS, RTL Refinement, FPGA Evaluation, Higher-Level Abstraction |
 | [**HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects**](https://arxiv.org/abs/2609.09519) | OSCAR @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/hlsfactory-agent) | Agentic HLS Dataset Curation, Repository Extraction, Docker Evaluation |
