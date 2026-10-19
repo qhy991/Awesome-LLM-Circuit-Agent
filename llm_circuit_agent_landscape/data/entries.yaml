@@ -1336,20 +1336,6 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
-- id: "sparsecraft"
-  name: "SparseCraft"
-  year: 2026
-  period: "2026+"
-  category: "Digital-MultiAgent"
-  subcategory: "Agentic Sparse Hardware-Software Co-Optimization"
-  venue: "A3 @ MICRO 2026"
-  method_tags: ["sparse_accelerator", "agentic_co_optimization", "chisel_rtl", "cycle_accurate_simulation", "bit_exact_verification"]
-  url: "https://arxiv.org/abs/2610.05037"
-  source: "awesome_llm_circuit_agent"
-  display_priority: 2
-  show_in_report: false
-  show_in_full: true
-  timeline_date: "2026-10"
 - id: "ahrr"
   name: "AHRR"
   year: 2026
@@ -1924,20 +1910,6 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
-- id: "rfchipagent"
-  name: "RFChipAgent"
-  year: 2026
-  period: "2026+"
-  category: "Analog-Sizing"
-  subcategory: "Multi-Agent Analog/RF Design Flow"
-  venue: "arXiv"
-  method_tags: ["analog_rf_design", "multi_agent", "multimodal_rag", "simulator_in_the_loop", "hybrid_sizing"]
-  url: "https://arxiv.org/abs/2610.10858"
-  source: "awesome_llm_circuit_agent"
-  display_priority: 2
-  show_in_report: false
-  show_in_full: true
-  timeline_date: "2026-10"
 - id: "agentic_sizing"
   name: "AgenticSizing"
   year: 2026
