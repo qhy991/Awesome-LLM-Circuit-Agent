@@ -299,7 +299,9 @@ timeline
              : GRADE-RTL
              : VeriBugBench
              : HLS-Eval Agentic
-    2026-10 : VHDL-REPOBENCH
+    2026-10 : SparseCraft
+             : RFChipAgent
+             : VHDL-REPOBENCH
              : Executable HLS Repair Benchmark
 ```
 
@@ -446,6 +448,7 @@ flowchart TB
         lace["LACE<br/><i>RISC-V Instruction Extension, Multi-Agent</i>"]
         rethinking_agentic_kernel_generation_for["Rethinking Agentic Kernel Generation for Emerging Accelerators<br/><i>Agentic Kernel Generation</i>"]
         siliconmind_v1["SiliconMind-V1<br/><i>Multi-Agent, Distillation, Debug-Reasoning</i>"]
+        sparsecraft["SparseCraft<br/><i>Agentic Sparse Hardware-Software Co-Optimization</i>"]
         veri_sure["Veri-Sure<br/><i>Multi-Agent, Formal Verification</i>"]
         verigraphi["VeriGraphi<br/><i>Hierarchical RTL Generation, Multi-Agent</i>"]
         why_do_prefetchers_fail["Why Do Prefetchers Fail? Let Agents Answer<br/><i>Autoresearch, Prefetcher Design</i>"]
@@ -482,6 +485,7 @@ flowchart TB
         white_box_reasoning["White-Box Reasoning<br/><i>gm/Id, White-Box</i>"]
         agentic_sizing["AgenticSizing<br/><i>Topology-Aware Multi-Agent Sizing</i>"]
         rfampdesigner["RFAmpDesigner<br/><i>RF Amplifier Sizing, Multi-Agent</i>"]
+        rfchipagent["RFChipAgent<br/><i>Multi-Agent Analog/RF Design Flow</i>"]
         self_calibrating_llm_based_analog_circui["Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design<br/><i>Analog Sizing, Self-Calibration</i>"]
         vlm_cad["VLM-CAD<br/><i>VLM, Collaborative Agent</i>"]
     end
@@ -696,6 +700,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**SparseCraft: Agentic Hardware-Software Co-Optimization for Sparse Computing**](https://arxiv.org/abs/2610.05037) | A3 @ MICRO 2026 | 2026.10 | - | Sparse Accelerator, Agentic Co-Optimization, Chisel RTL, Cycle-Accurate Simulation, Bit-Exact Verification |
 | [**Can Agents Design Better Chips with a Higher Level Abstraction?**](https://arxiv.org/abs/2609.21157) | ICCAD 2026 | 2026.09 | [GitHub](https://github.com/ZijD/AHRR) | Agentic HLS, RTL Refinement, FPGA Evaluation, Higher-Level Abstraction |
 | [**HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects**](https://arxiv.org/abs/2609.09519) | OSCAR @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/hlsfactory-agent) | Agentic HLS Dataset Curation, Repository Extraction, Docker Evaluation |
 | [**LLM-based Hardware Development with Hierarchical IRs and End-to-End Multi-Agent Workflow**](https://arxiv.org/abs/2608.30659) | arXiv | 2026.08 | - | Hierarchical IRs, End-to-End Hardware Development, Multi-Agent Debugging, RTL Verification |
@@ -756,6 +761,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design**](https://arxiv.org/abs/2610.10858) | arXiv | 2026.10 | - | Analog/RF Design, Multi-Agent, Multimodal RAG, Simulator-in-the-Loop, Hybrid Sizing |
 | [**AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing**](https://arxiv.org/abs/2609.25873) | arXiv | 2026.09 | [GitHub](https://github.com/aprilaihub/agentic-analog-sizing) | Analog Sizing, Multi-Agent, Topology Understanding, Knowledge Reuse, Simulation-Driven Optimization |
 | [**RFAmpDesigner: A Self-Evolving Multi-Agent LLM Framework for Automated Radio Frequency Amplifier Design**](https://arxiv.org/abs/2605.10093) | arXiv | 2026.05 | - | RF Amplifier Sizing, Multi-Agent, RAG Memory, Automated Optimization |
 | [**Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design Equations**](https://arxiv.org/abs/2604.07387) | arXiv | 2026.04 | - | Analog Sizing, Self-Calibration, Interpretable Design Equations |
