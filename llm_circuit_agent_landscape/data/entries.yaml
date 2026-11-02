@@ -482,6 +482,35 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "coverage_integrity_agent"
+  name: "Independent Data-Integrity Verification"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Functional Coverage Closure, Scoreboard"
+  venue: "arXiv"
+  method_tags: ["coverage_closure", "simulation_reports", "scoreboard", "preliminary_evidence"]
+  url: "https://arxiv.org/abs/2610.21570"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+  notes: "The independent scoreboard is not yet attached to LLM-generated tests."
+- id: "bttf_verification"
+  name: "Back to the Future"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Agentic Waveform and RTL Debugging"
+  venue: "arXiv"
+  method_tags: ["agentic_verification", "waveform_debugging", "sqlite", "rtl_traceability"]
+  url: "https://arxiv.org/abs/2610.06790"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
 - id: "notb"
   name: "NoTB"
   year: 2026
@@ -1336,6 +1365,21 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "formulaic"
+  name: "Formulaic"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Agentic Hardware-Software Co-Design"
+  venue: "arXiv"
+  method_tags: ["hardware_software_co_design", "optimization_formulation", "solver", "verification"]
+  url: "https://arxiv.org/abs/2610.39380"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+  notes: "Evaluation comprises separate studies rather than one end-to-end co-design run."
 - id: "sparsecraft"
   name: "SparseCraft"
   year: 2026
@@ -1924,6 +1968,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2024-07"
+- id: "lamp_analog_placement"
+  name: "LAMP"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Sizing"
+  subcategory: "LLM-Driven Analog Placement"
+  venue: "arXiv"
+  method_tags: ["analog_placement", "tool_composition", "layout_hierarchy", "multimodal_feedback"]
+  url: "https://arxiv.org/abs/2610.39882"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
 - id: "rfchipagent"
   name: "RFChipAgent"
   year: 2026
@@ -2873,6 +2931,20 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2025-05"
+- id: "llm_hardware_verification_survey"
+  name: "LLM-Integrated Hardware Verification Survey"
+  year: 2026
+  period: "2026+"
+  category: "Resources"
+  subcategory: "Hardware Verification Survey"
+  venue: "arXiv"
+  method_tags: ["hardware_verification", "survey", "assertions", "testbench", "formal_methods"]
+  url: "https://arxiv.org/abs/2610.10580"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
 - id: "ane_llm_measurements"
   name: "What Actually Runs on the Apple Neural Engine"
   year: 2026

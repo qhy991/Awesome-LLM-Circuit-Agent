@@ -299,10 +299,15 @@ timeline
              : GRADE-RTL
              : VeriBugBench
              : HLS-Eval Agentic
-    2026-10 : SparseCraft
+    2026-10 : Independent Data-Integrity Verification
+             : Back to the Future
+             : Formulaic
+             : SparseCraft
+             : LAMP
              : RFChipAgent
              : VHDL-REPOBENCH
              : Executable HLS Repair Benchmark
+             : LLM-Integrated Hardware Verification Survey
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -366,6 +371,7 @@ flowchart TB
         verisynth["VeriSynth<br/><i>Formal Verification</i>"]
         autoverifix["AutoVeriFix+<br/><i>RTL Fixing, Concolic Testing</i>"]
         automated_sva_generation_with_llms["Automated SVA Generation with LLMs<br/><i>SVA Generation, Hardware Verification</i>"]
+        bttf_verification["Back to the Future<br/><i>Agentic Waveform and RTL Debugging</i>"]
         chatsva["ChatSVA<br/><i>SVA Generation, Hardware Verification</i>"]
         circuitprover["CircuitProver<br/><i>Formal Verification, Lean 4</i>"]
         formalrtl["FormalRTL<br/><i>Verified RTL Synthesis, Formal Equivalence</i>"]
@@ -373,6 +379,7 @@ flowchart TB
         from_language_to_logic["From Language to Logic<br/><i>SVA Generation, Formal Verification</i>"]
         grpo_with_state_mutations["GRPO with State Mutations<br/><i>Test Plan Generation, GRPO, RL</i>"]
         haven["HAVEN<br/><i>UVM Testbench Generation</i>"]
+        coverage_integrity_agent["Independent Data-Integrity Verification<br/><i>Functional Coverage Closure, Scoreboard</i>"]
         llm_assisted_detection_and_repair_of_har["LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities<br/><i>Hardware Security, CWE Detection</i>"]
         mechmem_rtl["MechMem-RTL<br/><i>RTL Repair, Mechanism Memory</i>"]
         notb["NoTB<br/><i>Cross-Model Formal Consensus</i>"]
@@ -442,6 +449,7 @@ flowchart TB
         design_conductor_2_0["Design Conductor 2.0<br/><i>Agentic Hardware Design</i>"]
         exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
         fluxeda["FluxEDA<br/><i>Agentic EDA, Stateful Execution</i>"]
+        formulaic["Formulaic<br/><i>Agentic Hardware-Software Co-Design</i>"]
         hlsfactory_agent["HLSFactory-Agent<br/><i>Agentic HLS Dataset Curation</i>"]
         horizon["HORIZON<br/><i>Agentic Hardware Design, Repository-Level</i>"]
         hierarchical_ir_hardware_workflow["Hierarchical IR Hardware Workflow<br/><i>Hierarchical IRs, End-to-End Multi-Agent</i>"]
@@ -484,6 +492,7 @@ flowchart TB
         toposizing["TopoSizing<br/><i>Topology-based</i>"]
         white_box_reasoning["White-Box Reasoning<br/><i>gm/Id, White-Box</i>"]
         agentic_sizing["AgenticSizing<br/><i>Topology-Aware Multi-Agent Sizing</i>"]
+        lamp_analog_placement["LAMP<br/><i>LLM-Driven Analog Placement</i>"]
         rfampdesigner["RFAmpDesigner<br/><i>RF Amplifier Sizing, Multi-Agent</i>"]
         rfchipagent["RFChipAgent<br/><i>Multi-Agent Analog/RF Design Flow</i>"]
         self_calibrating_llm_based_analog_circui["Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design<br/><i>Analog Sizing, Self-Calibration</i>"]
@@ -566,6 +575,7 @@ flowchart TB
         eeschematic_presentation["EEschematic Presentation<br/><i>AMS Circuit</i>"]
         energy_efficient_software_hardware_codes["Energy Efficient Software Hardware CoDesign for Machine Learning ·<br/><i>Energy Efficiency, SW-HW Co-Design</i>"]
         llm_for_eda_in_front_end_design["LLM for EDA in Front-End Design<br/><i>Front-End EDA, Agentic AI</i>"]
+        llm_hardware_verification_survey["LLM-Integrated Hardware Verification Survey<br/><i>Hardware Verification Survey</i>"]
         llms_in_digital_eda["LLMs in Digital EDA<br/><i>Generator-Agent-Orchestrator Perspective</i>"]
         scale_sim_tpu["SCALE-Sim TPU<br/><i>TPU, Cycle-Accurate Simulation</i>"]
         springer_book["Springer Book<br/><i>Digital Design</i>"]
@@ -624,6 +634,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design**](https://arxiv.org/abs/2610.21570) | arXiv | 2026.10 | [GitHub](https://github.com/KrishnaKumarVedantam/AMBU-CovAgent/) | Coverage Closure, Simulation Reports, Scoreboard, Preliminary Data-Integrity Evaluation |
+| [**Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification**](https://arxiv.org/abs/2610.06790) | arXiv | 2026.10 | - | Agentic Verification, Waveform Debugging, SQLite, RTL Traceability |
 | [**NoTB: Oracle-Free Triage of LLM-Generated RTL via Cross-Model Formal Consensus**](https://arxiv.org/abs/2608.21962) | MLCAD 2026 | 2026.08 | - | Oracle-Free Triage, Sequential Equivalence Checking, Cross-Model Consensus |
 | [**Spec-Driven Hardware Evolution via Executable Contract Refinement and Proof-Guided RTL Update**](https://arxiv.org/abs/2608.12684) | arXiv | 2026.08 | [Artifact](https://anonymous.4open.science/r/SDHE-3A6C) | RTL Evolution, Executable Contracts, Mutation Probing, Proof-Guided Repair |
 | [**LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities in Verilog Designs**](https://arxiv.org/abs/2608.04907) | arXiv | 2026.08 | [Github](https://github.com/JazzCat4/LLM-CWE-Detection) | Hardware Security, CWE Detection, Verilog Repair, LLM-Assisted Verification |
@@ -700,6 +712,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Learning to Formulate: Agentic Hardware-Software Co-Design of AI Infrastructure through Progressive Optimization and Verification**](https://arxiv.org/abs/2610.39380) | arXiv | 2026.10 | - | Agentic Co-Design, Optimization Formulation, Solvers, Verification, GPU Architecture |
 | [**SparseCraft: Agentic Hardware-Software Co-Optimization for Sparse Computing**](https://arxiv.org/abs/2610.05037) | A3 @ MICRO 2026 | 2026.10 | - | Sparse Accelerator, Agentic Co-Optimization, Chisel RTL, Cycle-Accurate Simulation, Bit-Exact Verification |
 | [**Can Agents Design Better Chips with a Higher Level Abstraction?**](https://arxiv.org/abs/2609.21157) | ICCAD 2026 | 2026.09 | [GitHub](https://github.com/ZijD/AHRR) | Agentic HLS, RTL Refinement, FPGA Evaluation, Higher-Level Abstraction |
 | [**HLSFactory-Agent: Large-Scale Agentic HLS Dataset Construction from Academic and Open-Source Projects**](https://arxiv.org/abs/2609.09519) | OSCAR @ ISCA 2026 | 2026.09 | [GitHub](https://github.com/sharc-lab/hlsfactory-agent) | Agentic HLS Dataset Curation, Repository Extraction, Docker Evaluation |
@@ -761,6 +774,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**LAMP: LLM-Driven Analog Placement through Adaptive Tool Composition**](https://arxiv.org/abs/2610.39882) | arXiv | 2026.10 | - | Analog Placement, Tool Composition, Layout Hierarchy, Multimodal Feedback |
 | [**RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design**](https://arxiv.org/abs/2610.10858) | arXiv | 2026.10 | - | Analog/RF Design, Multi-Agent, Multimodal RAG, Simulator-in-the-Loop, Hybrid Sizing |
 | [**AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing**](https://arxiv.org/abs/2609.25873) | arXiv | 2026.09 | [GitHub](https://github.com/aprilaihub/agentic-analog-sizing) | Analog Sizing, Multi-Agent, Topology Understanding, Knowledge Reuse, Simulation-Driven Optimization |
 | [**RFAmpDesigner: A Self-Evolving Multi-Agent LLM Framework for Automated Radio Frequency Amplifier Design**](https://arxiv.org/abs/2605.10093) | arXiv | 2026.05 | - | RF Amplifier Sizing, Multi-Agent, RAG Memory, Automated Optimization |
@@ -873,6 +887,7 @@ A series of articles by Prof. Behzad Razavi published in IEEE Solid-State Circui
 
 | Title | Type | Topic |
 |:------|:----:|:------|
+| [**A Survey on LLM-Integrated Hardware Design Verification**](https://arxiv.org/abs/2610.10580) | Survey | Hardware Verification, Assertions, Testbenches, Formal Methods, Agentic Workflows |
 | [**What Actually Runs: A Measurement Study of Language Model Placement and Decode Speed on the Apple Neural Engine**](https://arxiv.org/abs/2608.22110) | Measurement Study | [Code](https://github.com/shershah1024/ane-llm-measurements) · Apple Neural Engine, Core ML Placement, Decode Performance, Quantization |
 | [**LLMs in Digital EDA: A Perspective on Shifting Roles from Generation to Orchestration**](https://arxiv.org/abs/2608.27184) | Perspective | Digital EDA, Generator-Agent-Orchestrator Hierarchy, Physics-Aware Orchestration |
 | [**LLM for EDA in Front-End Design: Challenges and Opportunities**](https://arxiv.org/abs/2607.09616) | DAC 2026 Survey | Front-End EDA, Agentic AI, Challenges and Opportunities |
