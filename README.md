@@ -299,7 +299,12 @@ timeline
              : GRADE-RTL
              : VeriBugBench
              : HLS-Eval Agentic
-    2026-10 : MCTS-SFT
+    2026-10 : Who Plans, Who Edits?
+             : ArchAgent Heterogeneous Systems
+             : AI Hardware Design League
+             : Hardware MCP Agent Benchmark
+             : RTL Failure and Generalization
+             : MCTS-SFT
              : CorrectRTL
              : Evidence-Guided RTL Repair
              : Independent Data-Integrity Verification
@@ -448,8 +453,10 @@ flowchart TB
         vflow["VFlow<br/><i>Agentic Workflow</i>"]
         a3d["A3D<br/><i>Accelerator Design, HLS, Multi-Agent</i>"]
         ahrr["AHRR<br/><i>Agentic HLS with RTL Refinement</i>"]
+        ai_hardware_design_league["AI Hardware Design League<br/><i>LLM-Assisted Chip Design Education</i>"]
         agentic_architect["Agentic Architect<br/><i>Architecture Optimization, Agentic AI</i>"]
         archagent["ArchAgent<br/><i>Agentic AI, Architecture Discovery</i>"]
+        archagent_heterogeneous_systems["ArchAgent Heterogeneous Systems<br/><i>Heterogeneous System Design Exploration</i>"]
         archagent_v2["ArchAgent v2<br/><i>Cascaded Evolution, Prefetching</i>"]
         beacon["Beacon<br/><i>Report-Driven Multi-Chiplet HW-DSE</i>"]
         chia["CHIA<br/><i>HW/SW Co-Design, Agentic Framework</i>"]
@@ -520,6 +527,7 @@ flowchart TB
         panda["PANDA<br/><i>End-to-End Analog Design, Topology, Sizing</i>"]
         sable["SABLE<br/><i>Analog Optimization, Closed-Loop Agent</i>"]
         towards_reliable_ai_assisted_analog_desi["Towards Reliable AI-Assisted Analog Design<br/><i>SAR ADC, Template-Constrained Agents</i>"]
+        analog_layout_model_routing["Who Plans, Who Edits?<br/><i>Cost-Aware Analog Layout Repair</i>"]
     end
     subgraph analog_specialized["Analog · Specialized Applications"]
         direction TB
@@ -562,8 +570,10 @@ flowchart TB
         gatetruth["GateTruth<br/><i>RTL Benchmark Audit, Mutation Testing</i>"]
         hls_eval_agentic["HLS-Eval Agentic<br/><i>Agentic HLS Evaluation</i>"]
         hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
+        hardware_mcp_benchmark["Hardware MCP Agent Benchmark<br/><i>Hardware Tool-Calling Agent Evaluation</i>"]
         multmodlm["MultModLM<br/><i>Multi-modal, Schematic Generation</i>"]
         pdagent_bench["PDAgent-Bench<br/><i>Physical Design, Agent Benchmark, VLSI</i>"]
+        rtl_failure_generalization["RTL Failure and Generalization<br/><i>RTL Error Taxonomy and Evaluation</i>"]
         ruc["RuC<br/><i>RTL Benchmark Generation, Code Completion</i>"]
         synthesis_in_the_loop_evaluation_of_llms["Synthesis-in-the-Loop Evaluation of LLMs for RTL Generation · Quality,<br/><i>RTL Evaluation, Synthesis-in-the-Loop, HQI</i>"]
         veribench["VERIBENCH<br/><i>Formal Verification</i>"]
@@ -726,6 +736,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains**](https://arxiv.org/abs/2610.23724) | arXiv | 2026.10 | - | Heterogeneous System Design, Agentic Design Space Exploration, Analytical Cost Model |
+| [**From Prompts to Silicon: Scaling LLM-Assisted Chip Design with the AI Hardware Design League**](https://arxiv.org/abs/2610.18891) | arXiv | 2026.10 | [Design Artifacts](https://github.com/prismlabarizona/AIHDL-2027/tree/master/AI_HDL_2026_Winner_Designs) | LLM-Assisted Verilog, Education, Physical Design, SKY130 Sign-Off |
 | [**LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation**](https://arxiv.org/abs/2610.39570) | arXiv | 2026.10 | [Code and Data](https://github.com/kadomoto-lab/llm-cpu-fpga-loop) | CPU Design, LLM Agent, FPGA-in-the-Loop, Human Supervision |
 | [**Learning to Formulate: Agentic Hardware-Software Co-Design of AI Infrastructure through Progressive Optimization and Verification**](https://arxiv.org/abs/2610.39380) | arXiv | 2026.10 | - | Agentic Co-Design, Optimization Formulation, Solvers, Verification, GPU Architecture |
 | [**SparseCraft: Agentic Hardware-Software Co-Optimization for Sparse Computing**](https://arxiv.org/abs/2610.05037) | A3 @ MICRO 2026 | 2026.10 | - | Sparse Accelerator, Agentic Co-Optimization, Chisel RTL, Cycle-Accurate Simulation, Bit-Exact Verification |
@@ -807,6 +819,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Who Plans, Who Edits? Verified, Cost-Aware Division of Labor for LLM-Driven Analog Layout Repair**](https://arxiv.org/abs/2610.24234) | arXiv | 2026.10 | - | Analog Layout Repair, Model Routing, DRC, LVS, Post-Layout Verification |
 | [**AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents**](https://arxiv.org/abs/2603.23910) | arXiv | 2026.03 | - | Multi-Agent, Self-Evolving Memory, Cross-Task Transfer, Analog Design Automation |
 | [**Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation**](https://arxiv.org/abs/2607.14165) | arXiv | 2026.07 | - | SAR ADC, Template-Constrained Agents, Analog Generation |
 | [**SABLE: An NDA-Safe Closed-Loop LLM Framework for Analog Circuit Optimization in Industrial EDA Flows**](https://arxiv.org/abs/2607.03701) | ACM TODAES | 2026.07 | - | Analog Optimization, Closed-Loop Agent, NDA-Safe EDA |
@@ -838,6 +851,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling**](https://aclanthology.org/2026.emnlp-industry.120/) | EMNLP Industry 2026 | 2026.10 | - | Hardware Design Agents, MCP, Tool-Calling Benchmark, Stateful Workflow Replica |
+| [**How LLMs Fail and Generalize in RTL Coding for Hardware Design?**](https://aclanthology.org/2026.emnlp-industry.29/) | EMNLP Industry 2026 | 2026.10 | - | RTL Error Taxonomy, VerilogEval, Functional Failures, Model Generalization |
 | [**VHDL-REPOBENCH: A Repository-Level Benchmark for Evaluating Large Language Models on VHDL Design Generation**](https://arxiv.org/abs/2610.05380) | IEEE LAD 2026 | 2026.10 | - | VHDL Benchmark, Repository-Level, Cross-File Reasoning, Functional Verification |
 | [**An Executable Benchmark for LLM-Based HLS Repair: Design Complexity and Repair Underconstraint**](https://arxiv.org/abs/2610.03971) | arXiv | 2026.10 | - | HLS Repair, Executable Benchmark, Functional Oracles, Repair Underconstraint |
 | [**GRADE-RTL: Evaluating LLM-Generated RTL Beyond Compilation**](https://arxiv.org/abs/2609.25335) | arXiv | 2026.09 | [GitHub](https://github.com/hsc-research/GRADE-RTL) | RTL Evaluation, Functional Equivalence, Module Completeness, FPGA/ASIC QoR |

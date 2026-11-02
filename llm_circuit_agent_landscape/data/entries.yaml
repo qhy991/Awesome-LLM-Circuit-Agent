@@ -7,6 +7,78 @@
 #   timeline_date, timeline_label, highlight.
 # Curated report timeline: data/timeline.yaml
 
+- id: "analog_layout_model_routing"
+  name: "Who Plans, Who Edits?"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Workflow"
+  subcategory: "Cost-Aware Analog Layout Repair"
+  venue: "arXiv"
+  method_tags: ["analog_layout_repair", "model_routing", "drc", "lvs", "post_layout_verification"]
+  url: "https://arxiv.org/abs/2610.24234"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+- id: "archagent_heterogeneous_systems"
+  name: "ArchAgent Heterogeneous Systems"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Heterogeneous System Design Exploration"
+  venue: "arXiv"
+  method_tags: ["heterogeneous_systems", "agentic_design_space_exploration", "analytical_cost_model"]
+  url: "https://arxiv.org/abs/2610.23724"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+- id: "ai_hardware_design_league"
+  name: "AI Hardware Design League"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "LLM-Assisted Chip Design Education"
+  venue: "arXiv"
+  method_tags: ["llm_assisted_verilog", "education", "physical_design", "sky130_signoff"]
+  url: "https://arxiv.org/abs/2610.18891"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+- id: "hardware_mcp_benchmark"
+  name: "Hardware MCP Agent Benchmark"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Hardware Tool-Calling Agent Evaluation"
+  venue: "EMNLP Industry 2026"
+  method_tags: ["hardware_design_agents", "mcp", "tool_calling", "stateful_workflow_replica"]
+  url: "https://aclanthology.org/2026.emnlp-industry.120/"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+  notes: "Conference publication in October; arXiv preprint 2608.26199 appeared in August."
+- id: "rtl_failure_generalization"
+  name: "RTL Failure and Generalization"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "RTL Error Taxonomy and Evaluation"
+  venue: "EMNLP Industry 2026"
+  method_tags: ["rtl_error_taxonomy", "verilogeval", "functional_failures", "generalization"]
+  url: "https://aclanthology.org/2026.emnlp-industry.29/"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+  notes: "Conference publication in October; an earlier preprint is arXiv:2606.19347."
 - id: "mcts_sft_verilog"
   name: "MCTS-SFT"
   year: 2026
