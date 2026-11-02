@@ -299,7 +299,10 @@ timeline
              : GRADE-RTL
              : VeriBugBench
              : HLS-Eval Agentic
-    2026-10 : Independent Data-Integrity Verification
+    2026-10 : MCTS-SFT
+             : CorrectRTL
+             : Evidence-Guided RTL Repair
+             : Independent Data-Integrity Verification
              : Back to the Future
              : Formulaic
              : SparseCraft
@@ -308,6 +311,8 @@ timeline
              : VHDL-REPOBENCH
              : Executable HLS Repair Benchmark
              : LLM-Integrated Hardware Verification Survey
+             : Pareto-Optimal RTL Generation
+             : LLM CPU FPGA Loop
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -342,12 +347,14 @@ flowchart TB
         cass_rtl["CASS-RTL<br/><i>RTL Generation, Inference-time Steering</i>"]
         cppl["CPPL<br/><i>RTL Generation, Compiler-Mediated, CIRCT</i>"]
         circuitweave["CircuitWeave<br/><i>Multimodal RTL Generation</i>"]
+        correctrtl["CorrectRTL<br/><i>Decomposition and Assertion-Guided Correction</i>"]
         eahc["EAHC<br/><i>Execution-Anchored Candidate Reranking</i>"]
         estrtl["EstRTL<br/><i>RTL Generation, Functional Estimation</i>"]
         exploring_llm_based_verilog_code_generat["Exploring LLM-based Verilog Code Generation with Data-Efficient Fine-Tuning<br/><i>Verilog Generation</i>"]
         hint["HINT<br/><i>Hardware-Intent IR, Pre-RTL Checking</i>"]
         incrertl["IncreRTL<br/><i>Incremental RTL, Requirement Evolution</i>"]
         llm4rtl["LLM4RTL<br/><i>RTL Generation, Tool-Augmented LLM</i>"]
+        mcts_sft_verilog["MCTS-SFT<br/><i>Verifier-Guided Verilog Training Traces</i>"]
         ming["MING<br/><i>HLS, MLIR, CNN</i>"]
         programming_domain_specific_fpga_hardblo["Programming Domain-Specific FPGA Hardblocks from HLS · An RTL<br/><i>HLS, FPGA Hardblocks, RTL Blackbox</i>"]
         rtlcurator["RTLCurator<br/><i>RTL Generation, Data Curation</i>"]
@@ -374,6 +381,7 @@ flowchart TB
         bttf_verification["Back to the Future<br/><i>Agentic Waveform and RTL Debugging</i>"]
         chatsva["ChatSVA<br/><i>SVA Generation, Hardware Verification</i>"]
         circuitprover["CircuitProver<br/><i>Formal Verification, Lean 4</i>"]
+        evidence_guided_rtl_repair["Evidence-Guided RTL Repair<br/><i>Repository-Level RTL Repair</i>"]
         formalrtl["FormalRTL<br/><i>Verified RTL Synthesis, Formal Equivalence</i>"]
         from_indiscriminate_to_targeted["From Indiscriminate to Targeted<br/><i>RTL Verification, Assertion Generation</i>"]
         from_language_to_logic["From Language to Logic<br/><i>SVA Generation, Formal Verification</i>"]
@@ -428,6 +436,7 @@ flowchart TB
         rtlseek["RTLSeek<br/><i>Diversity-Oriented</i>"]
         verirl["VERIRL<br/><i>RL</i>"]
         verireason["VeriReason<br/><i>RL, Reasoning</i>"]
+        pareto_rtl_rl["Pareto-Optimal RTL Generation<br/><i>Multi-Objective PPA Optimization</i>"]
         stepprm_rtl["StepPRM-RTL<br/><i>RTL Generation, Process Reward Model, RAFT</i>"]
     end
     subgraph digital_multiagent["Digital · Multi-Agent & Workflows"]
@@ -454,6 +463,7 @@ flowchart TB
         horizon["HORIZON<br/><i>Agentic Hardware Design, Repository-Level</i>"]
         hierarchical_ir_hardware_workflow["Hierarchical IR Hardware Workflow<br/><i>Hierarchical IRs, End-to-End Multi-Agent</i>"]
         lace["LACE<br/><i>RISC-V Instruction Extension, Multi-Agent</i>"]
+        llm_cpu_fpga_loop["LLM CPU FPGA Loop<br/><i>Human-Supervised CPU Design with FPGA Feedback</i>"]
         rethinking_agentic_kernel_generation_for["Rethinking Agentic Kernel Generation for Emerging Accelerators<br/><i>Agentic Kernel Generation</i>"]
         siliconmind_v1["SiliconMind-V1<br/><i>Multi-Agent, Distillation, Debug-Reasoning</i>"]
         sparsecraft["SparseCraft<br/><i>Agentic Sparse Hardware-Software Co-Optimization</i>"]
@@ -595,6 +605,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Search-Guided Reasoning Trace Curation for Verilog Generation**](https://arxiv.org/abs/2610.37706) | arXiv | 2026.10 | - | Verilog Generation, MCTS, Verifier-Guided Trace Curation, Supervised Fine-Tuning |
+| [**CorrectRTL: Boost RTL Generation Quality Through Automated Self-Correction with Instruction Decomposition**](https://arxiv.org/abs/2610.24977) | ICCAD 2026 | 2026.10 | [Benchmark and Dataset](https://github.com/hkust-zhiyao/CorrectRTL) | RTL Generation, Instruction Decomposition, Assertion-Guided Correction, ScaleBench |
 | [**SpecLens: LLM-Based Verilog Generation with Specification-Derived Constraints via Behavioral Divergence**](https://arxiv.org/abs/2609.16729) | ASP-DAC 2027 | 2026.09 | [Code](https://anonymous.4open.science/r/SpecLens-4632/) | Verilog Generation, Specification-Derived Constraints, Behavioral Divergence, Spec-to-RTL |
 | [**RTLGuard: A Lightweight Teacher-Student Defense for Poisoned RTL Code Generation Models**](https://arxiv.org/abs/2608.26049) | ICCAD 2026 | 2026.08 | - | RTL Code Generation, Backdoor Defense, Teacher-Student Learning, Knowledge Distillation |
 | [**Execution-Anchored Hallucination Calibration Reranking for Verilog Code Generation**](https://arxiv.org/abs/2608.22938) | arXiv | 2026.08 | - | Verilog Generation, Candidate Reranking, Execution Verification, Hallucination Calibration |
@@ -634,6 +646,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Evidence-Guided Repository-Level RTL Repair**](https://arxiv.org/abs/2610.03219) | arXiv | 2026.10 | - | Repository-Level RTL Repair, Failure Reproduction, Waveform Localization, Patch Validation |
 | [**Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design**](https://arxiv.org/abs/2610.21570) | arXiv | 2026.10 | [GitHub](https://github.com/KrishnaKumarVedantam/AMBU-CovAgent/) | Coverage Closure, Simulation Reports, Scoreboard, Preliminary Data-Integrity Evaluation |
 | [**Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification**](https://arxiv.org/abs/2610.06790) | arXiv | 2026.10 | - | Agentic Verification, Waveform Debugging, SQLite, RTL Traceability |
 | [**NoTB: Oracle-Free Triage of LLM-Generated RTL via Cross-Model Formal Consensus**](https://arxiv.org/abs/2608.21962) | MLCAD 2026 | 2026.08 | - | Oracle-Free Triage, Sequential Equivalence Checking, Cross-Model Consensus |
@@ -699,6 +712,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Pareto-Optimal RTL Code Generation via Multi-Objective Reinforcement Learning with Large Language Models**](https://arxiv.org/abs/2610.26904) | COLM 2026 | 2026.10 | - | RTL Generation, Multi-Objective RL, PPA, Pareto Front, Hypervolume Contribution |
 | [**StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis**](https://arxiv.org/abs/2606.04246) | DAC 2026 | 2026.06 | - | RTL Generation, Process Reward Model, RAFT, MCTS |
 | [**RTLSeek: Boosting the LLM-Based RTL Generation with Diversity-Oriented RL**](https://openreview.net/forum?id=qO7g1dToiO) | ICLR 2026 | 2025.09 | - | Diversity-Oriented |
 | [**EARL: Entropy-Aware RL Alignment of LLMs for Reliable RTL Code Generation**](https://arxiv.org/abs/2511.12033) | arXiv | 2025.11 | - | Entropy-Aware |
@@ -712,6 +726,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation**](https://arxiv.org/abs/2610.39570) | arXiv | 2026.10 | [Code and Data](https://github.com/kadomoto-lab/llm-cpu-fpga-loop) | CPU Design, LLM Agent, FPGA-in-the-Loop, Human Supervision |
 | [**Learning to Formulate: Agentic Hardware-Software Co-Design of AI Infrastructure through Progressive Optimization and Verification**](https://arxiv.org/abs/2610.39380) | arXiv | 2026.10 | - | Agentic Co-Design, Optimization Formulation, Solvers, Verification, GPU Architecture |
 | [**SparseCraft: Agentic Hardware-Software Co-Optimization for Sparse Computing**](https://arxiv.org/abs/2610.05037) | A3 @ MICRO 2026 | 2026.10 | - | Sparse Accelerator, Agentic Co-Optimization, Chisel RTL, Cycle-Accurate Simulation, Bit-Exact Verification |
 | [**Can Agents Design Better Chips with a Higher Level Abstraction?**](https://arxiv.org/abs/2609.21157) | ICCAD 2026 | 2026.09 | [GitHub](https://github.com/ZijD/AHRR) | Agentic HLS, RTL Refinement, FPGA Evaluation, Higher-Level Abstraction |

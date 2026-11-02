@@ -7,6 +7,34 @@
 #   timeline_date, timeline_label, highlight.
 # Curated report timeline: data/timeline.yaml
 
+- id: "mcts_sft_verilog"
+  name: "MCTS-SFT"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "Verifier-Guided Verilog Training Traces"
+  venue: "arXiv"
+  method_tags: ["verilog_generation", "mcts", "trace_curation", "supervised_fine_tuning"]
+  url: "https://arxiv.org/abs/2610.37706"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+- id: "correctrtl"
+  name: "CorrectRTL"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "Decomposition and Assertion-Guided Correction"
+  venue: "ICCAD 2026"
+  method_tags: ["rtl_generation", "instruction_decomposition", "assertion_guided_correction", "scalebench"]
+  url: "https://arxiv.org/abs/2610.24977"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
 - id: "speclens"
   name: "SpecLens"
   year: 2026
@@ -482,6 +510,20 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "evidence_guided_rtl_repair"
+  name: "Evidence-Guided RTL Repair"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Repository-Level RTL Repair"
+  venue: "arXiv"
+  method_tags: ["rtl_repair", "failure_reproduction", "waveform_localization", "patch_validation"]
+  url: "https://arxiv.org/abs/2610.03219"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
 - id: "coverage_integrity_agent"
   name: "Independent Data-Integrity Verification"
   year: 2026
@@ -3112,6 +3154,34 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "pareto_rtl_rl"
+  name: "Pareto-Optimal RTL Generation"
+  year: 2026
+  period: "2026+"
+  category: "Digital-RL"
+  subcategory: "Multi-Objective PPA Optimization"
+  venue: "COLM 2026"
+  method_tags: ["rtl_generation", "multi_objective_rl", "ppa", "hypervolume"]
+  url: "https://arxiv.org/abs/2610.26904"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
+- id: "llm_cpu_fpga_loop"
+  name: "LLM CPU FPGA Loop"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Human-Supervised CPU Design with FPGA Feedback"
+  venue: "arXiv"
+  method_tags: ["cpu_design", "llm_agent", "fpga_evaluation", "human_supervision"]
+  url: "https://arxiv.org/abs/2610.39570"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-10"
 - id: "springer_book"
   name: "Springer Book"
   year: 2026
