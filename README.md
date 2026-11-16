@@ -318,6 +318,8 @@ timeline
              : LLM-Integrated Hardware Verification Survey
              : Pareto-Optimal RTL Generation
              : LLM CPU FPGA Loop
+    2026-11 : AnalogLayoutWorld
+             : Evaluating AI Agents for Industrial-Level Chip Floorplanning
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -558,6 +560,7 @@ flowchart TB
         vhdl_github_deduplicated["VHDL GitHub Deduplicated<br/><i>VHDL Dataset</i>"]
         a_new_benchmark_for_the_appropriate_eval["A New Benchmark for the Appropriate Evaluation of<br/><i>RTL-OPT, PPA Optimization, RTL Benchmark</i>"]
         amsnet_q["AMSnet-q<br/><i>AMS Dataset Construction</i>"]
+        analoglayoutworld["AnalogLayoutWorld<br/><i>Analog Layout, Agent Benchmark</i>"]
         assertllm2["AssertLLM2<br/><i>SVA Generation, Assertion Benchmark</i>"]
         bench4hls["Bench4HLS<br/><i>HLS, Benchmark, PPA Analysis</i>"]
         benchmarking_llms_for_verilog_design_flo["Benchmarking LLMs for Verilog Design Flows<br/><i>Verilog Benchmark, End-to-End Validation</i>"]
@@ -565,6 +568,7 @@ flowchart TB
         chipbench["ChipBench<br/><i>Verilog Generation, Debugging</i>"]
         chipverilog["ChipVerilog<br/><i>Verilog Benchmark, OpenCores</i>"]
         cktevo["CktEvo<br/><i>Repo-level RTL, Benchmark, PPA Evolution</i>"]
+        evaluating_ai_agents_for_industrial_level_chip["Evaluating AI Agents for Industrial-Level Chip Floorplanning<br/><i>Chip Floorplanning, Agent Evaluation</i>"]
         hls_repair_benchmark["Executable HLS Repair Benchmark<br/><i>Executable HLS Repair Evaluation</i>"]
         grade_rtl["GRADE-RTL<br/><i>Implementation-Aware RTL Evaluation</i>"]
         gatetruth["GateTruth<br/><i>RTL Benchmark Audit, Mutation Testing</i>"]
@@ -851,6 +855,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design**](https://arxiv.org/abs/2611.16991) | arXiv | 2026.11 | - | Analog Layout, Agent Benchmark, Physical Verification |
+| [**Evaluating AI Agents for Industrial-Level Chip Floorplanning: A Framework and Empirical Study**](https://arxiv.org/abs/2611.12048) | arXiv | 2026.11 | - | Chip Floorplanning, Agent Evaluation, Physical Design |
 | [**Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling**](https://aclanthology.org/2026.emnlp-industry.120/) | EMNLP Industry 2026 | 2026.10 | - | Hardware Design Agents, MCP, Tool-Calling Benchmark, Stateful Workflow Replica |
 | [**How LLMs Fail and Generalize in RTL Coding for Hardware Design?**](https://aclanthology.org/2026.emnlp-industry.29/) | EMNLP Industry 2026 | 2026.10 | - | RTL Error Taxonomy, VerilogEval, Functional Failures, Model Generalization |
 | [**VHDL-REPOBENCH: A Repository-Level Benchmark for Evaluating Large Language Models on VHDL Design Generation**](https://arxiv.org/abs/2610.05380) | IEEE LAD 2026 | 2026.10 | - | VHDL Benchmark, Repository-Level, Cross-File Reasoning, Functional Verification |

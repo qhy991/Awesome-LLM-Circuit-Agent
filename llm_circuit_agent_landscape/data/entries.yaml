@@ -2628,6 +2628,34 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2026-07"
+- id: "analoglayoutworld"
+  name: "AnalogLayoutWorld"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Analog Layout, Agent Benchmark"
+  venue: "arXiv"
+  method_tags: ["analog_layout", "agent_benchmark", "physical_verification"]
+  url: "https://arxiv.org/abs/2611.16991"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "evaluating_ai_agents_for_industrial_level_chip"
+  name: "Evaluating AI Agents for Industrial-Level Chip Floorplanning"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Chip Floorplanning, Agent Evaluation"
+  venue: "arXiv"
+  method_tags: ["chip_floorplanning", "agent_evaluation", "physical_design"]
+  url: "https://arxiv.org/abs/2611.12048"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
 - id: "chipverilog"
   name: "ChipVerilog"
   year: 2026
