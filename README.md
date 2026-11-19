@@ -320,6 +320,13 @@ timeline
              : LLM CPU FPGA Loop
     2026-11 : AnalogLayoutWorld
              : Evaluating AI Agents for Industrial-Level Chip Floorplanning
+             : RTLREX
+             : Inference-Time Scaling in Agentic Hardware Verification Workflows
+             : Agentic Python UVM Testbench Synthesis
+             : Agentic AI Meets Formal Verification
+             : Autonomous RTL and Synthesis Optimization
+             : ChipOmni
+             : PVTSizing 2.0
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -366,6 +373,7 @@ flowchart TB
         programming_domain_specific_fpga_hardblo["Programming Domain-Specific FPGA Hardblocks from HLS · An RTL<br/><i>HLS, FPGA Hardblocks, RTL Blackbox</i>"]
         rtlcurator["RTLCurator<br/><i>RTL Generation, Data Curation</i>"]
         rtlguard["RTLGuard<br/><i>Backdoor Defense for RTL Generation</i>"]
+        rtlrex["RTLREX<br/><i>Exact RTL recovery</i>"]
         safetune["SafeTune<br/><i>RTL Code Generation, Fine-Tuning Security</i>"]
         seqfeed["SeqFeed<br/><i>Sequential Behavior Feedback</i>"]
         speclens["SpecLens<br/><i>Specification-Derived Verilog Generation</i>"]
@@ -383,6 +391,8 @@ flowchart TB
         tb_or_not_tb["TB or Not TB<br/><i>Stimulus Gen, DPO</i>"]
         think_with_self_decoupling_and_self_veri["Think with Self-Decoupling and Self-Verification<br/><i>Self-Verification</i>"]
         verisynth["VeriSynth<br/><i>Formal Verification</i>"]
+        agentic_ai_formal_verification["Agentic AI Meets Formal Verification<br/><i>Formal verification, specifications</i>"]
+        agentic_python_uvm_testbench_synthesis["Agentic Python UVM Testbench Synthesis<br/><i>UVM synthesis, compiler feedback</i>"]
         autoverifix["AutoVeriFix+<br/><i>RTL Fixing, Concolic Testing</i>"]
         automated_sva_generation_with_llms["Automated SVA Generation with LLMs<br/><i>SVA Generation, Hardware Verification</i>"]
         bttf_verification["Back to the Future<br/><i>Agentic Waveform and RTL Debugging</i>"]
@@ -395,6 +405,7 @@ flowchart TB
         grpo_with_state_mutations["GRPO with State Mutations<br/><i>Test Plan Generation, GRPO, RL</i>"]
         haven["HAVEN<br/><i>UVM Testbench Generation</i>"]
         coverage_integrity_agent["Independent Data-Integrity Verification<br/><i>Functional Coverage Closure, Scoreboard</i>"]
+        inference_time_scaling_agentic_hardware_verification["Inference-Time Scaling in Agentic Hardware Verification Workflows<br/><i>Agentic UVM verification</i>"]
         llm_assisted_detection_and_repair_of_har["LLM-Assisted Detection and Repair of Hardware Security Vulnerabilities<br/><i>Hardware Security, CWE Detection</i>"]
         mechmem_rtl["MechMem-RTL<br/><i>RTL Repair, Mechanism Memory</i>"]
         notb["NoTB<br/><i>Cross-Model Formal Consensus</i>"]
@@ -419,6 +430,7 @@ flowchart TB
         autogate["AUTOGATE<br/><i>RTL Optimization, Clock Gating, Power</i>"]
         automated_qor_improvement_in_openroad_wi["Automated QoR improvement in OpenROAD with coding agents<br/><i>OpenROAD, Coding Agents, PPA</i>"]
         autonomous_evolution_of_eda_tools["Autonomous Evolution of EDA Tools<br/><i>EDA Tools, Multi-Agent, Self-Evolution</i>"]
+        autonomous_rtl_synthesis_optimization["Autonomous RTL and Synthesis Optimization<br/><i>Self-improving RTL agents</i>"]
         codmas["CODMAS<br/><i>RTL Optimization, Multi-Agent, PPA</i>"]
         dr_rtl["Dr. RTL<br/><i>RTL Optimization, Agentic Workflow</i>"]
         goalevolve["GoalEvolve<br/><i>Goal-Driven Physical Design Evolution</i>"]
@@ -463,6 +475,7 @@ flowchart TB
         beacon["Beacon<br/><i>Report-Driven Multi-Chiplet HW-DSE</i>"]
         chia["CHIA<br/><i>HW/SW Co-Design, Agentic Framework</i>"]
         can_ai_agents_really_complete_rtl_to_gds["Can AI Agents Really Complete RTL-to-GDS? Lessons from<br/><i>Agentic EDA, RTL-to-GDS</i>"]
+        chipomni["ChipOmni<br/><i>General EDA agent</i>"]
         design_conductor["Design Conductor<br/><i>Agentic Hardware Design</i>"]
         design_conductor_2_0["Design Conductor 2.0<br/><i>Agentic Hardware Design</i>"]
         exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
@@ -512,6 +525,7 @@ flowchart TB
         white_box_reasoning["White-Box Reasoning<br/><i>gm/Id, White-Box</i>"]
         agentic_sizing["AgenticSizing<br/><i>Topology-Aware Multi-Agent Sizing</i>"]
         lamp_analog_placement["LAMP<br/><i>LLM-Driven Analog Placement</i>"]
+        pvtsizing_2["PVTSizing 2.0<br/><i>PVT-aware analog sizing</i>"]
         rfampdesigner["RFAmpDesigner<br/><i>RF Amplifier Sizing, Multi-Agent</i>"]
         rfchipagent["RFChipAgent<br/><i>Multi-Agent Analog/RF Design Flow</i>"]
         self_calibrating_llm_based_analog_circui["Self-Calibrating LLM-Based Analog Circuit Sizing with Interpretable Design<br/><i>Analog Sizing, Self-Calibration</i>"]
@@ -619,6 +633,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**RTLREX: LLM-Guided Framework for Exact High-Level RTL Recovery**](https://arxiv.org/abs/2611.10798) | arXiv | 2026.11 | [GitHub](https://github.com/wuqian-tang/RTLREX) | RTL Recovery, Tool-Grounded Reasoning, Sequential Equivalence |
 | [**Search-Guided Reasoning Trace Curation for Verilog Generation**](https://arxiv.org/abs/2610.37706) | arXiv | 2026.10 | - | Verilog Generation, MCTS, Verifier-Guided Trace Curation, Supervised Fine-Tuning |
 | [**CorrectRTL: Boost RTL Generation Quality Through Automated Self-Correction with Instruction Decomposition**](https://arxiv.org/abs/2610.24977) | ICCAD 2026 | 2026.10 | [Benchmark and Dataset](https://github.com/hkust-zhiyao/CorrectRTL) | RTL Generation, Instruction Decomposition, Assertion-Guided Correction, ScaleBench |
 | [**SpecLens: LLM-Based Verilog Generation with Specification-Derived Constraints via Behavioral Divergence**](https://arxiv.org/abs/2609.16729) | ASP-DAC 2027 | 2026.09 | [Code](https://anonymous.4open.science/r/SpecLens-4632/) | Verilog Generation, Specification-Derived Constraints, Behavioral Divergence, Spec-to-RTL |
@@ -660,6 +675,9 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity**](https://arxiv.org/abs/2611.23905) | arXiv | 2026.11 | - | Agentic UVM Verification, Inference-Time Scaling, Protocol Complexity |
+| [**An Agentic Python Framework for LLM-Driven UVM Testbench Synthesis with Closed-Loop Compiler Feedback**](https://arxiv.org/abs/2611.16202) | arXiv | 2026.11 | - | UVM Testbench Synthesis, Compiler Feedback, Coverage Closure |
+| [**Agentic AI Meets Formal Verification in the Era of Agentic Hardware Development**](https://arxiv.org/abs/2611.13705) | arXiv | 2026.11 | - | Agentic Formal Verification, Specification, Proof Construction |
 | [**Evidence-Guided Repository-Level RTL Repair**](https://arxiv.org/abs/2610.03219) | arXiv | 2026.10 | - | Repository-Level RTL Repair, Failure Reproduction, Waveform Localization, Patch Validation |
 | [**Independent Data-Integrity Verification for LLM-Driven Functional Coverage Closure in Hardware Design**](https://arxiv.org/abs/2610.21570) | arXiv | 2026.10 | [GitHub](https://github.com/KrishnaKumarVedantam/AMBU-CovAgent/) | Coverage Closure, Simulation Reports, Scoreboard, Preliminary Data-Integrity Evaluation |
 | [**Back to the Future: Rethinking EDA Infrastructure for Agentic Systems in Chip Design Verification**](https://arxiv.org/abs/2610.06790) | arXiv | 2026.10 | - | Agentic Verification, Waveform Debugging, SQLite, RTL Traceability |
@@ -698,6 +716,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**Toward Autonomous RTL and Synthesis Optimization: Benchmarking and Self-Improving Agents**](https://arxiv.org/abs/2611.13713) | arXiv | 2026.11 | - | RTL Optimization, Autonomous Benchmarking, Self-Improving Skills |
 | [**GoalEvolve: From Handcrafted Algorithm Priors to Goal-Driven Evolution of Physical Design Algorithms**](https://arxiv.org/abs/2608.16733) | arXiv | 2026.08 | - | Physical Design, Goal-Driven Evolution, Multi-Agent, Full-Flow QoR, OpenROAD |
 | [**SynAct: A Reasoning-Acting Large Language Model Agent for Adaptive Synthesis Optimization**](https://arxiv.org/abs/2608.12751) | arXiv | 2026.08 | - | Logic Synthesis, Closed-Loop Agent, WNS Optimization, Tool-Grounded Reasoning |
 | [**ARES: Adaptive Reasoning-Effort Steering for PPA- and Cost-Aware RTL Optimization with LLM Agents**](https://arxiv.org/abs/2607.27879) | arXiv | 2026.07 | - | RTL Optimization, PPA, Cost-Aware Agents, Adaptive Reasoning Effort |
@@ -740,6 +759,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**ChipOmni: A General-Purpose AI Agent for Electronic Design Automation**](https://arxiv.org/abs/2611.13020) | arXiv | 2026.11 | - | General EDA Agent, Multimodal Understanding, Verification-Driven Repair |
 | [**Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains**](https://arxiv.org/abs/2610.23724) | arXiv | 2026.10 | - | Heterogeneous System Design, Agentic Design Space Exploration, Analytical Cost Model |
 | [**From Prompts to Silicon: Scaling LLM-Assisted Chip Design with the AI Hardware Design League**](https://arxiv.org/abs/2610.18891) | arXiv | 2026.10 | [Design Artifacts](https://github.com/prismlabarizona/AIHDL-2027/tree/master/AI_HDL_2026_Winner_Designs) | LLM-Assisted Verilog, Education, Physical Design, SKY130 Sign-Off |
 | [**LLM Agent-Based Design of RISC-V CPUs with FPGA-in-the-Loop Evaluation**](https://arxiv.org/abs/2610.39570) | arXiv | 2026.10 | [Code and Data](https://github.com/kadomoto-lab/llm-cpu-fpga-loop) | CPU Design, LLM Agent, FPGA-in-the-Loop, Human Supervision |
@@ -805,6 +825,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**PVTSizing 2.0: A Fast and Reliable Analog Circuit Sizing Operator for Agentic EDA Workflows**](https://arxiv.org/abs/2611.22328) | arXiv | 2026.11 | - | Analog Sizing, PVT Corners, Human-Agent Workflow |
 | [**LAMP: LLM-Driven Analog Placement through Adaptive Tool Composition**](https://arxiv.org/abs/2610.39882) | arXiv | 2026.10 | - | Analog Placement, Tool Composition, Layout Hierarchy, Multimodal Feedback |
 | [**RFChipAgent: Multi-Agentic AI Flow for Analog/RF Chip Design**](https://arxiv.org/abs/2610.10858) | arXiv | 2026.10 | - | Analog/RF Design, Multi-Agent, Multimodal RAG, Simulator-in-the-Loop, Hybrid Sizing |
 | [**AgenticSizing: A Large Language Model-based Multi-Agent Framework for Analog Circuit Sizing**](https://arxiv.org/abs/2609.25873) | arXiv | 2026.09 | [GitHub](https://github.com/aprilaihub/agentic-analog-sizing) | Analog Sizing, Multi-Agent, Topology Understanding, Knowledge Reuse, Simulation-Driven Optimization |

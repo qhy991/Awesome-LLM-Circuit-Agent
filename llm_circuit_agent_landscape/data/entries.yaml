@@ -3294,3 +3294,101 @@
   display_priority: 2
   show_in_report: false
   show_in_full: true
+- id: "rtlrex"
+  name: "RTLREX"
+  year: 2026
+  period: "2026+"
+  category: "Digital-CodeGen"
+  subcategory: "Exact RTL recovery"
+  venue: "arXiv"
+  method_tags: ["rtl_recovery", "tool_grounded_reasoning", "sequential_equivalence"]
+  url: "https://arxiv.org/abs/2611.10798"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "inference_time_scaling_agentic_hardware_verification"
+  name: "Inference-Time Scaling in Agentic Hardware Verification Workflows"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Agentic UVM verification"
+  venue: "arXiv"
+  method_tags: ["agentic_verification", "inference_time_scaling", "protocol_complexity"]
+  url: "https://arxiv.org/abs/2611.23905"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "agentic_python_uvm_testbench_synthesis"
+  name: "Agentic Python UVM Testbench Synthesis"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "UVM synthesis, compiler feedback"
+  venue: "arXiv"
+  method_tags: ["uvm_synthesis", "compiler_feedback", "coverage_closure"]
+  url: "https://arxiv.org/abs/2611.16202"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "agentic_ai_formal_verification"
+  name: "Agentic AI Meets Formal Verification"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Formal verification, specifications"
+  venue: "arXiv"
+  method_tags: ["agentic_formal_verification", "specification", "proof_construction"]
+  url: "https://arxiv.org/abs/2611.13705"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "autonomous_rtl_synthesis_optimization"
+  name: "Autonomous RTL and Synthesis Optimization"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Optimization"
+  subcategory: "Self-improving RTL agents"
+  venue: "arXiv"
+  method_tags: ["rtl_optimization", "autonomous_benchmarking", "self_improving_skills"]
+  url: "https://arxiv.org/abs/2611.13713"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "chipomni"
+  name: "ChipOmni"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "General EDA agent"
+  venue: "arXiv"
+  method_tags: ["eda_agent", "multimodal_understanding", "verification_driven_repair"]
+  url: "https://arxiv.org/abs/2611.13020"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "pvtsizing_2"
+  name: "PVTSizing 2.0"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Sizing"
+  subcategory: "PVT-aware analog sizing"
+  venue: "arXiv"
+  method_tags: ["analog_sizing", "pvt_corners", "human_agent_workflow"]
+  url: "https://arxiv.org/abs/2611.22328"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
