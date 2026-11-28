@@ -3392,3 +3392,115 @@
   show_in_report: false
   show_in_full: true
   timeline_date: "2026-11"
+- id: "reforge"
+  name: "REFORGE"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "RTL bug repair"
+  venue: "arXiv"
+  method_tags: ["rtl_bug_repair", "structured_context", "verification_feedback"]
+  url: "https://arxiv.org/abs/2611.33748"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "secid"
+  name: "SecID"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Threat-aware RTL asset identification"
+  venue: "arXiv"
+  method_tags: ["hardware_security", "asset_identification", "quantitative_rtl_analysis"]
+  url: "https://arxiv.org/abs/2611.33453"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "fips_to_fpga_agents"
+  name: "From FIPS to FPGA"
+  year: 2026
+  period: "2026+"
+  category: "Digital-Verification"
+  subcategory: "Post-quantum hardware verification gaps"
+  venue: "arXiv"
+  method_tags: ["post_quantum_cryptography", "fpga", "verification_gaps"]
+  url: "https://arxiv.org/abs/2611.25339"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "ds2agent"
+  name: "DS2Agent"
+  year: 2026
+  period: "2026+"
+  category: "Digital-MultiAgent"
+  subcategory: "Embedded board-level design"
+  venue: "arXiv"
+  method_tags: ["embedded_board_design", "device_agent", "end_to_end_automation"]
+  url: "https://arxiv.org/abs/2611.25774"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "amschem"
+  name: "AMSchem"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Topology"
+  subcategory: "Verifiable AMS schematic generation"
+  venue: "arXiv"
+  method_tags: ["ams_schematic", "netlist_visualization", "verifier_guided_generation"]
+  url: "https://arxiv.org/abs/2611.12333"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "cascode"
+  name: "CASCoDe"
+  year: 2026
+  period: "2026+"
+  category: "Analog-Workflow"
+  subcategory: "Analog sizing-layout co-design"
+  venue: "arXiv"
+  method_tags: ["analog_sizing", "layout_codesign", "hierarchical_action_space"]
+  url: "https://arxiv.org/abs/2611.11710"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "openlayout"
+  name: "OpenLayout"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "VLSI physical design platform"
+  venue: "arXiv"
+  method_tags: ["vlsi_physical_design", "open_platform", "benchmarking"]
+  url: "https://arxiv.org/abs/2611.18517"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"
+- id: "iclayout_bench"
+  name: "ICLayout-Bench"
+  year: 2026
+  period: "2026+"
+  category: "Datasets"
+  subcategory: "Custom layout benchmark"
+  venue: "arXiv"
+  method_tags: ["custom_layout", "physical_verification", "post_layout_simulation"]
+  url: "https://arxiv.org/abs/2611.12982"
+  source: "awesome_llm_circuit_agent"
+  display_priority: 2
+  show_in_report: false
+  show_in_full: true
+  timeline_date: "2026-11"

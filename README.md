@@ -327,6 +327,14 @@ timeline
              : Autonomous RTL and Synthesis Optimization
              : ChipOmni
              : PVTSizing 2.0
+             : REFORGE
+             : SecID
+             : From FIPS to FPGA
+             : DS2Agent
+             : AMSchem
+             : CASCoDe
+             : OpenLayout
+             : ICLayout-Bench
 ```
 
 <!-- LANDSCAPE-TIMELINE-FULL:END -->
@@ -400,6 +408,7 @@ flowchart TB
         circuitprover["CircuitProver<br/><i>Formal Verification, Lean 4</i>"]
         evidence_guided_rtl_repair["Evidence-Guided RTL Repair<br/><i>Repository-Level RTL Repair</i>"]
         formalrtl["FormalRTL<br/><i>Verified RTL Synthesis, Formal Equivalence</i>"]
+        fips_to_fpga_agents["From FIPS to FPGA<br/><i>Post-quantum hardware verification gaps</i>"]
         from_indiscriminate_to_targeted["From Indiscriminate to Targeted<br/><i>RTL Verification, Assertion Generation</i>"]
         from_language_to_logic["From Language to Logic<br/><i>SVA Generation, Formal Verification</i>"]
         grpo_with_state_mutations["GRPO with State Mutations<br/><i>Test Plan Generation, GRPO, RL</i>"]
@@ -411,7 +420,9 @@ flowchart TB
         notb["NoTB<br/><i>Cross-Model Formal Consensus</i>"]
         open_source_llm_driven_formal_verificati["Open-Source LLM-Driven Formal Verification<br/><i>Formal Verification, RTL Repair</i>"]
         qimeng_codev_sva["QiMeng-CodeV-SVA<br/><i>Assertion Generation, NL2SVA</i>"]
+        reforge["REFORGE<br/><i>RTL bug repair</i>"]
         rtl2lean["Rtl2lean<br/><i>Formal Verification, RTL-to-Lean</i>"]
+        secid["SecID<br/><i>Threat-aware RTL asset identification</i>"]
         shift_left_high_level_synthesis_verifica["Shift-Left High-Level Synthesis Verification via Knowledge-Augmented LLM Agent<br/><i>HLS Verification, Shift-Left</i>"]
         spec_driven_hardware_evolution["Spec-Driven Hardware Evolution<br/><i>Executable Contracts, Proof-Guided RTL Update</i>"]
         specloop["SpecLoop<br/><i>RTL-to-Specification, Formal Verification</i>"]
@@ -476,6 +487,7 @@ flowchart TB
         chia["CHIA<br/><i>HW/SW Co-Design, Agentic Framework</i>"]
         can_ai_agents_really_complete_rtl_to_gds["Can AI Agents Really Complete RTL-to-GDS? Lessons from<br/><i>Agentic EDA, RTL-to-GDS</i>"]
         chipomni["ChipOmni<br/><i>General EDA agent</i>"]
+        ds2agent["DS2Agent<br/><i>Embedded board-level design</i>"]
         design_conductor["Design Conductor<br/><i>Agentic Hardware Design</i>"]
         design_conductor_2_0["Design Conductor 2.0<br/><i>Agentic Hardware Design</i>"]
         exploring_the_agentic_frontier_of_verilo["Exploring the Agentic Frontier of Verilog Code Generation<br/><i>Agentic Verilog Generation</i>"]
@@ -511,6 +523,7 @@ flowchart TB
         diffckt["DiffCkt<br/><i>Diffusion Model</i>"]
         eeschematic["EEschematic<br/><i>MLLM, Schematic</i>"]
         spicemixer["SpiceMixer<br/><i>Netlist Evolution</i>"]
+        amschem["AMSchem<br/><i>Verifiable AMS schematic generation</i>"]
         circuitformer["CircuitFormer<br/><i>Analog Topology, Circuit Tokenizer</i>"]
         llm_spicemixer["LLM-SPICEMixer<br/><i>LLM-Guided Genetic Netlist Evolution</i>"]
     end
@@ -540,6 +553,7 @@ flowchart TB
         towards_optimal_circuit_generation["Towards Optimal Circuit Generation<br/><i>Multi-Agent</i>"]
         analogagent["AnalogAgent<br/><i>Multi-Agent, Self-Evolving Memory</i>"]
         analogmaster["AnalogMaster<br/><i>End-to-End Analog Design, Image-to-Netlist</i>"]
+        cascode["CASCoDe<br/><i>Analog sizing-layout co-design</i>"]
         panda["PANDA<br/><i>End-to-End Analog Design, Topology, Sizing</i>"]
         sable["SABLE<br/><i>Analog Optimization, Closed-Loop Agent</i>"]
         towards_reliable_ai_assisted_analog_desi["Towards Reliable AI-Assisted Analog Design<br/><i>SAR ADC, Template-Constrained Agents</i>"]
@@ -589,7 +603,9 @@ flowchart TB
         hls_eval_agentic["HLS-Eval Agentic<br/><i>Agentic HLS Evaluation</i>"]
         hwe_bench["HWE-Bench<br/><i>Board-level Schematic Design, Benchmark</i>"]
         hardware_mcp_benchmark["Hardware MCP Agent Benchmark<br/><i>Hardware Tool-Calling Agent Evaluation</i>"]
+        iclayout_bench["ICLayout-Bench<br/><i>Custom layout benchmark</i>"]
         multmodlm["MultModLM<br/><i>Multi-modal, Schematic Generation</i>"]
+        openlayout["OpenLayout<br/><i>VLSI physical design platform</i>"]
         pdagent_bench["PDAgent-Bench<br/><i>Physical Design, Agent Benchmark, VLSI</i>"]
         rtl_failure_generalization["RTL Failure and Generalization<br/><i>RTL Error Taxonomy and Evaluation</i>"]
         ruc["RuC<br/><i>RTL Benchmark Generation, Code Completion</i>"]
@@ -675,6 +691,9 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**REFORGE: LLM-Assisted RTL Bug Repair with Structured Context and Verification Feedback**](https://arxiv.org/abs/2611.33748) | arXiv | 2026.11 | - | RTL Bug Repair, Structured Context, Verification Feedback |
+| [**SecID: An LLM-Guided Framework for Threat-Aware Secondary Asset Identification with Quantitative RTL Analysis**](https://arxiv.org/abs/2611.33453) | arXiv | 2026.11 | - | Hardware Security, Asset Identification, Quantitative RTL Analysis |
+| [**From FIPS to FPGA with LLM Agents: Measuring What Tests and Reviews Miss in Post-Quantum Cryptographic Hardware**](https://arxiv.org/abs/2611.25339) | arXiv | 2026.11 | - | Post-Quantum Cryptography, FPGA, Hardware Verification Gaps |
 | [**Inference-Time Scaling in Agentic Hardware Verification Workflows: A Multi-Strategy Characterization Across Protocol Complexity**](https://arxiv.org/abs/2611.23905) | arXiv | 2026.11 | - | Agentic UVM Verification, Inference-Time Scaling, Protocol Complexity |
 | [**An Agentic Python Framework for LLM-Driven UVM Testbench Synthesis with Closed-Loop Compiler Feedback**](https://arxiv.org/abs/2611.16202) | arXiv | 2026.11 | - | UVM Testbench Synthesis, Compiler Feedback, Coverage Closure |
 | [**Agentic AI Meets Formal Verification in the Era of Agentic Hardware Development**](https://arxiv.org/abs/2611.13705) | arXiv | 2026.11 | - | Agentic Formal Verification, Specification, Proof Construction |
@@ -759,6 +778,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**DS2Agent: Holistic Device Agents for Accelerated Embedded Board-Level Design**](https://arxiv.org/abs/2611.25774) | arXiv | 2026.11 | - | Embedded Board-Level Design, Device Agent, End-to-End Automation |
 | [**ChipOmni: A General-Purpose AI Agent for Electronic Design Automation**](https://arxiv.org/abs/2611.13020) | arXiv | 2026.11 | - | General EDA Agent, Multimodal Understanding, Verification-Driven Repair |
 | [**Agentic AI for Heterogeneous System Design Across Chip, Scale-Up, and Scale-Out Domains**](https://arxiv.org/abs/2610.23724) | arXiv | 2026.10 | - | Heterogeneous System Design, Agentic Design Space Exploration, Analytical Cost Model |
 | [**From Prompts to Silicon: Scaling LLM-Assisted Chip Design with the AI Hardware Design League**](https://arxiv.org/abs/2610.18891) | arXiv | 2026.10 | [Design Artifacts](https://github.com/prismlabarizona/AIHDL-2027/tree/master/AI_HDL_2026_Winner_Designs) | LLM-Assisted Verilog, Education, Physical Design, SKY130 Sign-Off |
@@ -811,6 +831,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**AMSchem: Automated Schematic Visualization of AMS Circuits via Verifiable Agentic Generation**](https://arxiv.org/abs/2611.12333) | arXiv | 2026.11 | - | AMS Schematic, Netlist Visualization, Verifier-Guided Generation |
 | [**Spicing up Genetic Netlist Generation with LLMs**](https://arxiv.org/abs/2608.23317) | MLCAD 2026 | 2026.08 | - | LLM-SPICEMixer, Analog Topology, Genetic Evolution, SPICE-Grounded Evaluation |
 | [**CircuitFormer: A Circuit Language Model for Analog Topology Design from Natural Language Prompt**](https://arxiv.org/abs/2605.05773) | arXiv | 2026.05 | - | Analog Topology, Circuit Tokenizer, NL2Netlist |
 | [**EEschematic: Multimodal-LLM Based AI Agent for Schematic Generation of Analog Circuit**](https://arxiv.org/abs/2510.17002) | arXiv | 2025.10 | [Github](https://github.com/eelab-dev/EEschematic) | MLLM, Schematic |
@@ -844,6 +865,7 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**CASCoDe: A Closed-Loop Agentic Framework for Analog Sizing and Layout Co-Design**](https://arxiv.org/abs/2611.11710) | arXiv | 2026.11 | - | Analog Sizing, Layout Co-Design, Hierarchical Action Space |
 | [**Who Plans, Who Edits? Verified, Cost-Aware Division of Labor for LLM-Driven Analog Layout Repair**](https://arxiv.org/abs/2610.24234) | arXiv | 2026.10 | - | Analog Layout Repair, Model Routing, DRC, LVS, Post-Layout Verification |
 | [**AnalogAgent: Self-Improving Analog Circuit Design Automation with LLM Agents**](https://arxiv.org/abs/2603.23910) | arXiv | 2026.03 | - | Multi-Agent, Self-Evolving Memory, Cross-Task Transfer, Analog Design Automation |
 | [**Towards Reliable AI-Assisted Analog Design: Template-Constrained LLM Agents for SAR ADC Generation**](https://arxiv.org/abs/2607.14165) | arXiv | 2026.07 | - | SAR ADC, Template-Constrained Agents, Analog Generation |
@@ -876,6 +898,8 @@ flowchart TB
 
 | Title | Venue | Date | Code | Topic |
 |:------|:-----:|:----:|:----:|:------|
+| [**OpenLayout: An Open and Agentic-Driven Platform for Holistic VLSI Physical Design and Benchmarking**](https://arxiv.org/abs/2611.18517) | arXiv | 2026.11 | - | VLSI Physical Design, Open Platform, Benchmarking |
+| [**ICLayout-Bench: Benchmarking LLM Agents for Custom Circuit Layout Design**](https://arxiv.org/abs/2611.12982) | arXiv | 2026.11 | - | Custom Layout, Physical Verification, Post-Layout Simulation, 13 PDKs |
 | [**AnalogLayoutWorld: An Open Benchmark for Agentic Analog Layout Design**](https://arxiv.org/abs/2611.16991) | arXiv | 2026.11 | - | Analog Layout, Agent Benchmark, Physical Verification |
 | [**Evaluating AI Agents for Industrial-Level Chip Floorplanning: A Framework and Empirical Study**](https://arxiv.org/abs/2611.12048) | arXiv | 2026.11 | - | Chip Floorplanning, Agent Evaluation, Physical Design |
 | [**Benchmarking AI Agents for Hardware Design Automation via MCP Tool Calling**](https://aclanthology.org/2026.emnlp-industry.120/) | EMNLP Industry 2026 | 2026.10 | - | Hardware Design Agents, MCP, Tool-Calling Benchmark, Stateful Workflow Replica |
